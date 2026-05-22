@@ -1,0 +1,99 @@
+---
+pagetitle: Capital and Social Capital
+format: 
+  revealjs:
+    css: /resources/custom_css.css
+    theme: white
+    progress: true
+    transition: convex
+    reveal_plugins: ['notes']
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = F)
+knitr::opts_knit$set(root.dir = './')
+source("resources/preamble.R")
+library(igraph)
+library(tidygraph)
+library(ggraph)
+```
+
+# Capital and Social Capital
+
+## Dad Joke
+
+> - Who is in favour of bringing Roman numerals back into use?
+> - I for one!
+
+## Housekeeping
+
+> - Who Dunnit game on Thursday!
+
+## Final Project
+
+> - Group project: network-based intervention (e.g., spreading an idea on campus)
+> - (Group?) research project: analysis of network data
+> - Project idea due in 2 weeks
+
+
+## R Review
+
+```
+G |>
+  ggraph(layout='kk') +
+  geom_edge_fan(width=.5, color='#CFB991') +
+  geom_node_point()
+```
+
+> - What does the `+` do?
+> - What does the `|>` do?
+> - What does `layout='kk'` do?
+> - What does `width=.5` do?
+
+## Reading Questions
+
+> - What is a weak tie?
+> - What is the argument for why weak ties are better for finding information?
+> - What are strong ties better for?
+> - How does a network of strong ties look different from a network with weak ties?
+
+## Reading Questions
+
+> - What is capital?
+> - What is economic capital?
+> - What is cultural capital?
+> - What is social capital?
+
+## Break!
+
+## Reading Questions
+
+> - We can exchange forms of capital for goods, services, or for other kinds of capital.
+> - What's an example of exchanging cultural capital for social capital and vice versa?
+> - What's an example of exchanging social capital for economic capital and vice versa?
+> - What's an example of exchanging economic capital for cultural capital and vice versa?
+
+## Criticism
+
+> - What aspects of the concept of capital and social capital ring true to you? What feels like it is missing from this theory?
+
+## Discussion Questions
+
+> - How can we measure the strength of ties?
+> - When are strong ties better for finding information?
+> - Do the different types of capital have to be self-reinforcing?
+> - Should outcomes like career success be understood as purely individual achievement, structural advantage, a combination of both, or something else entirely?
+> - Do online communities fulfill the same roles as bowling leagues, etc? How are they better and worse?
+
+## Discussion Questions
+
+> - How does declining social capital weaken democracy?
+> - What does it mean that social capital does not function as a universal means of exchange?
+> - Have you ever had an interaction/relationship with somewhere where it was clear they were trying to be a "social climber", how did that interaction make you feel? What are some good examples and bad examples of how social climbing could happen?
+> - Are elite universities selling cultural capital or social capital?
+> - Is a community people who agree with each other or people who need each other?
+
+## Summary
+
+## R Review
+
