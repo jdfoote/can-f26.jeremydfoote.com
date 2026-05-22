@@ -1,6 +1,6 @@
 ---
 title: "R Lab 4 – Intro to ggraph"
-date: 2026-02-24
+date: 2026-10-05
 ---
 
 

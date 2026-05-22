@@ -1,6 +1,6 @@
 ---
 title: "Week 5: Ego networks and network perception"
-date: "2026-02-09"
+date: "2026-09-21"
 ---
 
 ### Tuesday

@@ -1,6 +1,6 @@
 ---
 title: "Week 15: Class Presentations and Final Projects"
-date: "2026-04-27"
+date: "2026-12-07"
 ---
 
 ### Tuesday
@@ -14,15 +14,8 @@ date: "2026-04-27"
 
 **Class Schedule:**
 
-- Final project presentations:
-    - Julia / Bonnie
-    - Noah / Canaan / Ella / Madison
-    - Ayush
-    - Gunveer
-    - Sahil
-    - Xiaoyang
-    - Trinity
-    - Noelle C.
+* Final project presentations
+    <!-- TODO: add f26 student presentation slots -->
 
 
 ### Thursday
@@ -30,14 +23,7 @@ date: "2026-04-27"
 **Class Schedule:**
 
 * Final project presentations
-    - Maria M.
-    - Logan C.
-    - Paige B.
-    - Dean C.
-    - Kiara C.
-    - Colin B.
-    - Rafael D.
-    - Noelle W.
+    <!-- TODO: add f26 student presentation slots -->
 
 **Resources:**
 
