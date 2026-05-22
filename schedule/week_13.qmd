@@ -13,9 +13,9 @@ date: "2026-11-16"
 
 * Pariser, E. [Beware Online Filter Bubbles TED talk](https://www.ted.com/talks/eli_pariser_beware_online_filter_bubbles)
 * Fletcher, R. [The truth behind filter bubbles: Bursting some myths](https://reutersinstitute.politics.ox.ac.uk/risj-review/truth-behind-filter-bubbles-bursting-some-myths).
-* Bail, C. [Should we break our echo chambers?](https://www.youtube.com/watch?v=nwRm_ssTarE)
 * Cohen, M. [Context Collapse](https://www.psychologytoday.com/intl/blog/finding-love-the-scientific-take/202012/context-collapse)
 * Chris Bail, et al. (2018). [Exposure to opposing views on social media can increase political polarization](https://www.pnas.org/content/115/37/9216). PNAS.
+* DiResta, R. (2024). [Computational Propaganda](https://yalereview.org/article/computational-propaganda). *The Yale Review.* On how recommendation algorithms shape what we see and believe.
 * (Optional) Kleinberg, J. (2012). [The Convergence of Social and Technological Networks](https://link-springer-com.ezproxy.lib.purdue.edu/chapter/10.1007%2F978-3-642-29952-0_8). In M. Agrawal, S. B. Cooper, & A. Li (Eds.), Theory and Applications of Models of Computation.
 
 **Lecture Video:**
