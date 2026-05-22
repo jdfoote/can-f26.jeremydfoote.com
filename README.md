@@ -1,1 +1,0 @@
-# can-f26.jeremydfoote.com
