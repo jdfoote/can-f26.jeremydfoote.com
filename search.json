@@ -213,7 +213,7 @@
     "href": "schedule/week_08.html",
     "title": "Week 8: Small worlds",
     "section": "",
-    "text": "Tuesday\nNo Class - FALL BREAK\nAssignment Due (Monday):\n\nR Lab 5 - Aesthetics in ggraph\nReading Review Assignments\n\nReadings:\n\nThe Science of Six Degrees of Separation [video][9:22]\nTravers, J. and Milgram, S. (1969). An experimental study of the small world problem. Sociometry, 32(4):425-443\n\nClaude.ai summary\n\n(Optional but short) Dodds, P. S., Muhamad, R., & Watts, D. J. (2003). An Experimental Study of Search in Global Social Networks. Science, 301(5634), 827.\n\nLecture Video:\n [18:45]\n\nSlides\n\n\n\n\n\nThursday\n\nSix Degrees of Wikipedia Activity",
+    "text": "Tuesday\nNo Class - FALL BREAK\nAssignment Due (Wednesday):\n\nR Lab 5 - Aesthetics in ggraph\nReading Review Assignments\n\nReadings:\n\nThe Science of Six Degrees of Separation [video][9:22]\nTravers, J. and Milgram, S. (1969). An experimental study of the small world problem. Sociometry, 32(4):425-443\n\nClaude.ai summary\n\n(Optional but short) Dodds, P. S., Muhamad, R., & Watts, D. J. (2003). An Experimental Study of Search in Global Social Networks. Science, 301(5634), 827.\n\nLecture Video:\n [18:45]\n\nSlides\n\n\n\n\n\nThursday\n\nSix Degrees of Wikipedia Activity",
     "crumbs": [
       "Schedule",
       "Course content",
@@ -353,6 +353,18 @@
     "title": "Schedule for the semester",
     "section": "",
     "text": "Each week is outlined in the sidebar. Click on a week to see the schedule for that week. This includes lecture videos, readings, and assignments.\nAs a reminder, the class is set up as a flipped classroom. This means that you will watch lecture videos and complete readings before class. Class time will be spent on activities, discussions, and group work.",
+    "crumbs": [
+      "Schedule",
+      "Overview",
+      "Schedule for the semester"
+    ]
+  },
+  {
+    "objectID": "schedule.html#key-due-dates",
+    "href": "schedule.html#key-due-dates",
+    "title": "Schedule for the semester",
+    "section": "Key Due Dates",
+    "text": "Key Due Dates\n\n\n\nDate\nAssignment\n\n\n\n\nMon, Aug 31\nHomework 1\n\n\nMon, Sep 14\nR Lab 2 – Creating Networks\n\n\nTue, Sep 22\nSelf-Assessment Reflection\n\n\nThu, Sep 24\nEgo Networks Activity\n\n\nMon, Sep 28\nR Lab 3 – Mutating and Filtering\n\n\nTue, Sep 29\nAI-Assisted Conversation\n\n\nMon, Oct 5\nR Lab 4 – Intro to ggraph\n\n\nWed, Oct 14\nR Lab 5 – Aesthetics in ggraph\n\n\nMon, Oct 26\nR Lab 6 – Visualizing Power\n\n\nTue, Oct 27\nSocial Search Assignment\n\n\nTue, Oct 27\nSelf-Assessment Reflection (2nd)\n\n\nTue, Nov 3\nVisualization Challenge\n\n\nMon, Nov 9\nR Lab 7 – Groups in Networks\n\n\nMon, Nov 30\nR Lab 8 – Network Stats\n\n\nThu, Dec 3\nRough Draft of Final Project\n\n\nSat, Dec 5\nPeer Feedback on Final Projects\n\n\nTue–Thu, Dec 8–10\nFinal Project Presentations\n\n\nFri, Dec 11\nFinal Project\n\n\nFri, Dec 11\nFinal Self-Assessment Reflection\n\n\nby Sat, Dec 19\nFinal Reflection Discussion (sign up on my calendar)",
     "crumbs": [
       "Schedule",
       "Overview",
