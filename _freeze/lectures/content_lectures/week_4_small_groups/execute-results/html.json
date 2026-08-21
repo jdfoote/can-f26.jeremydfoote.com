@@ -1,0 +1,21 @@
+{
+  "hash": "4bb789b7b30162d0ff641db2fcfbaef4",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: Networks in small groups\nformat: \n  revealjs:\n    css: /resources/custom_css.css\n    theme: white\n    progress: true\n    transition: convex\n    reveal_plugins: ['notes']\n---\n\n\n\n\n## Much of our lives are lived in the context of small groups\n\n> - Families\n> - Class groups\n> - Roommates\n> - Friendship groups\n> - Work groups\n> - Volunteer organizations\n\n## Lots of network theories relate to the structure of small groups\n\n> - Triadic closure\n> - Reciprocity\n> - Homophily\n\n## Research has also focused on what makes groups effective at meeting their goals\n\n> - Which network do you think would be most effective?\n\n<div class='fragment'>\n\n\n::: {.cell}\n::: {.cell-output-display}\n![](week_4_small_groups_files/figure-revealjs/unnamed-chunk-1-1.png){width=768}\n:::\n:::\n\n\n</div>\n\n## It depends on the task!\n\n> - Centralization is beneficial for simple tasks\n> - Decentralization is beneficial for complex tasks or when information is scattered\n> - Rings are pretty bad no matter what :)\n\n## Communication isn't usually determined from on high\n\n> - Communication networks both represent and enable patterns of communication\n\n## Why do edges exist in small groups?\n\n> - Social capital\n> - Social exchange\n> - Collective action\n> - Transactive memory\n>\t- Know _who knows what_\n>\t- Knowledge is passed through communication\n\n## In general, \"integrative\" groups perform better at complex tasks\n\n> - Low hierarchy\n> - Small periphery\n\n> - In these groups, people are:\n>\t- Coordinated\n>\t- Motivated\n\n## Groups are embedded\n\n> - Work group vs. school assignment, etc.\n> - People are also embedded in different groups\n> - Tricky but important to consider the influence of environment\n\n",
+    "supporting": [
+      "week_4_small_groups_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {
+      "include-after-body": [
+        "\n<script>\n  // htmlwidgets need to know to resize themselves when slides are shown/hidden.\n  // Fire the \"slideenter\" event (handled by htmlwidgets.js) when the current\n  // slide changes (different for each slide format).\n  (function () {\n    // dispatch for htmlwidgets\n    function fireSlideEnter() {\n      const event = window.document.createEvent(\"Event\");\n      event.initEvent(\"slideenter\", true, true);\n      window.document.dispatchEvent(event);\n    }\n\n    function fireSlideChanged(previousSlide, currentSlide) {\n      fireSlideEnter();\n\n      // dispatch for shiny\n      if (window.jQuery) {\n        if (previousSlide) {\n          window.jQuery(previousSlide).trigger(\"hidden\");\n        }\n        if (currentSlide) {\n          window.jQuery(currentSlide).trigger(\"shown\");\n        }\n      }\n    }\n\n    // hookup for slidy\n    if (window.w3c_slidy) {\n      window.w3c_slidy.add_observer(function (slide_num) {\n        // slide_num starts at position 1\n        fireSlideChanged(null, w3c_slidy.slides[slide_num - 1]);\n      });\n    }\n\n  })();\n</script>\n\n"
+      ]
+    },
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

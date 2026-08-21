@@ -1,0 +1,19 @@
+{
+  "hash": "ec6cc10c445a243c788bc7191d0c2085",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: The Resource Game\nformat: \n  revealjs:\n    css: /resources/custom_css.css\n    theme: white\n    progress: true\n    transition: convex\n    reveal_plugins: ['notes']\n    incremental: true\n---\n\n\n\n## Discord signup\n\nhttps://discord.gg/WSc5J7stgg\n\n## The game\n\nEach of you needs things that other people in the room have. These resources are represented by letters.\n\nHowever, you are only \"friends\" with a small number of people. These are the people that you can communicate with, ask for resources, and give resources to.\n\nThe goal is to get the resources that you need as quickly as possible.\n\n## Rules\n\n- Only communicate through written messages, to neighbors\n- Give resources by sending '$give jdfoote A' to the NetworkGameBot\n- If you forget what you have/need, send '$status'\n- If you are an observer, send '$status' to get an updated network graph\n- You can continue playing after you have all resources, if you want\n\n## How did it go?\n\n- What worked well?\n- What didn't?\n- Who was fastest? Why?\n- What was the longest path a resource traveled?\n\n## Global network\n\n- How did you figure out what resources were available near you?\n- What would you have done differently if you could see the whole network?\n\n## Debrief topics to cover\n- Degree centrality\n- Reciprocity\n- Social capital\n- Structural holes\n- Reputation and deceit\n- Position and power\n- Multiplexity\n- Number vs. type of ties (centrality measures)\n\n## Debrief topics to cover\n- Global/local networks\n- Tie maintenance\n- Sponsorship\n- Norms and social conventions\n\n## Meta discussion\n\n- How does this differ from real-world networks?\n\n- What does this make you see differently?\n\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {
+      "include-after-body": [
+        "\n<script>\n  // htmlwidgets need to know to resize themselves when slides are shown/hidden.\n  // Fire the \"slideenter\" event (handled by htmlwidgets.js) when the current\n  // slide changes (different for each slide format).\n  (function () {\n    // dispatch for htmlwidgets\n    function fireSlideEnter() {\n      const event = window.document.createEvent(\"Event\");\n      event.initEvent(\"slideenter\", true, true);\n      window.document.dispatchEvent(event);\n    }\n\n    function fireSlideChanged(previousSlide, currentSlide) {\n      fireSlideEnter();\n\n      // dispatch for shiny\n      if (window.jQuery) {\n        if (previousSlide) {\n          window.jQuery(previousSlide).trigger(\"hidden\");\n        }\n        if (currentSlide) {\n          window.jQuery(currentSlide).trigger(\"shown\");\n        }\n      }\n    }\n\n    // hookup for slidy\n    if (window.w3c_slidy) {\n      window.w3c_slidy.add_observer(function (slide_num) {\n        // slide_num starts at position 1\n        fireSlideChanged(null, w3c_slidy.slides[slide_num - 1]);\n      });\n    }\n\n  })();\n</script>\n\n"
+      ]
+    },
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}
