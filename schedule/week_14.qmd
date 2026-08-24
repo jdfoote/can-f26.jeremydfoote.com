@@ -11,6 +11,11 @@ date: "2026-11-30"
 * [R Lab 8 - Calculating network statistics](/assignments/r_lab_8_%E2%80%93_network_stats.qmd)
 * [Reading Review](/syllabus/syllabus.qmd#reading-review-assignments)
 
+**Class Schedule:**
+
+* In class exam!
+    * [Study Guide](https://docs.google.com/document/d/1L4-7lmGYxQ6t1Qerid8Zkhh8vIacK8kUZ-EhWIjLi-Q/edit?tab=t.0)
+
 **Readings:**
 
 * Fernandez, R. M., & Fernandez-Mateo, I. (2006). [Networks, Race, and Hiring](https://journals-sagepub-com.ezproxy.lib.purdue.edu/doi/pdf/10.1177/000312240607100103). American Sociological Review, 71(1), 42–71. **Read the introduction (pp. 42–47) and the Summary and Conclusion (pp. 65–67)**

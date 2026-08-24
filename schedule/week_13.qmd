@@ -29,5 +29,7 @@ date: "2026-11-16"
 
 ### Thursday
 
-* In class exam!
-    * [Study Guide](https://docs.google.com/document/d/1L4-7lmGYxQ6t1Qerid8Zkhh8vIacK8kUZ-EhWIjLi-Q/edit?tab=t.0)
+**Class Schedule:**
+
+* Exam review / prep
+* Intro to [R Lab 8 - Network Stats](/assignments/r_lab_8_%E2%80%93_network_stats.qmd) (due Mon, Nov 30 — work on it over break!)

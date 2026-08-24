@@ -6,7 +6,7 @@ date: "2026-09-07"
 
 ### Tuesday
 
-**Assignment Due (on Monday):**
+**Assignment Due:**
 
 * [Reading Review](/syllabus/syllabus.qmd#reading-review-assignments)
 
