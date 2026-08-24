@@ -144,12 +144,16 @@ Why did the nearsighted man fall in the well?
 - Homework
 	- Social network concepts
 	- Programming practice
-- Reading
-   - 3-2-1 on Brightspace
+- Reading review (your choice each week!)
+   - **Option A: 3-2-1** on Brightspace
      - 3 things you learned / connections made
      - 2 questions / things that are still confusing
      - 1 discussion question, posted on Discord
-	- 3-2-1 due Mondays at noon
+   - **Option B: AI Conversation**
+     - Have a back-and-forth with Claude.ai or ChatGPT about the readings
+     - Submit a shareable link + short reflection on Brightspace
+     - Post one discussion question on Discord
+	- Due Mondays at noon
 
 ## Readings
  - Academic papers

@@ -102,25 +102,36 @@ To make sure that everyone has an opportunity to participate and to encourage yo
 
 ## Reading Review Assignments
 
-In a flipped class like this, it's really important that folks come prepared to discuss, work through misunderstandings, etc. In order to provide some accountability and space for reflection, each week you will have a review/reflection assignment about the readings and video.
+In a flipped class like this, it's really important that folks come prepared to discuss, work through misunderstandings, etc. In order to provide some accountability and space for reflection, each week you will have a review/reflection assignment about the readings and video. You have two options — choose whichever works best for you on a given week.
 
-I'm calling this a "3-2-1 Assignment". I'd like you to:
+### Option A: 3-2-1
 
-* Write down three concepts that you learned or connections that you made from this week's reading and lecture.
-* Write down two questions you have or things that you don't quite understand.
-* Share one question that you think would make for a good discussion question.
+Write and submit the following on Brightspace:
 
-You should submit your assignment on Brightspace.
+* **3** concepts you learned or connections you made from this week's reading and lecture
+* **2** questions you have or things that you don't quite understand
+* **1** question you think would make for a good class discussion question
 
-### Discussion Question
-
-Put your discussion question in the "1" portion of your 3-2-1 assignment, but also post it on Discord in the #discussions channel.
-
-Questions should engage with the readings and either connect to other concepts or to the "real world". Here are some good example questions:
+Post your discussion question to the #discussions channel on Discord as well. Questions should engage with the readings and either connect to other concepts or to the "real world". Here are some good example questions:
 
 * The readings this week talked a lot about how network ties get created. I made a list of my closest friends and I realized that most of them only became friends after we happened to be in the same groups over and over again. What role does repetition have in forming ties?
 * I was confused by the reading on social capital. What's the difference between social capital and power? And if they are the same, then why not just call it "network power"?
 * Imagine you were asked to analyze the network of a big company to help them to identify people who deserve a raise. What measures would you use to identify them? What would you not use?
+
+### Option B: AI Conversation
+
+**After** doing the reading, open an AI tool (Claude.ai, ChatGPT, etc.) and start a conversation with a prompt like this:
+
+> "I just read [title/topic] for my Communication and Social Networks class. Ask me questions and have a conversation with me to make sure I understand the most important principles and ideas."
+
+Then have a genuine back-and-forth — answer the AI's questions, push back if something seems off, ask it to clarify things that are still fuzzy. The goal is to test your own understanding, not to receive a summary. The AI should be doing most of the asking; you should be doing most of the thinking.
+
+Submit two things on Brightspace:
+
+1. A shareable link to your conversation (both Claude.ai and ChatGPT support this)
+2. A short reflection (a paragraph or two): what did you learn from the conversation, and do you still have questions or confusions after it?
+
+As with the 3-2-1, post one discussion question in the #discussions channel on Discord.
 
 ## Homework/Labs
 
