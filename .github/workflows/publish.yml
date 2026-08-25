@@ -24,9 +24,12 @@ jobs:
         with:
           r-version: 'release'
 
-      - name: Install TinyTeX and knitr
+      - name: Install R packages and TinyTeX
         run: |
-          install.packages(c("tinytex", "rmarkdown", "knitr"),
+          install.packages(c("tinytex", "rmarkdown", "knitr",
+                             "tidygraph", "ggraph", "igraph", "igraphdata",
+                             "intergraph", "networkdata", "patchwork",
+                             "sna", "tidyverse", "here"),
                            repos = "https://cloud.r-project.org")
           tinytex::install_tinytex()
         shell: Rscript {0}
