@@ -7,3 +7,4 @@ format:
   html:
     template-partials:
       - ../html/title-block.html
+  pdf: default
