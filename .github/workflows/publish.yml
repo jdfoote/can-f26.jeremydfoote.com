@@ -26,7 +26,8 @@ jobs:
 
       - name: Install R packages
         run: |
-          install.packages(c("tidygraph", "ggraph", "igraph", "igraphdata",
+          install.packages(c("rmarkdown", "knitr",
+                             "tidygraph", "ggraph", "igraph", "igraphdata",
                              "intergraph", "networkdata", "patchwork",
                              "sna", "tidyverse", "here"),
                            repos = "https://cloud.r-project.org")
