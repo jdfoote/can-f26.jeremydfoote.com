@@ -1,6 +1,6 @@
 ---
 title: Final project
-date: "2026-12-11"
+date: "2026-12-07"
 ---
 
 ## Project Options
@@ -219,7 +219,7 @@ The last week of class, we will have presentations. You will have 5 minutes to p
 ## Timeline
 
 - October 19: [Final Project Idea](./project-idea.qmd)
-- December 3: [Rough Draft](./rough-draft.qmd)
-- December 5: [Peer Feedback](./peer-feedback.qmd)
+- November 24: [Rough Draft](./rough-draft.qmd)
+- November 30: [Peer Feedback](./peer-feedback.qmd)
+- December 7: Final Project Due
 - December 8 / 10: Presentations
-- December 11: Final Project Due
