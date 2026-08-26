@@ -5,7 +5,11 @@ date: "2026-11-23"
 
 ### Tuesday
 
-No in-person class. Use this time to work on the Final Project!
+**Assignment Due (Tuesday):**
+
+* [Rough draft of Final Project](/assignments/final_project/rough-draft.qmd) on Brightspace and sent to your "peers" (peer feedback due Mon, Nov 30 — work on it over break!)
+
+Use class time to work on and submit your rough draft.
 
 ### Thursday
 

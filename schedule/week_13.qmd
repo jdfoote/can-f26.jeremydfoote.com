@@ -5,8 +5,9 @@ date: "2026-11-16"
 
 ### Tuesday
 
-**Assignment Due:**
+**Assignment Due (Monday):**
 
+* [R Lab 8 - Network Stats](/assignments/r_lab_8_%E2%80%93_network_stats.qmd)
 * [Reading Review](/syllabus/syllabus.qmd#reading-review-assignments)
 
 **Readings:**
@@ -32,4 +33,4 @@ date: "2026-11-16"
 **Class Schedule:**
 
 * Exam review / prep
-* Intro to [R Lab 8 - Network Stats](/assignments/r_lab_8_%E2%80%93_network_stats.qmd) (due Mon, Nov 30 — work on it over break!)
+* Work time for Final Project rough draft (due Tue, Nov 24)

@@ -5,7 +5,7 @@ date: "2026-11-09"
 
 ### Tuesday
 
-**Assignment Due:**
+**Assignment Due (Monday):**
 
 * [R Lab 7 - Finding and visualizing groups in networks](/assignments/r_lab_7_%E2%80%93_groups_in_networks.qmd)
 * Submit two exam questions on Brightspace
@@ -31,3 +31,4 @@ date: "2026-11-09"
 
 * Guest Lecture: Dr. Scott Feld
 * Exam Review
+* Intro to [R Lab 8 - Network Stats](/assignments/r_lab_8_%E2%80%93_network_stats.qmd) (due Mon, Nov 16)

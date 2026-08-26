@@ -6,10 +6,10 @@ date: "2026-11-30"
 
 ### Tuesday
 
-**Assignment Due:**
+**Assignment Due (Monday):**
 
-* [R Lab 8 - Calculating network statistics](/assignments/r_lab_8_%E2%80%93_network_stats.qmd)
 * [Reading Review](/syllabus/syllabus.qmd#reading-review-assignments)
+* Feedback on Final Project sent back to your "peers"
 
 **Class Schedule:**
 
@@ -32,11 +32,6 @@ date: "2026-11-30"
 
 
 ### Thursday
-
-**Assignments Due:**
-
-* [Rough draft of Final Project](/assignments/final_project/rough-draft.qmd) on Brightspace and sent to your "peers"
-* Saturday: Feedback sent back to your "peers"
 
 **Class Schedule:**
 

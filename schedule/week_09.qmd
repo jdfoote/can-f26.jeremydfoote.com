@@ -5,7 +5,7 @@ date: "2026-10-19"
 
 ### Tuesday
 
-**Assignment Due:**
+**Assignment Due (Monday):**
 
 * [Final Project Idea](/assignments/final_project/project-idea.qmd)
 * Troubled Lands Reflection

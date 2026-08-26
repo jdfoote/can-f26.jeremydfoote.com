@@ -5,7 +5,7 @@ date: "2026-11-02"
 
 ### Tuesday
 
-**Assignment Due:**
+**Assignment Due (Monday):**
 
 * [Reading Review](/syllabus/syllabus.qmd#reading-review-assignments)
 * [Visualization Challenge](/assignments/Visualization-challenge.qmd)

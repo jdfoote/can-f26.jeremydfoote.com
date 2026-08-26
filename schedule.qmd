@@ -12,21 +12,21 @@ As a reminder, the class is set up as a flipped classroom. This means that you w
 |------|-----------|
 | Mon, Aug 31 | [Homework 1](/assignments/Homework-1.html) |
 | Mon, Sep 14 | [R Lab 2 – Creating Networks](/assignments/r_lab_2_%E2%80%93_creating_networks.qmd) |
-| Tue, Sep 22 | [Self-Assessment Reflection](/assignments/Self-Assessment-Reflection.qmd) |
+| Mon, Sep 21 | [Self-Assessment Reflection](/assignments/Self-Assessment-Reflection.qmd) |
 | Thu, Sep 24 | [Ego Networks Activity](/assignments/ego_networks_activity.qmd) |
 | Mon, Sep 28 | [R Lab 3 – Mutating and Filtering](/assignments/r_lab_3_%E2%80%93_mutating_and_filtering.qmd) |
-| Tue, Sep 29 | [AI-Assisted Conversation](/assignments/ai_conversation.qmd) |
+| Mon, Sep 28 | [AI-Assisted Conversation](/assignments/ai_conversation.qmd) |
 | Mon, Oct 5 | [R Lab 4 – Intro to ggraph](/assignments/r_lab_4_%E2%80%93_intro_to_ggraph.qmd) |
-| Wed, Oct 14 | [R Lab 5 – Aesthetics in ggraph](/assignments/r_lab_5_%E2%80%93_aesthetics_in_ggraph.qmd) |
+| Mon, Oct 12 | [R Lab 5 – Aesthetics in ggraph](/assignments/r_lab_5_%E2%80%93_aesthetics_in_ggraph.qmd) |
 | Mon, Oct 26 | [R Lab 6 – Visualizing Power](/assignments/r_lab_6_%E2%80%93_visualizing_power.qmd) |
-| Tue, Oct 27 | [Social Search Assignment](/assignments/Social-Search-Assignment.qmd) |
-| Tue, Oct 27 | [Self-Assessment Reflection (2nd)](/assignments/Self-Assessment-Reflection.qmd) |
-| Tue, Nov 3 | [Visualization Challenge](/assignments/Visualization-challenge.qmd) |
+| Mon, Oct 26 | [Social Search Assignment](/assignments/Social-Search-Assignment.qmd) |
+| Mon, Oct 26 | [Self-Assessment Reflection (2nd)](/assignments/Self-Assessment-Reflection.qmd) |
+| Mon, Nov 2 | [Visualization Challenge](/assignments/Visualization-challenge.qmd) |
 | Mon, Nov 9 | [R Lab 7 – Groups in Networks](/assignments/r_lab_7_%E2%80%93_groups_in_networks.qmd) |
-| Mon, Nov 30 | [R Lab 8 – Network Stats](/assignments/r_lab_8_%E2%80%93_network_stats.qmd) |
-| Thu, Dec 3 | [Rough Draft of Final Project](/assignments/final_project/rough-draft.qmd) |
-| Sat, Dec 5 | Peer Feedback on Final Projects |
+| Mon, Nov 16 | [R Lab 8 – Network Stats](/assignments/r_lab_8_%E2%80%93_network_stats.qmd) |
+| Tue, Nov 24 | [Rough Draft of Final Project](/assignments/final_project/rough-draft.qmd) |
+| Mon, Nov 30 | Peer Feedback on Final Projects |
 | Tue–Thu, Dec 8–10 | Final Project Presentations |
-| Fri, Dec 11 | [Final Project](/assignments/final_project/Final-project.qmd) |
-| Fri, Dec 11 | [Final Self-Assessment Reflection](/assignments/Final-Self-Assessment-Reflection.qmd) |
+| Mon, Dec 7 | [Final Project](/assignments/final_project/Final-project.qmd) |
+| Mon, Dec 7 | [Final Self-Assessment Reflection](/assignments/Final-Self-Assessment-Reflection.qmd) |
 | by Sat, Dec 19 | Final Reflection Discussion (sign up on [my calendar](https://jeremydfoote.com/calendar/)) |

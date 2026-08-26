@@ -5,7 +5,7 @@ date: "2026-09-21"
 
 ### Tuesday
 
-**Assignment Due:**
+**Assignment Due (Monday):**
 
 * [Reading Review Assignments](/syllabus/syllabus.qmd#reading-review-assignments)
 * Turn in your [Self Assessment Reflection](/assignments/Self-Assessment-Reflection.qmd) on Brightspace

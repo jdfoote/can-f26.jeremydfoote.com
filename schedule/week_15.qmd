@@ -7,10 +7,9 @@ date: "2026-12-07"
 
 **Assignment Due:**
 
-* Saturday: Feedback on final project to peers
 * Tuesday / Thursday: Final Project Presentation
-* Friday: [Final Project](/assignments/final_project/Final-project.qmd) on Brightspace
-* Friday: [Final Self Assessment Reflection](/assignments/Final-Self-Assessment-Reflection.qmd) on Brightspace
+* Mon, Dec 7: [Final Project](/assignments/final_project/Final-project.qmd) on Brightspace
+* Mon, Dec 7: [Final Self Assessment Reflection](/assignments/Final-Self-Assessment-Reflection.qmd) on Brightspace
 
 **Class Schedule:**
 
