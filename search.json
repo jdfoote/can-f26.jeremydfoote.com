@@ -225,7 +225,7 @@
     "href": "schedule/week_06.html",
     "title": "Week 6: Power, centrality, and hierarchy",
     "section": "",
-    "text": "Tuesday\nAssignment Due (Monday):\n\nR Lab 3 - Mutating and filtering\nReading Review Assignments\nAI-assisted conversation assignment\n\nReadings:\n\nHanneman, R. A., & Riddle, M. (2005). Introduction to social network methods. Chapter 10: Centrality and Power\nHealy, K. (2013). Using Metadata to find Paul Revere.\nCentrality measures. Matthew Jackson. From Social and Economic Networks course\nCentrality Eigenvector Measures. Matthew Jackson\n(Optional) Holliday, Audrey, Campbell, & Moore, (2016). Identifying well-connected opinion leaders for informal health promotion\n\nVideo lecture:\n [18:44]\n\nSlides\n\n\n\n\n\nThursday\nClass Schedule:\n\nR Lab 4 - Intro to ggraph",
+    "text": "Tuesday\nAssignment Due (Monday):\n\nR Lab 3 - Mutating and filtering\nReading Review Assignments\nTurn in your Self Assessment Reflection on Brightspace\n\nReadings:\n\nHanneman, R. A., & Riddle, M. (2005). Introduction to social network methods. Chapter 10: Centrality and Power\nHealy, K. (2013). Using Metadata to find Paul Revere.\nCentrality measures. Matthew Jackson. From Social and Economic Networks course\nCentrality Eigenvector Measures. Matthew Jackson\n(Optional) Holliday, Audrey, Campbell, & Moore, (2016). Identifying well-connected opinion leaders for informal health promotion\n\nVideo lecture:\n [18:44]\n\nSlides\n\n\n\n\n\nThursday\nClass Schedule:\n\nR Lab 4 - Intro to ggraph",
     "crumbs": [
       "Schedule",
       "Course content",
@@ -364,7 +364,7 @@
     "href": "schedule.html#key-due-dates",
     "title": "Schedule for the semester",
     "section": "Key Due Dates",
-    "text": "Key Due Dates\n\n\n\nDate\nAssignment\n\n\n\n\nMon, Aug 31\nHomework 1\n\n\nMon, Sep 14\nR Lab 2 – Creating Networks\n\n\nMon, Sep 21\nSelf-Assessment Reflection\n\n\nThu, Sep 24\nEgo Networks Activity\n\n\nMon, Sep 28\nR Lab 3 – Mutating and Filtering\n\n\nMon, Sep 28\nAI-Assisted Conversation\n\n\nMon, Oct 5\nR Lab 4 – Intro to ggraph\n\n\nMon, Oct 12\nR Lab 5 – Aesthetics in ggraph\n\n\nMon, Oct 26\nR Lab 6 – Visualizing Power\n\n\nMon, Oct 26\nSocial Search Assignment\n\n\nMon, Oct 26\nSelf-Assessment Reflection (2nd)\n\n\nMon, Nov 2\nVisualization Challenge\n\n\nMon, Nov 9\nR Lab 7 – Groups in Networks\n\n\nMon, Nov 16\nR Lab 8 – Network Stats\n\n\nTue, Nov 24\nRough Draft of Final Project\n\n\nMon, Nov 30\nPeer Feedback on Final Projects\n\n\nTue–Thu, Dec 8–10\nFinal Project Presentations\n\n\nMon, Dec 7\nFinal Project\n\n\nMon, Dec 7\nFinal Self-Assessment Reflection\n\n\nby Sat, Dec 19\nFinal Reflection Discussion (sign up on my calendar)",
+    "text": "Key Due Dates\n\n\n\nDate\nAssignment\n\n\n\n\nMon, Aug 31\nHomework 1\n\n\nMon, Sep 14\nR Lab 2 – Creating Networks\n\n\nThu, Sep 24\nEgo Networks Activity\n\n\nMon, Sep 28\nR Lab 3 – Mutating and Filtering\n\n\nMon, Sep 28\nSelf-Assessment Reflection\n\n\nMon, Oct 5\nR Lab 4 – Intro to ggraph\n\n\nMon, Oct 12\nR Lab 5 – Aesthetics in ggraph\n\n\nMon, Oct 26\nR Lab 6 – Visualizing Power\n\n\nMon, Oct 26\nSocial Search Assignment\n\n\nMon, Oct 26\nSelf-Assessment Reflection (2nd)\n\n\nMon, Nov 2\nVisualization Challenge\n\n\nMon, Nov 9\nR Lab 7 – Groups in Networks\n\n\nMon, Nov 16\nR Lab 8 – Network Stats\n\n\nTue, Nov 24\nRough Draft of Final Project\n\n\nMon, Nov 30\nPeer Feedback on Final Projects\n\n\nTue–Thu, Dec 8–10\nFinal Project Presentations\n\n\nMon, Dec 7\nFinal Project\n\n\nMon, Dec 7\nFinal Self-Assessment Reflection\n\n\nby Sat, Dec 19\nFinal Reflection Discussion (sign up on my calendar)",
     "crumbs": [
       "Schedule",
       "Overview",
@@ -3935,7 +3935,7 @@
     "href": "schedule/week_05.html",
     "title": "Week 5: Ego networks and network perception",
     "section": "",
-    "text": "Tuesday\nAssignment Due (Monday):\n\nReading Review Assignments\nTurn in your Self Assessment Reflection on Brightspace\n\nReadings:\n\nHanneman, R. A., & Riddle, M. (2005). Introduction to social network methods. University of California. (Chapter 9) - Just read the first 2 sections - Introduction and Ego Network Data\nMarsden, P. V. (1987). Core Discussion Networks of Americans. American Sociological Review, 52(1), 122–131.\n\nClaude.ai summary\n\nPentland, A.S. (2016). Research: You Have Fewer Friends than You Think. (2016, May 12). Harvard Business Review.\nSmith, E. B., Menon, T., & Thompson, L. (2012). Status Differences in the Cognitive Activation of Social Networks. Organization Science, 23(1), 67–82.\n\nClaude.ai summary\n\n\nLecture Video:\n\n\nSlides\n\n\n\n\n\nThursday\nClass Schedule:\n\nEgo Network Activity\nFinish R Lab 3 - Mutating and filtering and start on R Lab 4 - Intro to ggraph",
+    "text": "Tuesday\nAssignment Due (Monday):\n\nReading Review Assignments\n\nReadings:\n\nHanneman, R. A., & Riddle, M. (2005). Introduction to social network methods. University of California. (Chapter 9) - Just read the first 2 sections - Introduction and Ego Network Data\nMarsden, P. V. (1987). Core Discussion Networks of Americans. American Sociological Review, 52(1), 122–131.\n\nClaude.ai summary\n\nPentland, A.S. (2016). Research: You Have Fewer Friends than You Think. (2016, May 12). Harvard Business Review.\nSmith, E. B., Menon, T., & Thompson, L. (2012). Status Differences in the Cognitive Activation of Social Networks. Organization Science, 23(1), 67–82.\n\nClaude.ai summary\n\n\nLecture Video:\n\n\nSlides\n\n\n\n\n\nThursday\nClass Schedule:\n\nEgo Network Activity\nFinish R Lab 3 - Mutating and filtering and start on R Lab 4 - Intro to ggraph",
     "crumbs": [
       "Schedule",
       "Course content",
@@ -4007,7 +4007,7 @@
     "href": "schedule/week_16.html",
     "title": "Finals week",
     "section": "",
-    "text": "Assignments Due\n\nSign up for a Final Reflection Discussion on my calendar at https://jeremydfoote.com/calendar/ (15 minutes)\n\nVirtual or in person\nMust happen by December 19",
+    "text": "Assignments Due\n\nSign up for a Final Reflection Discussion on my calendar at https://jeremydfoote.com/calendar/ (15 minutes)\n\nVirtual or in person\nMust happen by December 17",
     "crumbs": [
       "Schedule",
       "Course content",
