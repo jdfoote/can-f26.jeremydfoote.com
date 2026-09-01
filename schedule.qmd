@@ -12,10 +12,9 @@ As a reminder, the class is set up as a flipped classroom. This means that you w
 |------|-----------|
 | Mon, Aug 31 | [Homework 1](/assignments/Homework-1.html) |
 | Mon, Sep 14 | [R Lab 2 – Creating Networks](/assignments/r_lab_2_%E2%80%93_creating_networks.qmd) |
-| Mon, Sep 21 | [Self-Assessment Reflection](/assignments/Self-Assessment-Reflection.qmd) |
 | Thu, Sep 24 | [Ego Networks Activity](/assignments/ego_networks_activity.qmd) |
 | Mon, Sep 28 | [R Lab 3 – Mutating and Filtering](/assignments/r_lab_3_%E2%80%93_mutating_and_filtering.qmd) |
-| Mon, Sep 28 | [AI-Assisted Conversation](/assignments/ai_conversation.qmd) |
+| Mon, Sep 28 | [Self-Assessment Reflection](/assignments/Self-Assessment-Reflection.qmd) |
 | Mon, Oct 5 | [R Lab 4 – Intro to ggraph](/assignments/r_lab_4_%E2%80%93_intro_to_ggraph.qmd) |
 | Mon, Oct 12 | [R Lab 5 – Aesthetics in ggraph](/assignments/r_lab_5_%E2%80%93_aesthetics_in_ggraph.qmd) |
 | Mon, Oct 26 | [R Lab 6 – Visualizing Power](/assignments/r_lab_6_%E2%80%93_visualizing_power.qmd) |

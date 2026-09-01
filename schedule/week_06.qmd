@@ -9,7 +9,7 @@ date: "2026-09-28"
 
 * [R Lab 3 - Mutating and filtering](/assignments/r_lab_3_%E2%80%93_mutating_and_filtering.qmd)
 * [Reading Review Assignments](/syllabus/syllabus.qmd#reading-review-assignments)
-* [AI-assisted conversation assignment](/assignments/ai_conversation.qmd)
+* Turn in your [Self Assessment Reflection](/assignments/Self-Assessment-Reflection.qmd) on Brightspace
 
 **Readings:** 
 

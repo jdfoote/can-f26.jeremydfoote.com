@@ -12,10 +12,7 @@ format:
 
 ## Today's Dad Joke
 
-What do you call a chess club bragging about their recent win in a hotel lobby?
-
-<span class='fragment'>Chess nuts boasting in an open foyer.</span>
-
+I wanted to marry a Carbon 14 expert but all she wanted to do was date.
 
 
 ## Housekeeping
@@ -23,7 +20,7 @@ What do you call a chess club bragging about their recent win in a hotel lobby?
 > - Intro survey
 > - Discussion questions
 > - Homework 1
->	- All were due Monday at noon
+>	- All were due Monday at 1 pm
 
 ## 3-2-1 Example
 
@@ -33,10 +30,9 @@ What do you call a chess club bragging about their recent win in a hotel lobby?
 ## The Plan
 
 > - Housekeeping / Announcements (5-10)
-> - Discussion and review (35-45)
-> - Consolidation and Confusion (10-15)
+> - Discussion and review (40-50)
+> - Consolidation and Confusion (5-10)
 >	- Response to needs
->	- Discuss at end of class
 
 
 ## Review
@@ -73,17 +69,23 @@ plot(G)
 
 ## Questions from homework?
 
+> - What is a family member?
+
 ## Questions from 3-2-1s
 
+> - When to use different representations (edgelist vs. matrix, etc.)
 > - Bipartite networks and projections
->   - Is group affiliation really a relationship?
-> - How can you find patterns in large networks?
-> - Multiplex networks
-> - How do you set network boundaries?
-> - How can we visualize how networks change over time?
+> - Can visualizations change your understanding of a network?
+> - How do you determine what counts as a tie?
+> - How can we represent weaker or stronger ties?
+
+
+## Questions from 3-2-1s
 
 ## Discussion Questions
 
+> - How can the misperceptions that can come from taking an individual perspective be intentionally used to sway the general public's opinions on certain issues?
+> - How can you tell whether shared attributes cause a tie or whether a tie causes shared attributes?
 
 ## Consolidation
 
