@@ -8,6 +8,7 @@ final_project_examples.pdf
 
 /.quarto/
 /_site/
+/_freeze/
 *_files/
 
 site_libs/
