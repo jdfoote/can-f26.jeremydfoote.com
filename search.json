@@ -364,7 +364,7 @@
     "href": "schedule.html#key-due-dates",
     "title": "Schedule for the semester",
     "section": "Key Due Dates",
-    "text": "Key Due Dates\n\n\n\nDate\nAssignment\n\n\n\n\nMon, Aug 31\nHomework 1\n\n\nMon, Sep 14\nR Lab 2 – Creating Networks\n\n\nThu, Sep 24\nEgo Networks Activity\n\n\nMon, Sep 28\nR Lab 3 – Mutating and Filtering\n\n\nMon, Sep 28\nSelf-Assessment Reflection\n\n\nMon, Oct 5\nR Lab 4 – Intro to ggraph\n\n\nMon, Oct 12\nR Lab 5 – Aesthetics in ggraph\n\n\nMon, Oct 26\nR Lab 6 – Visualizing Power\n\n\nMon, Oct 26\nSocial Search Assignment\n\n\nMon, Oct 26\nSelf-Assessment Reflection (2nd)\n\n\nMon, Nov 2\nVisualization Challenge\n\n\nMon, Nov 9\nR Lab 7 – Groups in Networks\n\n\nMon, Nov 16\nR Lab 8 – Network Stats\n\n\nTue, Nov 24\nRough Draft of Final Project\n\n\nMon, Nov 30\nPeer Feedback on Final Projects\n\n\nTue–Thu, Dec 8–10\nFinal Project Presentations\n\n\nMon, Dec 7\nFinal Project\n\n\nMon, Dec 7\nFinal Self-Assessment Reflection\n\n\nby Sat, Dec 19\nFinal Reflection Discussion (sign up on my calendar)",
+    "text": "Key Due Dates\n\n\n\nDate\nAssignment\n\n\n\n\nMon, Aug 31\nHomework 1\n\n\nMon, Sep 14\nR Lab 2 – Creating Networks\n\n\nThu, Sep 24\nEgo Networks Activity\n\n\nMon, Sep 28\nR Lab 3 – Mutating and Filtering\n\n\nMon, Sep 28\nSelf-Assessment Reflection\n\n\nMon, Oct 5\nR Lab 4 – Intro to ggraph\n\n\nMon, Oct 12\nR Lab 5 – Aesthetics in ggraph\n\n\nMon, Oct 26\nR Lab 6 – Visualizing Power\n\n\nMon, Oct 26\nSocial Search Assignment\n\n\nMon, Oct 26\nSelf-Assessment Reflection (2nd)\n\n\nMon, Nov 2\nVisualization Challenge\n\n\nMon, Nov 9\nR Lab 7 – Groups in Networks\n\n\nMon, Nov 16\nR Lab 8 – Network Stats\n\n\nTue, Nov 24\nRough Draft of Final Project\n\n\nTue, Dec 1\nIn-Class Exam\n\n\nMon, Nov 30\nPeer Feedback on Final Projects\n\n\nTue–Thu, Dec 8–10\nFinal Project Presentations\n\n\nMon, Dec 7\nFinal Project\n\n\nMon, Dec 7\nFinal Self-Assessment Reflection\n\n\nby Sat, Dec 19\nFinal Reflection Discussion (sign up on my calendar)",
     "crumbs": [
       "Schedule",
       "Overview",
@@ -1034,14 +1034,7 @@
     "href": "lectures/class_lectures/week_4.html#housekeeping",
     "title": "Week 4 - Small Group Networks",
     "section": "Housekeeping",
-    "text": "Housekeeping\n\nPractice asking a question on Discord"
-  },
-  {
-    "objectID": "lectures/class_lectures/week_4.html#housekeeping-1",
-    "href": "lectures/class_lectures/week_4.html#housekeeping-1",
-    "title": "Week 4 - Small Group Networks",
-    "section": "Housekeeping",
-    "text": "Housekeeping\n\nSelf Assessment Reflections\n\nGoals for the class\nFeedback for me\n\nI will also\n\nReview the report on participation\nReview your HW\nReview your 3-2-1s"
+    "text": "Housekeeping\n\nSelf Assessment Reflections coming up\n\nGoals for the class\nFeedback for me\n\nI will also\n\nReview the report on participation\nReview your HW\nReview your 3-2-1s"
   },
   {
     "objectID": "lectures/class_lectures/week_4.html#homework-review",
@@ -1069,14 +1062,7 @@
     "href": "lectures/class_lectures/week_4.html#review-questions-1",
     "title": "Week 4 - Small Group Networks",
     "section": "Review Questions",
-    "text": "Review Questions\n\nAccording to the Informal Networks article, why is it important to identify different kinds of networks?\nWhat sorts of information can be learned from an advice network?\n\nA trust network?\n\nHave you thought about the groups that you are in from a network perspective? What insights have you had?"
-  },
-  {
-    "objectID": "lectures/class_lectures/week_4.html#technology-break",
-    "href": "lectures/class_lectures/week_4.html#technology-break",
-    "title": "Week 4 - Small Group Networks",
-    "section": "Technology break!",
-    "text": "Technology break!"
+    "text": "Review Questions\n\nAccording to the Informal Networks article, why is it important to identify different kinds of networks?\nWhat sorts of information can be learned from an advice network? &gt; - A trust network?\nHave you thought about the groups that you are in from a network perspective? What insights have you had?"
   },
   {
     "objectID": "lectures/class_lectures/week_4.html#review-questions-2",
@@ -1086,18 +1072,25 @@
     "text": "Review Questions\n\nWhat is network hierarchy? How does it differ from organizational hierarchy?\nWhat is a core-periphery structure?\nWhat is a structural hole?\nWhat is multiplexity?"
   },
   {
+    "objectID": "lectures/class_lectures/week_4.html#technology-break",
+    "href": "lectures/class_lectures/week_4.html#technology-break",
+    "title": "Week 4 - Small Group Networks",
+    "section": "Technology break!",
+    "text": "Technology break!"
+  },
+  {
     "objectID": "lectures/class_lectures/week_4.html#discussion-questions",
     "href": "lectures/class_lectures/week_4.html#discussion-questions",
     "title": "Week 4 - Small Group Networks",
     "section": "Discussion Questions",
-    "text": "Discussion Questions\n\nHow can there be too much information in a network?\nIn a world where many interactions are remote, often through platforms like Microsoft Teams, Slack, and X, does physical distance still matter, and if not, what is the number 1 indicator of a tie forming in social networks?\nHow do organizations map informal networks without making people feel monitored or punished for being “too central” or “not connected enough”? What safeguards keep network analysis from turning into performance surveillance?"
+    "text": "Discussion Questions\n\nCan network analysis predict what new structure will emerge after a key actor enters or exits, rather than only describing the structural change after it has already occurred?\nWhy do people seek more important information out of a weaker tie when they trust the stronger tie more? How do they know that the weaker tie is telling the truth?\nHow can an organization intentionally improve its informal network without making the relationships feel forced or artificial?"
   },
   {
     "objectID": "lectures/class_lectures/week_4.html#discussion-questions-1",
     "href": "lectures/class_lectures/week_4.html#discussion-questions-1",
     "title": "Week 4 - Small Group Networks",
     "section": "Discussion Questions",
-    "text": "Discussion Questions\n\nHow can managers or researchers measure networks in real time to avoid relying only on static snapshots?\nWhat are the downsides of relying on informal networks to make decisions?\nWhich direction does causality go?\nAre all relationships formed due to selfishness? It seems like every relationship is transactional in one way or another.\nHow useful are networks really?"
+    "text": "Discussion Questions\n\nHow do researchers determine whether a certain network structure actually caused a group to perform better, rather than the group performing well first and developing a stronger network afterward?\nWhat is one positive experience you’ve had where you felt like you could reach goals better in a decentralized network?\nThinking about a group project or team you’ve been part of, was the person who was actually “in charge” on paper the same person that everyone went to for help or advice? If not, what made the other person more central even without the title of being in charge?"
   },
   {
     "objectID": "lectures/class_lectures/week_4.html#thursday",
@@ -1175,13 +1168,6 @@
     "title": "Week 2 - Network Data and Network Types",
     "section": "Questions from 3-2-1s",
     "text": "Questions from 3-2-1s\n\nWhen to use different representations (edgelist vs. matrix, etc.)\nBipartite networks and projections\nCan visualizations change your understanding of a network?\nHow do you determine what counts as a tie?\nHow can we represent weaker or stronger ties?"
-  },
-  {
-    "objectID": "lectures/class_lectures/week_2.html#questions-from-3-2-1s-1",
-    "href": "lectures/class_lectures/week_2.html#questions-from-3-2-1s-1",
-    "title": "Week 2 - Network Data and Network Types",
-    "section": "Questions from 3-2-1s",
-    "text": "Questions from 3-2-1s"
   },
   {
     "objectID": "lectures/class_lectures/week_2.html#discussion-questions",
@@ -3162,7 +3148,14 @@
     "href": "lectures/class_lectures/week_3.html#housekeeping",
     "title": "Week 3 - Edge Formation",
     "section": "Housekeeping",
-    "text": "Housekeeping\n\nTurning in R homework\n3-2-1 Assignments and Discussion Questions\nReadings\n\nOn Brightspace\nHow did reading these articles go?\nUsing AI to help\nHow to read academic articles\n\nTech use discussion"
+    "text": "Housekeeping\n\nTurning in R homework\n3-2-1 Assignments and Discussion Questions\nReadings\n\nOn Brightspace\nHow did reading these articles go?\nUsing AI to help\nHow to read academic articles"
+  },
+  {
+    "objectID": "lectures/class_lectures/week_3.html#homework-review",
+    "href": "lectures/class_lectures/week_3.html#homework-review",
+    "title": "Week 3 - Edge Formation",
+    "section": "Homework review",
+    "text": "Homework review\n\nInstalling packages vs. loading libraries\n.qmd files\nOpening folders and trusting projects\nR terminal vs. system terminal"
   },
   {
     "objectID": "lectures/class_lectures/week_3.html#flash-presentations",
@@ -3197,14 +3190,14 @@
     "href": "lectures/class_lectures/week_3.html#discussion-questions",
     "title": "Week 3 - Edge Formation",
     "section": "Discussion Questions",
-    "text": "Discussion Questions\n\nWhen is homophily beneficial?\nWhat are strategies to increase diversity in networks?\nAre there exceptions to balance theory and transitivity?"
+    "text": "Discussion Questions\n\nHow can we distinguish structural prominence from meaningful social influence, and what kinds of contextual information would we need beyond the number and pattern of ties?\nHow can we tell whether people become similar because they influence each other, or whether they became friends because they were already similar in the first place?\nWhy do some traits produce stronger homophily than others?"
   },
   {
-    "objectID": "lectures/class_lectures/week_3.html#homework-review",
-    "href": "lectures/class_lectures/week_3.html#homework-review",
+    "objectID": "lectures/class_lectures/week_3.html#discussion-questions-1",
+    "href": "lectures/class_lectures/week_3.html#discussion-questions-1",
     "title": "Week 3 - Edge Formation",
-    "section": "Homework review",
-    "text": "Homework review\n\nInstalling packages vs. loading libraries\n.qmd files\nOpening folders and trusting projects\nR terminal vs. system terminal"
+    "section": "Discussion Questions",
+    "text": "Discussion Questions\n\nHow can we create connections between those in different clusters and expose ourselves and/or our clusters to very different types of people and ideas?"
   },
   {
     "objectID": "lectures/class_lectures/week_3.html#thursday",
