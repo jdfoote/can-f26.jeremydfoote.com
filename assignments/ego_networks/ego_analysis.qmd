@@ -45,8 +45,8 @@ Person 2 | Person 3 | 0
 Change the code below so that the path points to where you saved the edgelist and node attribute files.
 
 ```{r}
-edges <- read_excel('/home/jeremy/Teaching/can-f26.jeremydfoote.com/assignments/r_lab_examples/ego_edges.xlsx')
-nodes <- read_excel('/home/jeremy/Teaching/can-f26.jeremydfoote.com/assignments/r_lab_examples/ego_atts.xlsx')
+edges <- read_excel('YOUR PATH LOCATION')
+nodes <- read_excel('YOUR PATH LOCATION')
 ```
 
 Code to load the file into R and make it into a network object.

@@ -960,13 +960,6 @@
     "text": "Housekeeping\n\nSelf Assessment Reflection Feedback is in\nPosting homework questions on Discord:\n\n\n\n```r\n\nG |&gt;\n  activate(nodes) |&gt;\n  filter(age &gt; 25)\n```"
   },
   {
-    "objectID": "lectures/class_lectures/week_6.html#housekeeping-1",
-    "href": "lectures/class_lectures/week_6.html#housekeeping-1",
-    "title": "Week 6 - Centrality and Centralization",
-    "section": "Housekeeping",
-    "text": "Housekeeping\n\nHow did the AI assignment go?\n\nWhat was it good at?\nWhat was it bad at?\n\nHow do you think AI will be incorporated into teaching in the future?"
-  },
-  {
     "objectID": "lectures/class_lectures/week_6.html#concept-review",
     "href": "lectures/class_lectures/week_6.html#concept-review",
     "title": "Week 6 - Centrality and Centralization",
@@ -1062,14 +1055,7 @@
     "href": "lectures/class_lectures/week_4.html#review-questions-1",
     "title": "Week 4 - Small Group Networks",
     "section": "Review Questions",
-    "text": "Review Questions\n\nAccording to the Informal Networks article, why is it important to identify different kinds of networks?\nWhat sorts of information can be learned from an advice network? &gt; - A trust network?\nHave you thought about the groups that you are in from a network perspective? What insights have you had?"
-  },
-  {
-    "objectID": "lectures/class_lectures/week_4.html#review-questions-2",
-    "href": "lectures/class_lectures/week_4.html#review-questions-2",
-    "title": "Week 4 - Small Group Networks",
-    "section": "Review Questions",
-    "text": "Review Questions\n\nWhat is network hierarchy? How does it differ from organizational hierarchy?\nWhat is a core-periphery structure?\nWhat is a structural hole?\nWhat is multiplexity?"
+    "text": "Review Questions\n\nAccording to the Informal Networks article, why is it important to identify different kinds of networks?\nWhat sorts of information can be learned from an advice network?\n\nA trust network?\n\nHave you thought about the groups that you are in from a network perspective? What insights have you had?"
   },
   {
     "objectID": "lectures/class_lectures/week_4.html#technology-break",
@@ -1077,6 +1063,13 @@
     "title": "Week 4 - Small Group Networks",
     "section": "Technology break!",
     "text": "Technology break!"
+  },
+  {
+    "objectID": "lectures/class_lectures/week_4.html#review-questions-2",
+    "href": "lectures/class_lectures/week_4.html#review-questions-2",
+    "title": "Week 4 - Small Group Networks",
+    "section": "Review Questions",
+    "text": "Review Questions\n\nWhat is network hierarchy? How does it differ from organizational hierarchy?\nWhat is a core-periphery structure?\nWhat is a structural hole?\nWhat is multiplexity?"
   },
   {
     "objectID": "lectures/class_lectures/week_4.html#discussion-questions",
@@ -3214,25 +3207,18 @@
     "text": "Dad Joke\nBro, can you pass me that leaflet?\n Brochure."
   },
   {
-    "objectID": "lectures/class_lectures/week_5.html#self-reflections-and-feedback",
-    "href": "lectures/class_lectures/week_5.html#self-reflections-and-feedback",
-    "title": "Week 5 - Ego Networks",
-    "section": "Self Reflections and feedback",
-    "text": "Self Reflections and feedback\n\nMake sure to get them in\nOverall, things are going well\nPlease give feedback on the Google Form"
-  },
-  {
     "objectID": "lectures/class_lectures/week_5.html#housekeeping",
     "href": "lectures/class_lectures/week_5.html#housekeeping",
     "title": "Week 5 - Ego Networks",
     "section": "Housekeeping",
-    "text": "Housekeeping\n\nVideos + readings on centrality and power\nHow do we measure who is important and influential?\nAI assignment next week\nThursday\n\nEgo network activity\nMore co-working time"
+    "text": "Housekeeping\n\nSelf reflections next week\nThursday\n\nEgo network activity\nMore co-working time"
   },
   {
     "objectID": "lectures/class_lectures/week_5.html#debugging",
     "href": "lectures/class_lectures/week_5.html#debugging",
     "title": "Week 5 - Ego Networks",
     "section": "Debugging",
-    "text": "Debugging\nStrategies when R code doesn’t work:\n\nSimplify\nprint()\nChatGPT\nGoogle!\nFriends"
+    "text": "Debugging\nStrategies when R code doesn’t work:\n\nSimplify\nprint()\nAI\nFriends"
   },
   {
     "objectID": "lectures/class_lectures/week_5.html#homework-review",
@@ -3244,6 +3230,13 @@
   {
     "objectID": "lectures/class_lectures/week_5.html#review",
     "href": "lectures/class_lectures/week_5.html#review",
+    "title": "Week 5 - Ego Networks",
+    "section": "Review",
+    "text": "Review\n\nWhat do you want to talk about today?"
+  },
+  {
+    "objectID": "lectures/class_lectures/week_5.html#review-1",
+    "href": "lectures/class_lectures/week_5.html#review-1",
     "title": "Week 5 - Ego Networks",
     "section": "Review",
     "text": "Review\n\nWhat is an “ego network”?\nWhat are the benefits of having a dense ego network?\nWhat are the benefits of having a sparse ego network?"
@@ -3263,11 +3256,18 @@
     "text": "Sparse Network Example"
   },
   {
-    "objectID": "lectures/class_lectures/week_5.html#review-1",
-    "href": "lectures/class_lectures/week_5.html#review-1",
+    "objectID": "lectures/class_lectures/week_5.html#review-2",
+    "href": "lectures/class_lectures/week_5.html#review-2",
     "title": "Week 5 - Ego Networks",
     "section": "Review",
     "text": "Review\n\nWhat are some reasons that you think friendship can be asymmetrical?\nIs there such thing as a “true” social network? How could we find it out?\nWhat are some ways that our perceptions of a network could influence our behaviors?\n\n\n\nDifferent perception of “friendship”\nDifferent cognitive activation (who comes to mind)\nAmbition / social status"
+  },
+  {
+    "objectID": "lectures/class_lectures/week_5.html#class-friendship-quiz",
+    "href": "lectures/class_lectures/week_5.html#class-friendship-quiz",
+    "title": "Week 5 - Ego Networks",
+    "section": "Class Friendship Quiz",
+    "text": "Class Friendship Quiz\n\nClass Friendship Quiz"
   },
   {
     "objectID": "lectures/class_lectures/week_5.html#break-time",
@@ -3277,8 +3277,15 @@
     "text": "Break Time"
   },
   {
-    "objectID": "lectures/class_lectures/week_5.html#review-2",
-    "href": "lectures/class_lectures/week_5.html#review-2",
+    "objectID": "lectures/class_lectures/week_5.html#friendship-network",
+    "href": "lectures/class_lectures/week_5.html#friendship-network",
+    "title": "Week 5 - Ego Networks",
+    "section": "Friendship Network",
+    "text": "Friendship Network"
+  },
+  {
+    "objectID": "lectures/class_lectures/week_5.html#review-3",
+    "href": "lectures/class_lectures/week_5.html#review-3",
     "title": "Week 5 - Ego Networks",
     "section": "Review",
     "text": "Review\n\nWhat is the difference between a potential network, an activated network, and a mobilized network?\nWhy might SES be related to which networks are activated under job loss threat?\n\n\n\nEven wider network may not have resources\nDifferent types of work may require different types of networks\nHigher SES have greater time / money / energy to reach out to more distant connections\nDistant connections respond differently based on SES of asker"
@@ -3288,7 +3295,21 @@
     "href": "lectures/class_lectures/week_5.html#discussion-questions",
     "title": "Week 5 - Ego Networks",
     "section": "Discussion Questions",
-    "text": "Discussion Questions\n\nWhat are the consequences of relying on self-reported network data when people may misunderstand who is actually part of their support network?\nWhy might personal network sizes differ based on race?\nIf dense and family-centered social networks are typically the foundation of most social networks, are social networks naturally structured to limit the spread of new ideas and social change?"
+    "text": "Discussion Questions\n\nWhat’s the difference between an ego and a node?\nWhen is it better to rely on a close-reciprocal friendship for change versus a buddy system, especially when it comes to serious issues. When does the trust/lower pressure of a close friendship outweigh the professionalism/forced accountability of a buddy system and vice versa?"
+  },
+  {
+    "objectID": "lectures/class_lectures/week_5.html#discussion-questions-1",
+    "href": "lectures/class_lectures/week_5.html#discussion-questions-1",
+    "title": "Week 5 - Ego Networks",
+    "section": "Discussion Questions",
+    "text": "Discussion Questions\n\nIf people do indeed have access to a much larger social network than the part they typically think about and/or use, what causes certain relationships to become “active”, especially when someone is under stress or needs help?\nLooking at your own relationships, is having structural holes in your network an advantage, something positive or negative?"
+  },
+  {
+    "objectID": "lectures/class_lectures/week_5.html#discussion-questions-2",
+    "href": "lectures/class_lectures/week_5.html#discussion-questions-2",
+    "title": "Week 5 - Ego Networks",
+    "section": "Discussion Questions",
+    "text": "Discussion Questions\n\nIn an anonymous online community users may be structurally embedded in a dense network without being personally identifiable outside of that setting. Would the same network structure still produce similar behavioral constraints, or does anonymity weaken the relationship between structural constraint and behavioral constraint?"
   },
   {
     "objectID": "lectures/class_lectures/week_5.html#summary",
@@ -3947,7 +3968,7 @@
     "href": "schedule/week_07.html",
     "title": "Week 7: Social Capital, structural holes, and weak ties",
     "section": "",
-    "text": "Tuesday\nAssignment Due (Monday):\n\nR Lab 4 - Intro to ggraph\nReading Review Assignments\n\nReadings:\n\nGranovetter, M. S. (1973). The Strength of Weak Ties. American Journal of Sociology, 78(6), 1360–1380. https://doi.org/10.1086/225469\n\nClaude.ai summary\n\nKadushin, C. (2012). Networks as Social Capital, in Kadushin, C. (2012). Understanding Social Networks. Theories, Concepts and Findings. Oxford: Oxford University Press.\n\nClaude.ai summary\n\nPutnam, R.D. (1995). Bowling Alone: America’s Declining Social Capital. Journal of Democracy 6(1), 65-78.\n\nClaude.ai summary\n\n(Optional) Bourdieu, P. (1986). The forms of capital. In J. Richardson (Ed.) Handbook of Theory and Research for the Sociology of Education (New York, Greenwood), 241-258.\n\nClaude.ai summary\n\n(Optional) Rainie, L. and Perrin, A. (2019). Key findings about Americans’ declining trust in government and each other. Pew Research Center.\n(Optional) Burt, R. S. (2000). The network structure of social capital. Research in Organizational Behavior, 22, 345–423.\n\nLecture Video:\n [16:02]\n\nSlides\n\n\n\n\n\nThursday\nClass Schedule:\n\nWho Dunnit Game",
+    "text": "Tuesday\nAssignment Due (Monday):\n\nR Lab 4 - Intro to ggraph\nReading Review Assignments\n\nReadings:\n\nThe Strength of Weak Ties. (2023). Yale Scientific Magazine. (~900 words — explains the theory and recent evidence)\nKadushin, C. (2012). Networks as Social Capital, in Kadushin, C. (2012). Understanding Social Networks. Theories, Concepts and Findings. Oxford: Oxford University Press.\n\nClaude.ai summary\n\nPutnam, R.D. (1995). Bowling Alone: America’s Declining Social Capital. Journal of Democracy 6(1), 65-78.\n\nClaude.ai summary\n\nUzzi, B., & Dunlap, S. (2005). How to Build Your Network. Harvard Business Review, 83(12).\n(Optional) Granovetter, M. S. (1973). The Strength of Weak Ties. American Journal of Sociology, 78(6), 1360–1380.\n\nClaude.ai summary\n\n(Optional) Rainie, L. and Perrin, A. (2019). Key findings about Americans’ declining trust in government and each other. Pew Research Center.\n\nLecture Video:\n [16:02]\n\nSlides\n\n\n\n\n\nThursday\nClass Schedule:\n\nWho Dunnit Game",
     "crumbs": [
       "Schedule",
       "Course content",
