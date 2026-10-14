@@ -29,13 +29,14 @@ Now I can't read it at all!
 
 ## Housekeeping
 
-> - Sorry for the schedule confusion!
+> - SARs
+>   - I'm working on them!
 > - Final project idea due next week
-> - Social Search assignment due March 23
+> - Social Search assignment due October 26
 >	  - Try to find someone with driver's license from HI
->	  - No group texts
 >	  - Diagram search network
 >	  - Instructions on website
+> - Lab 5 - turn in; less in-class lab work now
 
 ## Also upcoming
 
@@ -83,10 +84,17 @@ Now I can't read it at all!
 > - How can we have such high triadic closure but still have short path lengths? What was the key insight from Watts and Strogatz?
 > - What does this have to do with Granovetter (weak ties)?
 > - What is similar to "random rewiring" in real life?
+> - How does network connectivity differ from network searchability?
 
 ## Break!
 
+## Six Degrees of Wikipedia Activity
+
+<!--
 ## Discussion Questions
+- The video mentioned that everyone can be connected through a few people. How could being connected in less than six steps actually be beneficial to our own lives and careers? Or is it just a cool fact?
+- Does the six degrees of separation still, work on people that are from different culture, countries, or social status?
+
 
 > - What are some of your best “small world” moments and what were the connections?
 > - Is the small world smaller now?
@@ -99,3 +107,4 @@ Now I can't read it at all!
 > - Travers and Milgram found evidence of "funneling" through certain individuals, while Dodds suggests hubs are less important. Is this difference due to scale (U.S. based vs global), technology, (mail vs. email), or changes in network structures over time? 
 
 ## R Co-working time
+-->

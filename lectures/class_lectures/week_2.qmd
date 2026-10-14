@@ -80,7 +80,6 @@ plot(G)
 > - How can we represent weaker or stronger ties?
 
 
-## Questions from 3-2-1s
 
 ## Discussion Questions
 

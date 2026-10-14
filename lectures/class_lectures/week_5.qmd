@@ -17,6 +17,7 @@ source("resources/preamble.R")
 library(ggraph)
 library(tidygraph)
 library(igraph)
+library(tidyverse)
 ```
 
 ## Dad Joke
@@ -28,17 +29,10 @@ Brochure.
 </span>
 
 
-## Self Reflections and feedback
-
-> - Make sure to get them in
-> - Overall, things are going well
-> - Please give feedback on the Google Form
 
 ## Housekeeping
 
-> - Videos + readings on centrality and power
-> - How do we measure who is important and influential?
-> - AI assignment next week
+> - Self reflections next week
 > - Thursday
 >   - Ego network activity
 >   - More co-working time
@@ -54,11 +48,14 @@ Strategies when R code doesn't work:
 
 > - Simplify
 > - print()
-> - ChatGPT
-> - Google!
+> - AI
 > - Friends
 
 ## Homework Review
+
+## Review
+
+- What do you want to talk about today?
 
 ## Review
 
@@ -114,7 +111,55 @@ play_gnp(10, 0.15) |>
 - Ambition / social status
 </aside>
 
+## Class Friendship Quiz
+
+![Class Friendship Quiz](/lectures/class_lectures/images/class_friendship.png)
+
 ## Break Time
+
+## Friendship Network
+
+```{r, echo=F, message=F, warning=F}
+library(readr)
+
+sheet_id <- "1gK3a24a0fmOqgucUjo4cQ0vM7fJoVK0RVtGl2baYZqg"
+
+url <- paste0("https://docs.google.com/spreadsheets/d/", sheet_id, "/export?format=csv")
+
+df <- read_csv(url)
+
+edges <- df %>%
+  rename(from = `What is your name?`,
+         to = `Who in the class do you consider a friend?`) %>%
+  separate_rows(to, sep = ",\\s*") %>%
+  select(from, to) %>%
+  filter(from != to) %>%
+  distinct(from, to)
+
+
+G <- graph_from_data_frame(edges, directed = TRUE) |> as_tbl_graph()
+
+# Flag reciprocal edges (must be computed before collapsing dyads)
+is_reciprocal <- igraph::which_mutual(G)
+
+# Keep only one edge per dyad so mutual pairs aren't drawn twice
+plot_edges <- G |>
+  activate(edges) |>
+  mutate(reciprocal = ifelse(is_reciprocal, "Reciprocal", "Not Reciprocal")) |>
+  as_tibble() |>
+  mutate(pair_id = paste(pmin(from, to), pmax(from, to))) |>
+  distinct(pair_id, .keep_all = TRUE) |>
+  select(-pair_id)
+
+tbl_graph(nodes = as_tibble(activate(G, nodes)), edges = plot_edges, directed = TRUE) |>
+  ggraph() +
+  geom_edge_fan(aes(color = reciprocal)) +
+  geom_node_point(size = 5, color = '#33679bff') +
+  theme_graph() +
+  scale_edge_color_manual(values = c("Reciprocal" = "green", "Not Reciprocal" = "red")) +
+  labs(edge_color = "Friendship Type")
+```
+
 
 ## Review
 
@@ -130,10 +175,17 @@ play_gnp(10, 0.15) |>
 
 ## Discussion Questions
 
-> - What are the consequences of relying on self-reported network data when people may misunderstand who is actually part of their support network?
-> - Why might personal network sizes differ based on race?
-> - If dense and family-centered social networks are typically the foundation of most social networks, are social networks naturally structured to limit the spread of new ideas and social change?
+- What's the difference between an ego and a node?
+- When is it better to rely on a close-reciprocal friendship for change versus a buddy system, especially when it comes to serious issues. When does the trust/lower pressure of a close friendship outweigh the professionalism/forced accountability of a buddy system and vice versa?
 
+## Discussion Questions
+
+- If people do indeed have access to a much larger social network than the part they typically think about and/or use, what causes certain relationships to become "active", especially when someone is under stress or needs help?
+- Looking at your own relationships, is having structural holes in your network an advantage, something positive or negative?
+
+## Discussion Questions
+
+- In an anonymous online community users may be structurally embedded in a dense network without being personally identifiable outside of that setting. Would the same network structure still produce similar behavioral constraints, or does anonymity weaken the relationship between structural constraint and behavioral constraint?
 
 ## Summary
 

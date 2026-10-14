@@ -24,6 +24,7 @@ As a reminder, the class is set up as a flipped classroom. This means that you w
 | Mon, Nov 9 | [R Lab 7 – Groups in Networks](/assignments/r_lab_7_%E2%80%93_groups_in_networks.qmd) |
 | Mon, Nov 16 | [R Lab 8 – Network Stats](/assignments/r_lab_8_%E2%80%93_network_stats.qmd) |
 | Tue, Nov 24 | [Rough Draft of Final Project](/assignments/final_project/rough-draft.qmd) |
+| Tue, Dec 1 | In-Class Exam |
 | Mon, Nov 30 | Peer Feedback on Final Projects |
 | Tue–Thu, Dec 8–10 | Final Project Presentations |
 | Mon, Dec 7 | [Final Project](/assignments/final_project/Final-project.qmd) |

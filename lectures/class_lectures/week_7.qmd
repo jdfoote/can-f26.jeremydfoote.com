@@ -79,21 +79,20 @@ G |>
 
 ## Discussion Questions
 
-> - How can we measure the strength of ties?
-> - When are strong ties better for finding information?
-> - Do the different types of capital have to be self-reinforcing?
-> - Should outcomes like career success be understood as purely individual achievement, structural advantage, a combination of both, or something else entirely?
-> - Do online communities fulfill the same roles as bowling leagues, etc? How are they better and worse?
+> - How can we tell when a weak tie is actually providing valuable new information versus when it is simply a less meaningful connection?
+> - How has the rise of social media changed the way social capital is built compared with traditional face-to-face networks?
 
 ## Discussion Questions
 
-> - How does declining social capital weaken democracy?
-> - What does it mean that social capital does not function as a universal means of exchange?
-> - Have you ever had an interaction/relationship with somewhere where it was clear they were trying to be a "social climber", how did that interaction make you feel? What are some good examples and bad examples of how social climbing could happen?
-> - Are elite universities selling cultural capital or social capital?
-> - Is a community people who agree with each other or people who need each other?
+> - Granovetter states that stronger ties mean more time commitment, but I feel like some people I don't spend a lot of time with, I have stronger relationships than some of the people I do spend a lot time with. How does this work?
+> - Do you think that people who are well connected with other well connected people are the exception of the argument that weak ties = greater opportunities?
+
+## Discussion Questions
+
+> - If weak ties are so important for opportunities, but disadvantaged groups have less access to valuable networks, what could schools, workplaces, or communities do to help people build ties across different social groups? 
+> - If people are becoming less involved in traditional community organizations, could online communities eventually provide the same type of social capital, trust, and connection that Putnam argues has declined?
+> - Do more people on average build connections for opportunities, or build connections for social reasons and happen to find opportunities? 
 
 ## Summary
 
-## R Review
 

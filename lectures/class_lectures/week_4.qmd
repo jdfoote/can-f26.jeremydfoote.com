@@ -8,6 +8,7 @@ format:
     progress: true
     transition: convex
     reveal_plugins: ['notes']
+    incremental: true
 ---
 
 
@@ -29,19 +30,16 @@ My neighbor had the nerve to ring my doorbell at 3 o'clock in the morning.
 Luckily I was still up playing the drums.
 </span>
 
-## Housekeeping
-
-> - Practice asking a question on Discord
 
 ## Housekeeping
 
-> - Self Assessment Reflections
-> 	- Goals for the class
-> 	- Feedback for me
-> - I will also
-> 	- Review the report on participation
-> 	- Review your HW
-> 	- Review your 3-2-1s
+- Self Assessment Reflections coming up
+	- Goals for the class
+	- Feedback for me
+- I will also
+	- Review the report on participation
+	- Review your HW
+	- Review your 3-2-1s
 
 ## Homework review
 
@@ -51,40 +49,38 @@ Luckily I was still up playing the drums.
 
 ## Review Questions
 
-> - What is centralization?
-> - When is a centralized network better?
-> - What does "embedded" mean in the context of a network?
-> - What is "transactive memory"?
+- What is centralization?
+- When is a centralized network better?
+- What does "embedded" mean in the context of a network?
+- What is "transactive memory"?
 
 ## Review Questions
 
-> - According to the Informal Networks article, why is it important to identify different kinds of networks?
-> - What sorts of information can be learned from an advice network?
->	- A trust network?
-> - Have you thought about the groups that you are in from a network perspective? What insights have you had?
+- According to the Informal Networks article, why is it important to identify different kinds of networks?
+- What sorts of information can be learned from an advice network?
+	- A trust network?
+- Have you thought about the groups that you are in from a network perspective? What insights have you had?
 
 ## Technology break!
 
 ## Review Questions
 
-> - What is network hierarchy? How does it differ from organizational hierarchy?
-> - What is a core-periphery structure?
-> - What is a structural hole?
-> - What is multiplexity?
+- What is network hierarchy? How does it differ from organizational hierarchy?
+- What is a core-periphery structure?
+- What is a structural hole?
+- What is multiplexity?
 
 ## Discussion Questions
 
-> - How can there be too much information in a network?
-> - In a world where many interactions are remote, often through platforms like Microsoft Teams, Slack, and X, does physical distance still matter, and if not, what is the number 1 indicator of a tie forming in social networks? 
-> - How do organizations map informal networks without making people feel monitored or punished for being "too central" or "not connected enough"? What safeguards keep network analysis from turning into performance surveillance? 
+- Can network analysis predict what new structure will emerge after a key actor enters or exits, rather than only describing the structural change after it has already occurred?
+- Why do people seek more important information out of a weaker tie when they trust the stronger tie more? How do they know that the weaker tie is telling the truth?
+- How can an organization intentionally improve its informal network without making the relationships feel forced or artificial? 
 
 ## Discussion Questions
 
-> - How can managers or researchers measure networks in real time to avoid relying only on static snapshots?
-> - What are the downsides of relying on informal networks to make decisions?
-> - Which direction does causality go?
-> - Are all relationships formed due to selfishness? It seems like every relationship is transactional in one way or another. 
-> - How useful are networks really? 
+- How do researchers determine whether a certain network structure actually caused a group to perform better, rather than the group performing well first and developing a stronger network afterward? 
+- What is one positive experience you've had where you felt like you could reach goals better in a decentralized network?
+- Thinking about a group project or team you've been part of, was the person who was actually "in charge" on paper the same person that everyone went to for help or advice? If not, what made the other person more central even without the title of being in charge?
 
 ## Thursday
 

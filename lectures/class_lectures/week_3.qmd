@@ -37,7 +37,13 @@ One astronaut says to another, "I can’t find any milk for my coffee"
 >   - How did reading these articles go?
 >   - Using AI to help
 >   - How to read academic articles
-> - Tech use discussion
+
+## Homework review
+
+> - Installing packages vs. loading libraries
+> - .qmd files
+> - Opening folders and trusting projects
+> - R terminal vs. system terminal
 
 ## Flash presentations
 
@@ -86,16 +92,14 @@ One astronaut says to another, "I can’t find any milk for my coffee"
 
 ## Discussion Questions
 
-> - When is homophily beneficial?
-> - What are strategies to increase diversity in networks?
-> - Are there exceptions to balance theory and transitivity?
+> - How can we distinguish structural prominence from meaningful social influence, and what kinds of contextual information would we need beyond the number and pattern of ties?
+> - How can we tell whether people become similar because they influence each other, or whether they became friends because they were already similar in the first place? 
+> - Why do some traits produce stronger homophily than others?
 
-## Homework review
+## Discussion Questions
 
-> - Installing packages vs. loading libraries
-> - .qmd files
-> - Opening folders and trusting projects
-> - R terminal vs. system terminal
+> - How can we create connections between those in different clusters and expose ourselves and/or our clusters to very different types of people and ideas? 
+
 
 ## Thursday
 
