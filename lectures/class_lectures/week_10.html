@@ -338,6 +338,45 @@
 <p>Interviewer: “Where do you see yourself in 5 years?”</p>
 <p><span class="fragment"> Me: “Listening. I would say listening is my biggest weakness.” </span></p>
 </section>
+<section id="network-of-the-day" class="slide level2">
+<h2>Network of the Day</h2>
+<div class="cell">
+<div class="cell-output-display">
+<div>
+<figure>
+<p><img data-src="week_10_files/figure-html/unnamed-chunk-1-1.png" width="672"></p>
+</figure>
+</div>
+</div>
+</div>
+
+<aside><div>
+<p>What is spreading through this network? Where did it start?</p>
+</div></aside></section>
+<section id="network-of-the-day-revealed" class="slide level2 smaller">
+<h2>Network of the Day: Revealed</h2>
+<div class="columns">
+<div class="column" style="width:55%;">
+<div class="cell">
+<div class="cell-output-display">
+<div>
+<figure>
+<p><img data-src="week_10_files/figure-html/unnamed-chunk-2-1.png" width="672"></p>
+</figure>
+</div>
+</div>
+</div>
+</div><div class="column" style="width:45%;">
+<p><strong>A simple contagion cascade</strong></p>
+<ul>
+<li>Each node infects all its neighbors in the next step</li>
+<li>Starting from <strong>one node</strong> (patient zero), the contagion reaches the whole network in just 4 steps</li>
+<li>Network structure shapes speed and reach: a hub-heavy network spreads faster; a sparse one can contain spread</li>
+<li>Connection to this week: Why does the <em>structure</em> of the network matter for diffusion?</li>
+</ul>
+</div>
+</div>
+</section>
 <section id="housekeeping" class="slide level2">
 <h2>Housekeeping</h2>
 <ul>
@@ -419,7 +458,7 @@
 <div class="cell-output-display">
 <div>
 <figure>
-<p><img data-src="week_10_files/figure-revealjs/unnamed-chunk-1-1.png" width="960"></p>
+<p><img data-src="week_10_files/figure-html/unnamed-chunk-3-1.png" width="672"></p>
 </figure>
 </div>
 </div>
@@ -430,7 +469,7 @@
 <div class="cell-output-display">
 <div>
 <figure>
-<p><img data-src="week_10_files/figure-revealjs/unnamed-chunk-2-1.png" width="960"></p>
+<p><img data-src="week_10_files/figure-html/unnamed-chunk-4-1.png" width="672"></p>
 </figure>
 </div>
 </div>
@@ -446,7 +485,7 @@
 <div class="cell-output-display">
 <div>
 <figure>
-<p><img data-src="week_10_files/figure-revealjs/unnamed-chunk-3-1.png" width="960"></p>
+<p><img data-src="week_10_files/figure-html/unnamed-chunk-5-1.png" width="672"></p>
 </figure>
 </div>
 </div>
@@ -457,7 +496,7 @@
 <div class="cell-output-display">
 <div>
 <figure>
-<p><img data-src="week_10_files/figure-revealjs/unnamed-chunk-4-1.png" width="960"></p>
+<p><img data-src="week_10_files/figure-html/unnamed-chunk-6-1.png" width="672"></p>
 </figure>
 </div>
 </div>
@@ -730,44 +769,6 @@
         ]
       });
     </script>
-    
-    <script>
-      // htmlwidgets need to know to resize themselves when slides are shown/hidden.
-      // Fire the "slideenter" event (handled by htmlwidgets.js) when the current
-      // slide changes (different for each slide format).
-      (function () {
-        // dispatch for htmlwidgets
-        function fireSlideEnter() {
-          const event = window.document.createEvent("Event");
-          event.initEvent("slideenter", true, true);
-          window.document.dispatchEvent(event);
-        }
-
-        function fireSlideChanged(previousSlide, currentSlide) {
-          fireSlideEnter();
-
-          // dispatch for shiny
-          if (window.jQuery) {
-            if (previousSlide) {
-              window.jQuery(previousSlide).trigger("hidden");
-            }
-            if (currentSlide) {
-              window.jQuery(currentSlide).trigger("shown");
-            }
-          }
-        }
-
-        // hookup for slidy
-        if (window.w3c_slidy) {
-          window.w3c_slidy.add_observer(function (slide_num) {
-            // slide_num starts at position 1
-            fireSlideChanged(null, w3c_slidy.slides[slide_num - 1]);
-          });
-        }
-
-      })();
-    </script>
-
     <script id="quarto-html-after-body" type="application/javascript">
     window.document.addEventListener("DOMContentLoaded", function (event) {
       const toggleBodyColorMode = (bsSheetEl) => {

@@ -418,7 +418,7 @@ I had to put my foot down.
 
 G |&gt;
   activate(nodes) |&gt;
-  filter(age &gt; 25)
+  filter(age 25)
 ```
 
 </pre>
@@ -426,18 +426,18 @@ G |&gt;
 </div>
 <!--
 ## Housekeeping
-> - How did the AI assignment go?
->   - What was it good at?
->   - What was it bad at?
-> - How do you think AI will be incorporated into teaching in the future?
+- How did the AI assignment go?
+  - What was it good at?
+  - What was it bad at?
+- How do you think AI will be incorporated into teaching in the future?
 
 
 ## Collective Norms Discussion
 
-> - I think our in-person conversations could be better
-> - Too many tech distractions
-> - Coming prepared
-> - How to have more natural conversations?
+- I think our in-person conversations could be better
+- Too many tech distractions
+- Coming prepared
+- How to have more natural conversations?
 -->
 </section>
 <section id="concept-review" class="slide level2">
@@ -459,9 +459,9 @@ G |&gt;
 <!--
 ## Concept Review
 
-> - What is betweenness centrality?
-> - What is closeness centrality?
-> - What is eigenvector centrality?
+- What is betweenness centrality?
+- What is closeness centrality?
+- What is eigenvector centrality?
 -->
 </section>
 <section id="concept-review-1" class="slide level2">
@@ -495,37 +495,112 @@ G |&gt;
 # Node Data: 1 × 4 (active)
   name  degree closeness betweenness
   &lt;chr&gt;  &lt;dbl&gt;     &lt;dbl&gt;       &lt;dbl&gt;
-1 A          2     0.125           0
+1 A          1     0.111           0
 #
 # Edge Data: 0 × 2
 # ℹ 2 variables: from &lt;int&gt;, to &lt;int&gt;</code></pre>
 </div>
 </div>
 </section>
-<section id="discussion-questions" class="slide level2">
+<section id="tech-break" class="slide level2">
+<h2>Tech Break</h2>
+</section>
+<section id="discussion-questions" class="slide level2 smaller">
 <h2>Discussion Questions</h2>
 <ul>
-<li class="fragment">Could someone have high network / degree centrality but low actual power/influence?
-<ul>
-<li class="fragment">Are there situations where degree centrality is negatively associated with power/influence?</li>
-</ul></li>
-<li class="fragment">Are follower counts less meaningful than they used to be, due to individualized algorithms?</li>
-<li class="fragment">What aspects of power do network measures miss?</li>
-<li class="fragment">Does network position cause influence, or vice versa?</li>
-<li class="fragment">Bonacich point about being connected to non-influential people can make you more influential</li>
+<li class="fragment">In real networks different people are at different levels and I’m curious how that would be graphed. For example a manager or boss, even if they have a lower degree or centrality, still is at a higher level. How is that represented in a network graph?</li>
+<li class="fragment">Can someone who has high centrality within a network end up having little influence over those people within that network?</li>
+<li class="fragment">The same method that “caught” Revere would flag an activist or a criminal just the same so should police be allowed to use high centrality in metadata as a reason to investigate someone?</li>
 </ul>
 </section>
 <section id="discussion-questions-1" class="slide level2">
 <h2>Discussion Questions</h2>
 <ul>
-<li class="fragment">How do network structures reflect political systems?</li>
-<li class="fragment">How can we visualize centrality?</li>
-<li class="fragment">How do these approaches scale to huge networks?</li>
-<li class="fragment">How are centrality measures impacted by missing data?</li>
+<li class="fragment">How can we know which type of centrality is most useful for a specific situation? How do researchers actually decide which measure to use when analyzing a real social network?</li>
+<li class="fragment">How can researchers tell if a pattern in network data is actually meaningful or just coincidence?</li>
+<li class="fragment">I’d like to understand the characteristics that brokers, or controllers of relationships have? And how do they get ‘picked’ for this role?</li>
+<li class="fragment">What do you think has the biggest influence on each other, groups on individuals, or individuals on groups?</li>
 </ul>
 </section>
 <section id="r-review" class="slide level2">
 <h2>R Review</h2>
+</section>
+<section id="guess-the-network" class="slide level2">
+<h2>Guess the Network</h2>
+<p>For each network:</p>
+<div>
+<ul>
+<li>What do the <strong>nodes</strong> represent?</li>
+<li>What do the <strong>edges</strong> represent?</li>
+<li>Which nodes seem most <strong>central</strong> or <strong>powerful</strong>? Why?</li>
+</ul>
+</div>
+</section>
+<section id="mystery-network-1" class="slide level2">
+<h2>Mystery Network 1</h2>
+<p><img data-src="https://mauromartino.com/projects/Rise_of_Partisanship/img/Cover_black_hr.jpg" height="550"></p>
+</section>
+<section id="mystery-network-1-revealed" class="slide level2 smaller">
+<h2>Mystery Network 1: Revealed</h2>
+<div class="columns">
+<div class="column" style="width:60%;">
+<p><img data-src="https://mauromartino.com/projects/Rise_of_Partisanship/img/Cover_black_hr.jpg" height="430"></p>
+</div><div class="column" style="width:40%;">
+<p><strong>U.S. House of Representatives, 1949–2011</strong></p>
+<ul>
+<li class="fragment"><strong>Nodes:</strong> Members of Congress</li>
+<li class="fragment"><strong>Edges:</strong> Voting agreement above a threshold</li>
+<li class="fragment">Colors: Blue = Democrat, Red = Republican</li>
+<li class="fragment">What structural change do you see over time?</li>
+<li class="fragment">The nodes <em>between</em> clusters have high <strong>betweenness</strong> — what happens as they disappear?</li>
+</ul>
+<p><em>Source: <a href="https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0123507">Andris et al., 2015</a></em></p>
+</div>
+</div>
+</section>
+<section id="mystery-network-2" class="slide level2">
+<h2>Mystery Network 2</h2>
+<p><img data-src="https://evelinag.com/blog/2016/01-25-social-network-force-awakens/episode7_network.png" height="550"></p>
+</section>
+<section id="mystery-network-2-revealed" class="slide level2 smaller">
+<h2>Mystery Network 2: Revealed</h2>
+<div class="columns">
+<div class="column" style="width:55%;">
+<p><img data-src="https://evelinag.com/blog/2016/01-25-social-network-force-awakens/episode7_network.png" height="430"></p>
+</div><div class="column" style="width:45%;">
+<p><strong>Characters in <em>The Force Awakens</em></strong></p>
+<ul>
+<li class="fragment"><strong>Nodes:</strong> Characters; size = degree centrality</li>
+<li class="fragment"><strong>Edges:</strong> Scene co-occurrences; width = frequency</li>
+<li class="fragment">Highest <strong>degree</strong>: Poe (16)</li>
+<li class="fragment">Highest <strong>betweenness</strong>: Kylo Ren (35.5)</li>
+<li class="fragment">Luke appears isolated — why might that matter for power?</li>
+</ul>
+<p><em>Source: <a href="https://evelinag.com/blog/2016/01-25-social-network-force-awakens/">Gabasova, 2016</a></em></p>
+</div>
+</div>
+</section>
+<section id="mystery-network-3" class="slide level2">
+<h2>Mystery Network 3</h2>
+<p><img data-src="images/animal_sci.png" height="550"></p>
+</section>
+<section id="mystery-network-3-revealed" class="slide level2 smaller">
+<h2>Mystery Network 3: Revealed</h2>
+<div class="columns">
+<div class="column" style="width:55%;">
+<p><img data-src="images/animal_sci.png" height="550"></p>
+</div><div class="column" style="width:45%;">
+<p><strong>U.S. Faculty Hiring Network</strong></p>
+<ul>
+<li class="fragment"><strong>Nodes:</strong> Universities</li>
+<li class="fragment"><strong>Edges:</strong> A hire — directed from PhD-granting institution to hiring institution</li>
+<li class="fragment"><strong>Red edges:</strong> Prestige gain (hired somewhere more prestigious); <strong>Blue:</strong> prestige loss</li>
+<li class="fragment">80% of all US-trained faculty came from just 20.4% of universities</li>
+<li class="fragment">What centrality measure best captures “prestige” here? (Eigenvector / PageRank)</li>
+</ul>
+<p><em>Source: <a href="https://www.nature.com/articles/s41586-022-05222-x">Wapman et al., 2022, <em>Nature</em></a></em></p>
+</div>
+</div>
 
 <div class="quarto-auto-generated-content">
 <div class="footer footer-default">

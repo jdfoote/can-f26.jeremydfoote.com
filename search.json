@@ -887,7 +887,7 @@
     "href": "lectures/class_lectures/week_8.html#housekeeping",
     "title": "Weak Ties and Small Worlds",
     "section": "Housekeeping",
-    "text": "Housekeeping\n\nSorry for the schedule confusion!\nFinal project idea due next week\nSocial Search assignment due March 23\n\nTry to find someone with driver’s license from HI\nNo group texts\nDiagram search network\nInstructions on website"
+    "text": "Housekeeping\n\nSARs\n\nI’m working on them!\n\nFinal project idea due next week\nSocial Search assignment due October 26\n\nTry to find someone with driver’s license from HI\nDiagram search network\nInstructions on website\n\nLab 5 - turn in; less in-class lab work now"
   },
   {
     "objectID": "lectures/class_lectures/week_8.html#also-upcoming",
@@ -915,7 +915,7 @@
     "href": "lectures/class_lectures/week_8.html#review-questions-1",
     "title": "Weak Ties and Small Worlds",
     "section": "Review Questions",
-    "text": "Review Questions\n\nWhat was the Travers and Milgram experiment?\nHow can we have such high triadic closure but still have short path lengths? What was the key insight from Watts and Strogatz?\nWhat does this have to do with Granovetter (weak ties)?\nWhat is similar to “random rewiring” in real life?"
+    "text": "Review Questions\n\nWhat was the Travers and Milgram experiment?\nHow can we have such high triadic closure but still have short path lengths? What was the key insight from Watts and Strogatz?\nWhat does this have to do with Granovetter (weak ties)?\nWhat is similar to “random rewiring” in real life?\nHow does network connectivity differ from network searchability?"
   },
   {
     "objectID": "lectures/class_lectures/week_8.html#break",
@@ -925,25 +925,11 @@
     "text": "Break!"
   },
   {
-    "objectID": "lectures/class_lectures/week_8.html#discussion-questions",
-    "href": "lectures/class_lectures/week_8.html#discussion-questions",
+    "objectID": "lectures/class_lectures/week_8.html#six-degrees-of-wikipedia-activity",
+    "href": "lectures/class_lectures/week_8.html#six-degrees-of-wikipedia-activity",
     "title": "Weak Ties and Small Worlds",
-    "section": "Discussion Questions",
-    "text": "Discussion Questions\n\nWhat are some of your best “small world” moments and what were the connections?\nIs the small world smaller now?\nTo what extent do psychological factors (motivation, uncertainty, etc.), shape social chains?\nHow does homophily affect the small world phenomenon?"
-  },
-  {
-    "objectID": "lectures/class_lectures/week_8.html#discussion-questions-1",
-    "href": "lectures/class_lectures/week_8.html#discussion-questions-1",
-    "title": "Weak Ties and Small Worlds",
-    "section": "Discussion Questions",
-    "text": "Discussion Questions\n\nIf the network shapes who you meet, who you marry, what jobs you get, what ideas you’re exposed to, how much of who you are was actually chosen vs. just a product of your position in a network?\nTravers and Milgram found evidence of “funneling” through certain individuals, while Dodds suggests hubs are less important. Is this difference due to scale (U.S. based vs global), technology, (mail vs. email), or changes in network structures over time?"
-  },
-  {
-    "objectID": "lectures/class_lectures/week_8.html#r-co-working-time",
-    "href": "lectures/class_lectures/week_8.html#r-co-working-time",
-    "title": "Weak Ties and Small Worlds",
-    "section": "R Co-working time",
-    "text": "R Co-working time"
+    "section": "Six Degrees of Wikipedia Activity",
+    "text": "Six Degrees of Wikipedia Activity"
   },
   {
     "objectID": "lectures/class_lectures/week_6.html#dad-joke",
@@ -957,7 +943,7 @@
     "href": "lectures/class_lectures/week_6.html#housekeeping",
     "title": "Week 6 - Centrality and Centralization",
     "section": "Housekeeping",
-    "text": "Housekeeping\n\nSelf Assessment Reflection Feedback is in\nPosting homework questions on Discord:\n\n\n\n```r\n\nG |&gt;\n  activate(nodes) |&gt;\n  filter(age &gt; 25)\n```"
+    "text": "Housekeeping\n\nSelf Assessment Reflection Feedback is in\nPosting homework questions on Discord:\n\n\n\n```r\n\nG |&gt;\n  activate(nodes) |&gt;\n  filter(age 25)\n```"
   },
   {
     "objectID": "lectures/class_lectures/week_6.html#concept-review",
@@ -992,21 +978,28 @@
     "href": "lectures/class_lectures/week_6.html#practical-review-1",
     "title": "Week 6 - Centrality and Centralization",
     "section": "Practical Review",
-    "text": "Practical Review\nWhat is the degree/closeness/betweenness centrality of node A?\n\nG |&gt;\n  mutate(degree = centrality_degree(),\n         closeness = centrality_closeness(),\n         betweenness = centrality_betweenness()) |&gt;\n  filter(name == \"A\")\n\n# A tbl_graph: 1 nodes and 0 edges\n#\n# An unrooted tree\n#\n# Node Data: 1 × 4 (active)\n  name  degree closeness betweenness\n  &lt;chr&gt;  &lt;dbl&gt;     &lt;dbl&gt;       &lt;dbl&gt;\n1 A          2     0.125           0\n#\n# Edge Data: 0 × 2\n# ℹ 2 variables: from &lt;int&gt;, to &lt;int&gt;"
+    "text": "Practical Review\nWhat is the degree/closeness/betweenness centrality of node A?\n\nG |&gt;\n  mutate(degree = centrality_degree(),\n         closeness = centrality_closeness(),\n         betweenness = centrality_betweenness()) |&gt;\n  filter(name == \"A\")\n\n# A tbl_graph: 1 nodes and 0 edges\n#\n# An unrooted tree\n#\n# Node Data: 1 × 4 (active)\n  name  degree closeness betweenness\n  &lt;chr&gt;  &lt;dbl&gt;     &lt;dbl&gt;       &lt;dbl&gt;\n1 A          1     0.111           0\n#\n# Edge Data: 0 × 2\n# ℹ 2 variables: from &lt;int&gt;, to &lt;int&gt;"
+  },
+  {
+    "objectID": "lectures/class_lectures/week_6.html#tech-break",
+    "href": "lectures/class_lectures/week_6.html#tech-break",
+    "title": "Week 6 - Centrality and Centralization",
+    "section": "Tech Break",
+    "text": "Tech Break"
   },
   {
     "objectID": "lectures/class_lectures/week_6.html#discussion-questions",
     "href": "lectures/class_lectures/week_6.html#discussion-questions",
     "title": "Week 6 - Centrality and Centralization",
     "section": "Discussion Questions",
-    "text": "Discussion Questions\n\nCould someone have high network / degree centrality but low actual power/influence?\n\nAre there situations where degree centrality is negatively associated with power/influence?\n\nAre follower counts less meaningful than they used to be, due to individualized algorithms?\nWhat aspects of power do network measures miss?\nDoes network position cause influence, or vice versa?\nBonacich point about being connected to non-influential people can make you more influential"
+    "text": "Discussion Questions\n\nIn real networks different people are at different levels and I’m curious how that would be graphed. For example a manager or boss, even if they have a lower degree or centrality, still is at a higher level. How is that represented in a network graph?\nCan someone who has high centrality within a network end up having little influence over those people within that network?\nThe same method that “caught” Revere would flag an activist or a criminal just the same so should police be allowed to use high centrality in metadata as a reason to investigate someone?"
   },
   {
     "objectID": "lectures/class_lectures/week_6.html#discussion-questions-1",
     "href": "lectures/class_lectures/week_6.html#discussion-questions-1",
     "title": "Week 6 - Centrality and Centralization",
     "section": "Discussion Questions",
-    "text": "Discussion Questions\n\nHow do network structures reflect political systems?\nHow can we visualize centrality?\nHow do these approaches scale to huge networks?\nHow are centrality measures impacted by missing data?"
+    "text": "Discussion Questions\n\nHow can we know which type of centrality is most useful for a specific situation? How do researchers actually decide which measure to use when analyzing a real social network?\nHow can researchers tell if a pattern in network data is actually meaningful or just coincidence?\nI’d like to understand the characteristics that brokers, or controllers of relationships have? And how do they get ‘picked’ for this role?\nWhat do you think has the biggest influence on each other, groups on individuals, or individuals on groups?"
   },
   {
     "objectID": "lectures/class_lectures/week_6.html#r-review",
@@ -1014,6 +1007,55 @@
     "title": "Week 6 - Centrality and Centralization",
     "section": "R Review",
     "text": "R Review"
+  },
+  {
+    "objectID": "lectures/class_lectures/week_6.html#guess-the-network",
+    "href": "lectures/class_lectures/week_6.html#guess-the-network",
+    "title": "Week 6 - Centrality and Centralization",
+    "section": "Guess the Network",
+    "text": "Guess the Network\nFor each network:\n\n\nWhat do the nodes represent?\nWhat do the edges represent?\nWhich nodes seem most central or powerful? Why?"
+  },
+  {
+    "objectID": "lectures/class_lectures/week_6.html#mystery-network-1",
+    "href": "lectures/class_lectures/week_6.html#mystery-network-1",
+    "title": "Week 6 - Centrality and Centralization",
+    "section": "Mystery Network 1",
+    "text": "Mystery Network 1"
+  },
+  {
+    "objectID": "lectures/class_lectures/week_6.html#mystery-network-1-revealed",
+    "href": "lectures/class_lectures/week_6.html#mystery-network-1-revealed",
+    "title": "Week 6 - Centrality and Centralization",
+    "section": "Mystery Network 1: Revealed",
+    "text": "Mystery Network 1: Revealed\n\n\n\n\nU.S. House of Representatives, 1949–2011\n\nNodes: Members of Congress\nEdges: Voting agreement above a threshold\nColors: Blue = Democrat, Red = Republican\nWhat structural change do you see over time?\nThe nodes between clusters have high betweenness — what happens as they disappear?\n\nSource: Andris et al., 2015"
+  },
+  {
+    "objectID": "lectures/class_lectures/week_6.html#mystery-network-2",
+    "href": "lectures/class_lectures/week_6.html#mystery-network-2",
+    "title": "Week 6 - Centrality and Centralization",
+    "section": "Mystery Network 2",
+    "text": "Mystery Network 2"
+  },
+  {
+    "objectID": "lectures/class_lectures/week_6.html#mystery-network-2-revealed",
+    "href": "lectures/class_lectures/week_6.html#mystery-network-2-revealed",
+    "title": "Week 6 - Centrality and Centralization",
+    "section": "Mystery Network 2: Revealed",
+    "text": "Mystery Network 2: Revealed\n\n\n\n\nCharacters in The Force Awakens\n\nNodes: Characters; size = degree centrality\nEdges: Scene co-occurrences; width = frequency\nHighest degree: Poe (16)\nHighest betweenness: Kylo Ren (35.5)\nLuke appears isolated — why might that matter for power?\n\nSource: Gabasova, 2016"
+  },
+  {
+    "objectID": "lectures/class_lectures/week_6.html#mystery-network-3",
+    "href": "lectures/class_lectures/week_6.html#mystery-network-3",
+    "title": "Week 6 - Centrality and Centralization",
+    "section": "Mystery Network 3",
+    "text": "Mystery Network 3"
+  },
+  {
+    "objectID": "lectures/class_lectures/week_6.html#mystery-network-3-revealed",
+    "href": "lectures/class_lectures/week_6.html#mystery-network-3-revealed",
+    "title": "Week 6 - Centrality and Centralization",
+    "section": "Mystery Network 3: Revealed",
+    "text": "Mystery Network 3: Revealed\n\n\n\n\nU.S. Faculty Hiring Network\n\nNodes: Universities\nEdges: A hire — directed from PhD-granting institution to hiring institution\nRed edges: Prestige gain (hired somewhere more prestigious); Blue: prestige loss\n80% of all US-trained faculty came from just 20.4% of universities\nWhat centrality measure best captures “prestige” here? (Eigenvector / PageRank)\n\nSource: Wapman et al., 2022, Nature"
   },
   {
     "objectID": "lectures/class_lectures/week_4.html#todays-dad-joke",
@@ -1191,6 +1233,20 @@
     "text": "Today’s Dad Joke\nHow can you identify a dogwood tree?\n\nBy its bark"
   },
   {
+    "objectID": "lectures/class_lectures/week_15.html#network-of-the-day",
+    "href": "lectures/class_lectures/week_15.html#network-of-the-day",
+    "title": "Networks and Inequality",
+    "section": "Network of the Day",
+    "text": "Network of the Day\n\n\n\n\n\n\n\n\n\n\n\n34 people. Two leaders. What happened to this group?"
+  },
+  {
+    "objectID": "lectures/class_lectures/week_15.html#network-of-the-day-revealed",
+    "href": "lectures/class_lectures/week_15.html#network-of-the-day-revealed",
+    "title": "Networks and Inequality",
+    "section": "Network of the Day: Revealed",
+    "text": "Network of the Day: Revealed\n\n\n\n\n\n\n\n\n\n\n\n\nZachary’s Karate Club (1977)\n\n34 members of a university karate club\nA dispute between the instructor (node 1) and the club president (node 34) split the club in two\nNetwork analysis predicted the split almost perfectly from the pre-split tie structure\nOne of the most-studied networks in history — a benchmark for community detection algorithms\n\nThe fault line ran right through the network’s structural holes."
+  },
+  {
     "objectID": "lectures/class_lectures/week_15.html#housekeeping",
     "href": "lectures/class_lectures/week_15.html#housekeeping",
     "title": "Networks and Inequality",
@@ -1240,6 +1296,20 @@
     "text": "Dad Joke\nWhy did the man get fired from the calendar factory?\n\nHe took too many days off!"
   },
   {
+    "objectID": "lectures/class_lectures/week_13.html#network-of-the-day",
+    "href": "lectures/class_lectures/week_13.html#network-of-the-day",
+    "title": "Week 13 - Networks and Technology",
+    "section": "Network of the Day",
+    "text": "Network of the Day\n\n\n\n\n\n\nNote\n\n\nAdd image here: the penguin social network from Sumida Aquarium, Tokyo. Search “Sumida Aquarium penguin network” — figures are widely reproduced in news coverage of the study.\n\n\n\n\n\nNodes are penguins and zookeepers. Edges are observed social interactions. What do you notice about the structure?"
+  },
+  {
+    "objectID": "lectures/class_lectures/week_13.html#network-of-the-day-revealed",
+    "href": "lectures/class_lectures/week_13.html#network-of-the-day-revealed",
+    "title": "Week 13 - Networks and Technology",
+    "section": "Network of the Day: Revealed",
+    "text": "Network of the Day: Revealed\nPenguin social network — Sumida Aquarium, Tokyo\n\nNodes: Humboldt penguins + their zookeepers\nEdges: Observed affiliative interactions (grooming, proximity, play)\nBuilt using GPS tracking and behavioral observation — technology made this network visible\nZookeepers occupy central bridge positions between otherwise separate penguin social clusters\n\nConnection to this week: technology reshapes what networks we can see — and who has power within them."
+  },
+  {
     "objectID": "lectures/class_lectures/week_13.html#housekeeping",
     "href": "lectures/class_lectures/week_13.html#housekeeping",
     "title": "Week 13 - Networks and Technology",
@@ -1287,6 +1357,20 @@
     "title": "Week 11 - Communities in Networks",
     "section": "Dad Joke",
     "text": "Dad Joke\nThe guy who stole my diary died yesterday.\n My thoughts are with his family."
+  },
+  {
+    "objectID": "lectures/class_lectures/week_11.html#network-of-the-day",
+    "href": "lectures/class_lectures/week_11.html#network-of-the-day",
+    "title": "Week 11 - Communities in Networks",
+    "section": "Network of the Day",
+    "text": "Network of the Day\n\n\n\nWhat are the nodes? What are the edges? What explains the differences?"
+  },
+  {
+    "objectID": "lectures/class_lectures/week_11.html#network-of-the-day-revealed",
+    "href": "lectures/class_lectures/week_11.html#network-of-the-day-revealed",
+    "title": "Week 11 - Communities in Networks",
+    "section": "Network of the Day: Revealed",
+    "text": "Network of the Day: Revealed\n\n\n\n\nOne square mile of urban street networks\n\nNodes: Intersections; Edges: Street segments\nNew York: Planned grid — uniform, interchangeable blocks\nParis: Radial from center — one giant hub (Arc de Triomphe)\nTunis: Organic/medieval medina — densely clustered, no clear structure\nAtlanta: Car-dependent sprawl — low density, highway dominance\n\nNetwork structure reflects history. How does each structure affect community formation?\nSource: Boeing, 2017"
   },
   {
     "objectID": "lectures/class_lectures/week_11.html#housekeeping",
@@ -2122,7 +2206,7 @@
     "href": "activities/who_dunnit/whodunnit.html#the-network",
     "title": "Whodunnit Activity",
     "section": "The network",
-    "text": "The network\n\n\n\n\n\n\nid\nneighbors\n\n\n\n\n1\n2, 4, 6, 13\n\n\n2\n1, 4, 5, 7, 17\n\n\n3\n9\n\n\n4\n1, 2, 5, 6, 7, 8\n\n\n5\n2, 4, 7\n\n\n6\n1, 4, 8\n\n\n7\n2, 4, 5, 8\n\n\n8\n4, 6, 7, 9\n\n\n9\n3, 8, 10\n\n\n10\n9, 11, 12, 14, 16\n\n\n11\n10, 12, 15, 18\n\n\n12\n10, 11, 14\n\n\n13\n1\n\n\n14\n10, 12\n\n\n15\n11\n\n\n16\n10\n\n\n17\n2\n\n\n18\n11"
+    "text": "The network\n\n\n\n\n\n\nid\nneighbors\n\n\n\n\n1\n2, 4, 6\n\n\n2\n1, 4, 5, 7\n\n\n3\n9\n\n\n4\n1, 2, 5, 6, 7, 8\n\n\n5\n2, 4, 7\n\n\n6\n1, 4, 8\n\n\n7\n2, 4, 5, 8\n\n\n8\n4, 6, 7, 9\n\n\n9\n3, 8, 10\n\n\n10\n9, 11\n\n\n11\n10"
   },
   {
     "objectID": "activities/who_dunnit/whodunnit.html#rules",
@@ -2217,7 +2301,7 @@
     "href": "assignments/Six-Degrees-of-Wikipedia-Activity.html",
     "title": "Six Degrees of Wikipedia Activity",
     "section": "",
-    "text": "So far we have read about how social networks often have short average path lengths, and we are all much closer than we might assume. To an even greater extent than human networks, online networks display small world properties, in that there is high clustering but also short average path lengths. In this assignment, you will explore the network of links between Wikipedia pages.\nFor this assignment you will look for those short paths in the links between entries in Wikipedia. For example, imagine trying to get from the page of Purdue University to the page Brigham Young University (my alma mater) moving only through links on Wikipedia. That is pretty straight forward. One path is:\n Purdue University → NCAA → West Coast Conference → Brigham Young University\nThis path has 3 links. In general, there may be many paths, but always try to find the shortest. Finding a path between two universities is pretty easy. Sometimes things are harder and you make wrong turns. For example, if you tried to go from West Lafayette, Indiana to Abraham Lincoln you might go:\n West Lafayette, Indiana → Purdue University → West Lafayette, Indiana → Indiana → Illinois → Abraham Lincoln\nNote that you can go backwards in your search, as above. This path had 5 links.\nPlease describe the paths that you find for the following pairs (and keep track of wrong turns).\n\nPurdue University → Kevin Bacon\nKevin Bacon → Purdue University\nPurdue University → Henry VIII of England\nHenry VIII of England → Purdue University\nPurdue University → Moon\nMoon → Purdue University\nPurdue University → Reno, Nevada (my hometown)\nReno, Nevada → Purdue University\nPurdue University → Your hometown\nYour hometown → Purdue University\n\nGo to the website Six Degrees of Wikipedia and find the actual shortest paths.\nWork together with your partner to discuss and write brief answers for the following questions:\n\nWere you closer to the true shortest paths when you going from Purdue University or when you were going to Purdue University? Be specific and cite data.\nTravers and Milgram (1969) noted that of the 64 chains that reached the target 16 were sent by Mr. Jacobs, a clothing merchant in the town.\n\nDid you observe funneling in your searches to Purdue University? Why do you think this happened?\nDid you funnel in your searches from Purdue University? Why do you think this happened?\n\nImagine that you were going to advise a friend about how to get to the Purdue University page from a random Wikipedia page. What algorithm/strategy/approach would you advise them to use?\nThe diameter of a graph is the longest possible shortest path in a graph. For example, if you calculated the shortest path between all points on Wikipedia, the diameter would be the longest of these shortest paths. Try to find two pages that have a very long shortest path connecting them (remember you can find the degrees of separation here). However, there are a few rules: you can’t use the pages of asteroids; you can’t use any of the paths that are already listed on the web; and you can’t use brute force trial and error (i.e., just trying lots and lots of different random pages).\n\nWhat is the longest path you found?\nWhat was the process you went through to find this pair?"
+    "text": "So far we have read about how social networks often have short average path lengths, and we are all much closer than we might assume. To an even greater extent than human networks, online networks display small world properties, in that there is high clustering but also short average path lengths. In this assignment, you will explore the network of links between Wikipedia pages.\nFor this assignment you will look for those short paths in the links between entries in Wikipedia. For example, imagine trying to get from the page of Purdue University to the page Brigham Young University (my alma mater) moving only through links on Wikipedia. That is pretty straight forward. One path is:\n Purdue University → NCAA → West Coast Conference → Brigham Young University\nThis path has 3 links. In general, there may be many paths, but always try to find the shortest. Finding a path between two universities is pretty easy. Sometimes things are harder and you make wrong turns. For example, if you tried to go from West Lafayette, Indiana to Abraham Lincoln you might go:\n West Lafayette, Indiana → Purdue University → West Lafayette, Indiana → Indiana → Illinois → Abraham Lincoln\nNote that you can go backwards in your search, as above. This path had 5 links.\nPlease describe the paths that you find for the following pairs (and keep track of wrong turns).\n\nPurdue University → Kevin Bacon\nKevin Bacon → Purdue University\nPurdue University → Henry VIII of England\nHenry VIII of England → Purdue University\nPurdue University → Moon \n\nGo to the website Six Degrees of Wikipedia and find the actual shortest paths.\nWork together with your partner to discuss and write brief answers for the following questions:\n\nWere you closer to the true shortest paths when you going from Purdue University or when you were going to Purdue University? Be specific and cite data.\nTravers and Milgram (1969) noted that of the 64 chains that reached the target 16 were sent by Mr. Jacobs, a clothing merchant in the town.\n\nDid you observe funneling in your searches to Purdue University? Why do you think this happened?\nDid you funnel in your searches from Purdue University? Why do you think this happened?\n\nImagine that you were going to advise a friend about how to get to the Purdue University page from a random Wikipedia page. What algorithm/strategy/approach would you advise them to use?\nThe diameter of a graph is the longest possible shortest path in a graph. For example, if you calculated the shortest path between all points on Wikipedia, the diameter would be the longest of these shortest paths. Try to find two pages that have a very long shortest path connecting them (remember you can find the degrees of separation here). However, there are a few rules: you can’t use the pages of asteroids; you can’t use any of the paths that are already listed on the web; and you can’t use brute force trial and error (i.e., just trying lots and lots of different random pages).\n\nWhat is the longest path you found?\nWhat was the process you went through to find this pair?"
   },
   {
     "objectID": "assignments/Visualization-challenge.html",
@@ -2651,7 +2735,7 @@
     "href": "class_lectures.html",
     "title": "In-class Lecture Slides",
     "section": "",
-    "text": "Date\n\n\nTitle\n\n\nAuthor\n\n\n\n\n\n\n \n\n\nWeek 2 - Network Data and Network Types\n\n\n \n\n\n\n\n \n\n\nWeek 3 - Edge Formation\n\n\n \n\n\n\n\n \n\n\nWeek 4 - Small Group Networks\n\n\n \n\n\n\n\n \n\n\nWeek 11 - Communities in Networks\n\n\n \n\n\n\n\n \n\n\nWeek 5 - Ego Networks\n\n\n \n\n\n\n\n \n\n\nWeek 6 - Centrality and Centralization\n\n\n \n\n\n\n\n \n\n\nCapital and Social Capital\n\n\n \n\n\n\n\n \n\n\nDiffusion and Contagion\n\n\n \n\n\n\n\n \n\n\nNetwork Visualization and Wrap Up\n\n\n \n\n\n\n\n \n\n\nNetworks and Inequality\n\n\n \n\n\n\n\n \n\n\nWeak Ties and Small Worlds\n\n\n \n\n\n\n\n \n\n\nWeek 12 - Collective Behavior\n\n\n \n\n\n\n\n \n\n\nWeek 13 - Networks and Technology\n\n\n \n\n\n\n\n \n\n\nWeek 14 - Networks and Inequality\n\n\n \n\n\n\n\n \n\n\nWeek 9: Scale-Free Networks and the Friendship Paradox\n\n\n \n\n\n\n\nJan 1, 2001\n\n\nWelcome to COM 411: Communication and Social Networks!\n\n\n \n\n\n\n\n\nNo matching items"
+    "text": "Date\n\n\nTitle\n\n\nAuthor\n\n\n\n\n\n\n \n\n\nWeek 2 - Network Data and Network Types\n\n\n \n\n\n\n\n \n\n\nWeek 3 - Edge Formation\n\n\n \n\n\n\n\n \n\n\nWeek 4 - Small Group Networks\n\n\n \n\n\n\n\n \n\n\nWeek 11 - Communities in Networks\n\n\n \n\n\n\n\n \n\n\nWeek 5 - Ego Networks\n\n\n \n\n\n\n\n \n\n\nWeek 6 - Centrality and Centralization\n\n\n \n\n\n\n\n \n\n\nCapital and Social Capital\n\n\n \n\n\n\n\n \n\n\nDiffusion and Contagion\n\n\n \n\n\n\n\n \n\n\nNetwork Visualization and Wrap Up\n\n\n \n\n\n\n\n \n\n\nNetworks and Inequality\n\n\n \n\n\n\n\n \n\n\nWeak Ties and Small Worlds\n\n\n \n\n\n\n\n \n\n\nWeek 12 - Collective Behavior\n\n\n \n\n\n\n\n \n\n\nWeek 13 - Networks and Technology\n\n\n \n\n\n\n\n \n\n\nWeek 14 - Networks and Inequality\n\n\n \n\n\n\n\n \n\n\nWeek 9 - Scale-Free Networks and the Friendship Paradox\n\n\n \n\n\n\n\nJan 1, 2001\n\n\nWelcome to COM 411: Communication and Social Networks!\n\n\n \n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "index.html",
@@ -2666,6 +2750,20 @@
     "title": "Diffusion and Contagion",
     "section": "Dad Joke",
     "text": "Dad Joke\nInterviewer: “Where do you see yourself in 5 years?”\n Me: “Listening. I would say listening is my biggest weakness.”"
+  },
+  {
+    "objectID": "lectures/class_lectures/week_10.html#network-of-the-day",
+    "href": "lectures/class_lectures/week_10.html#network-of-the-day",
+    "title": "Diffusion and Contagion",
+    "section": "Network of the Day",
+    "text": "Network of the Day\n\n\n\n\n\n\n\n\n\n\n\nWhat is spreading through this network? Where did it start?"
+  },
+  {
+    "objectID": "lectures/class_lectures/week_10.html#network-of-the-day-revealed",
+    "href": "lectures/class_lectures/week_10.html#network-of-the-day-revealed",
+    "title": "Diffusion and Contagion",
+    "section": "Network of the Day: Revealed",
+    "text": "Network of the Day: Revealed\n\n\n\n\n\n\n\n\n\n\n\n\nA simple contagion cascade\n\nEach node infects all its neighbors in the next step\nStarting from one node (patient zero), the contagion reaches the whole network in just 4 steps\nNetwork structure shapes speed and reach: a hub-heavy network spreads faster; a sparse one can contain spread\nConnection to this week: Why does the structure of the network matter for diffusion?"
   },
   {
     "objectID": "lectures/class_lectures/week_10.html#housekeeping",
@@ -2794,6 +2892,20 @@
     "text": "Today’s Dad Joke\nWhen I was young, we were really poor. My family could only afford a second-hand calculator, which was missing the “X” button.\n\nTimes were hard."
   },
   {
+    "objectID": "lectures/class_lectures/week_12.html#network-of-the-day",
+    "href": "lectures/class_lectures/week_12.html#network-of-the-day",
+    "title": "Week 12 - Collective Behavior",
+    "section": "Network of the Day",
+    "text": "Network of the Day\n\n\n\n\n\n\nNote\n\n\nAdd image here: the side-by-side comparison of Physarum polycephalum growth and the Tokyo rail network, from Tero et al. (2010), Science 327: 439–442. Available via the Science article or widely reproduced in news coverage.\n\n\n\nSetup: Researchers placed oat flakes on a wet surface at positions matching the cities around Tokyo, then let slime mold grow from the center.\n\n\nWhat do you think the slime mold produced? What are the nodes? What are the edges?"
+  },
+  {
+    "objectID": "lectures/class_lectures/week_12.html#network-of-the-day-revealed",
+    "href": "lectures/class_lectures/week_12.html#network-of-the-day-revealed",
+    "title": "Week 12 - Collective Behavior",
+    "section": "Network of the Day: Revealed",
+    "text": "Network of the Day: Revealed\nPhysarum polycephalum vs. the Tokyo rail network\n\nThe slime mold grew a tube network nearly identical to Tokyo’s actual rail system — efficiently connecting all food sources\nNo central planner. Each cell follows simple local rules; the efficient global network emerges\nThe biological network matched the human-engineered one in efficiency, fault tolerance, and cost\nConnection to this week: this is collective intelligence — a network-level outcome no individual node “decided”\n\nTero et al. (2010). Rules for Biologically Inspired Adaptive Network Design. Science, 327, 439–442."
+  },
+  {
     "objectID": "lectures/class_lectures/week_12.html#housekeeping",
     "href": "lectures/class_lectures/week_12.html#housekeeping",
     "title": "Week 12 - Collective Behavior",
@@ -2917,7 +3029,7 @@
     "href": "lectures/class_lectures/week_12.html#example",
     "title": "Week 12 - Collective Behavior",
     "section": "Example",
-    "text": "Example\n\nWhat code produces this graph?\n\n\nG |&gt;\n  mutate(centrality = centrality_degree()) |&gt;\n  activate(edges) |&gt;\n  ggraph() +\n  geom_edge_fan(color = 'purple') +\n  geom_node_point(aes(size = centrality), color = 'green')"
+    "text": "Example\n\nWhat code produces this graph?\n\n\n\nUsing \"stress\" as default layout\n\n\n\nG |&gt;\n  mutate(centrality = centrality_degree()) |&gt;\n  activate(edges) |&gt;\n  ggraph() +\n  geom_edge_fan(color = 'purple') +\n  geom_node_point(aes(size = centrality), color = 'green')"
   },
   {
     "objectID": "lectures/class_lectures/week_12.html#exam-review-2",
@@ -2953,6 +3065,20 @@
     "title": "Week 14 - Networks and Inequality",
     "section": "Today’s Dad Joke",
     "text": "Today’s Dad Joke\nWithin minutes, the detective knew exactly what the murder weapon was.\n It was a brief case."
+  },
+  {
+    "objectID": "lectures/class_lectures/week_14.html#network-of-the-day",
+    "href": "lectures/class_lectures/week_14.html#network-of-the-day",
+    "title": "Week 14 - Networks and Inequality",
+    "section": "Network of the Day",
+    "text": "Network of the Day\n\n\n\n\n\n\nNote\n\n\nAdd image here: Fig. A4 from Soda et al. (2025), “In the Network of the Conclave,” Social Networks 83. Nodes = cardinals, sized by eigenvector centrality, colored by region of origin.\n\n\n\n\n\nWhat do nodes and edges represent? What do node size and color tell you?"
+  },
+  {
+    "objectID": "lectures/class_lectures/week_14.html#network-of-the-day-revealed",
+    "href": "lectures/class_lectures/week_14.html#network-of-the-day-revealed",
+    "title": "Week 14 - Networks and Inequality",
+    "section": "Network of the Day: Revealed",
+    "text": "Network of the Day: Revealed\nThe 2025 Papal Conclave network\n\nNodes: Catholic cardinals (sized by eigenvector centrality; colored by region)\nEdges: Co-membership in collegial bodies + co-consecration ties\nThis network correctly predicted Robert Prevost as a likely papal candidate — before the conclave — despite him being considered a longshot\nEigenvector centrality: not just how many connections you have, but how well-connected your connections are\n\nConnection to this week: who you know shapes outcomes — and networks can reveal inequality of access and influence.\nSoda et al. (2025). In the Network of the Conclave. Social Networks, 83."
   },
   {
     "objectID": "lectures/class_lectures/week_14.html#housekeeping",
@@ -3421,14 +3547,21 @@
     "href": "lectures/class_lectures/week_7.html#discussion-questions",
     "title": "Communication and Social Networks",
     "section": "Discussion Questions",
-    "text": "Discussion Questions\n\nHow can we measure the strength of ties?\nWhen are strong ties better for finding information?\nDo the different types of capital have to be self-reinforcing?\nShould outcomes like career success be understood as purely individual achievement, structural advantage, a combination of both, or something else entirely?\nDo online communities fulfill the same roles as bowling leagues, etc? How are they better and worse?"
+    "text": "Discussion Questions\n\nHow can we tell when a weak tie is actually providing valuable new information versus when it is simply a less meaningful connection?\nHow has the rise of social media changed the way social capital is built compared with traditional face-to-face networks?"
   },
   {
     "objectID": "lectures/class_lectures/week_7.html#discussion-questions-1",
     "href": "lectures/class_lectures/week_7.html#discussion-questions-1",
     "title": "Communication and Social Networks",
     "section": "Discussion Questions",
-    "text": "Discussion Questions\n\nHow does declining social capital weaken democracy?\nWhat does it mean that social capital does not function as a universal means of exchange?\nHave you ever had an interaction/relationship with somewhere where it was clear they were trying to be a “social climber”, how did that interaction make you feel? What are some good examples and bad examples of how social climbing could happen?\nAre elite universities selling cultural capital or social capital?\nIs a community people who agree with each other or people who need each other?"
+    "text": "Discussion Questions\n\nGranovetter states that stronger ties mean more time commitment, but I feel like some people I don’t spend a lot of time with, I have stronger relationships than some of the people I do spend a lot time with. How does this work?\nDo you think that people who are well connected with other well connected people are the exception of the argument that weak ties = greater opportunities?"
+  },
+  {
+    "objectID": "lectures/class_lectures/week_7.html#discussion-questions-2",
+    "href": "lectures/class_lectures/week_7.html#discussion-questions-2",
+    "title": "Communication and Social Networks",
+    "section": "Discussion Questions",
+    "text": "Discussion Questions\n\nIf weak ties are so important for opportunities, but disadvantaged groups have less access to valuable networks, what could schools, workplaces, or communities do to help people build ties across different social groups?\nIf people are becoming less involved in traditional community organizations, could online communities eventually provide the same type of social capital, trust, and connection that Putnam argues has declined?\nDo more people on average build connections for opportunities, or build connections for social reasons and happen to find opportunities?"
   },
   {
     "objectID": "lectures/class_lectures/week_7.html#summary",
@@ -3438,95 +3571,39 @@
     "text": "Summary"
   },
   {
-    "objectID": "lectures/class_lectures/week_7.html#r-review-1",
-    "href": "lectures/class_lectures/week_7.html#r-review-1",
-    "title": "Communication and Social Networks",
-    "section": "R Review",
-    "text": "R Review"
-  },
-  {
     "objectID": "lectures/class_lectures/week_9.html#dad-joke",
     "href": "lectures/class_lectures/week_9.html#dad-joke",
-    "title": "Week 9: Scale-Free Networks and the Friendship Paradox",
+    "title": "Week 9 - Scale-Free Networks and the Friendship Paradox",
     "section": "Dad Joke",
-    "text": "Dad Joke\nI married my wife for her looks\n But not the ones she’s been giving me lately!"
+    "text": "Dad Joke\nI’m reading a book about anti-gravity.\n\nIt’s impossible to put down."
+  },
+  {
+    "objectID": "lectures/class_lectures/week_9.html#network-of-the-day",
+    "href": "lectures/class_lectures/week_9.html#network-of-the-day",
+    "title": "Week 9 - Scale-Free Networks and the Friendship Paradox",
+    "section": "Network of the Day",
+    "text": "Network of the Day\n\n\n\n\n\n\n\n\n\n\n\nWhat do you notice about the distribution of connections?"
+  },
+  {
+    "objectID": "lectures/class_lectures/week_9.html#network-of-the-day-revealed",
+    "href": "lectures/class_lectures/week_9.html#network-of-the-day-revealed",
+    "title": "Week 9 - Scale-Free Networks and the Friendship Paradox",
+    "section": "Network of the Day: Revealed",
+    "text": "Network of the Day: Revealed\n\n\n\n\n\n\n\n\n\n\n\n\nA scale-free (Barabási-Albert) network\n\nGenerated by preferential attachment: new nodes connect to already well-connected nodes\nA few hubs have most connections; most nodes have very few\nReal-world examples: the internet, airline routes, citation networks, social media followers\nDegree distribution follows a power law — no typical node size"
   },
   {
     "objectID": "lectures/class_lectures/week_9.html#housekeeping",
     "href": "lectures/class_lectures/week_9.html#housekeeping",
-    "title": "Week 9: Scale-Free Networks and the Friendship Paradox",
+    "title": "Week 9 - Scale-Free Networks and the Friendship Paradox",
     "section": "Housekeeping",
-    "text": "Housekeeping\n\nThursday - Troubled Lands Activity\nFinal Project Ideas due (yesterday)\nSelf Assessment, Lab 6, and Social Search all due after Spring Break"
+    "text": "Housekeeping"
   },
   {
-    "objectID": "lectures/class_lectures/week_9.html#review-questions",
-    "href": "lectures/class_lectures/week_9.html#review-questions",
-    "title": "Week 9: Scale-Free Networks and the Friendship Paradox",
-    "section": "Review Questions",
-    "text": "Review Questions\n\nWhat is a degree distribution?\nWhat is a scale-free distribution?"
-  },
-  {
-    "objectID": "lectures/class_lectures/week_9.html#review-questions-1",
-    "href": "lectures/class_lectures/week_9.html#review-questions-1",
-    "title": "Week 9: Scale-Free Networks and the Friendship Paradox",
-    "section": "Review Questions",
-    "text": "Review Questions\n\nWhen/where do we find scale-free distributions?\nWhat is an example of a network that would not have a scale-free distribution?\nWhat are the benefits and drawbacks of scale-free networks?"
-  },
-  {
-    "objectID": "lectures/class_lectures/week_9.html#review-questions-2",
-    "href": "lectures/class_lectures/week_9.html#review-questions-2",
-    "title": "Week 9: Scale-Free Networks and the Friendship Paradox",
-    "section": "Review Questions",
-    "text": "Review Questions\n\nWhat is the “friendship paradox”?\nHow is the friendship paradox useful?"
-  },
-  {
-    "objectID": "lectures/class_lectures/week_9.html#friendship-paradox-example",
-    "href": "lectures/class_lectures/week_9.html#friendship-paradox-example",
-    "title": "Week 9: Scale-Free Networks and the Friendship Paradox",
-    "section": "Friendship Paradox Example",
-    "text": "Friendship Paradox Example"
-  },
-  {
-    "objectID": "lectures/class_lectures/week_9.html#discussion-questions",
-    "href": "lectures/class_lectures/week_9.html#discussion-questions",
-    "title": "Week 9: Scale-Free Networks and the Friendship Paradox",
-    "section": "Discussion Questions",
-    "text": "Discussion Questions\n\nWhere else do rich-get-richer dynamics appear in society?"
-  },
-  {
-    "objectID": "lectures/class_lectures/week_9.html#discussion-questions-1",
-    "href": "lectures/class_lectures/week_9.html#discussion-questions-1",
-    "title": "Week 9: Scale-Free Networks and the Friendship Paradox",
-    "section": "Discussion Questions",
-    "text": "Discussion Questions\n\nIf networks naturally tend to follow the idea of preferential attachment, how can newer nodes, like a startup company or a new student, overcome this disadvantage and become a hub?\nOne of the implications for scale-free networks is that outcomes are unfair and random, but in real life, people may have attributes that allow them to get ahead. I’m confused how both of these are true.\nDoes the friendship paradox only apply to popularity (degree), or could it apply to other attributes (e.g., wealth, happiness, etc.)?"
-  },
-  {
-    "objectID": "lectures/class_lectures/week_9.html#discussion-questions-2",
-    "href": "lectures/class_lectures/week_9.html#discussion-questions-2",
-    "title": "Week 9: Scale-Free Networks and the Friendship Paradox",
-    "section": "Discussion Questions",
-    "text": "Discussion Questions\n\nHow reliable is using friends of randomly selected individuals as a way to identify the most central or influential people in a network?\nIn the group-size effect, why are people more likely to experience larger groups instead of average-sized ones?"
-  },
-  {
-    "objectID": "lectures/class_lectures/week_9.html#discussion-questions-3",
-    "href": "lectures/class_lectures/week_9.html#discussion-questions-3",
-    "title": "Week 9: Scale-Free Networks and the Friendship Paradox",
-    "section": "Discussion Questions",
-    "text": "Discussion Questions\n\nIf we can mathematically prove that through comparison with our connections most of us will be left feeling relatively inadequate, then why compare?\nWhy do skewed networks react differently to random failures?\nCould other things outweigh rich-get-richer in real-world networks? What are some examples?"
-  },
-  {
-    "objectID": "lectures/class_lectures/week_9.html#discussion-questions-4",
-    "href": "lectures/class_lectures/week_9.html#discussion-questions-4",
-    "title": "Week 9: Scale-Free Networks and the Friendship Paradox",
-    "section": "Discussion Questions",
-    "text": "Discussion Questions\n\nDo the benefits of using social networks data to detect disease outbreaks earlier outweigh the potential privacy concerns of monitoring people’s connections and online activity?"
-  },
-  {
-    "objectID": "lectures/class_lectures/week_9.html#visualization-challenge",
-    "href": "lectures/class_lectures/week_9.html#visualization-challenge",
-    "title": "Week 9: Scale-Free Networks and the Friendship Paradox",
-    "section": "Visualization Challenge",
-    "text": "Visualization Challenge"
+    "objectID": "lectures/class_lectures/week_9.html#concept-review",
+    "href": "lectures/class_lectures/week_9.html#concept-review",
+    "title": "Week 9 - Scale-Free Networks and the Friendship Paradox",
+    "section": "Concept Review",
+    "text": "Concept Review\n\nWhat is the friendship paradox?\nWhat is a scale-free network?\nWhat is preferential attachment?"
   },
   {
     "objectID": "lectures/content_lectures/collective_behavior.html#how-do-groups-make-good-decisions",
@@ -3992,7 +4069,7 @@
     "href": "schedule/week_11.html",
     "title": "Week 11: Communities and Core-periphery",
     "section": "",
-    "text": "Tuesday\nAssignment Due (Monday):\n\nReading Review\nVisualization Challenge\nSign up for a Self Reflection Discussion on my calendar\n\nPlease prioritize office hours (Tuesdays from 2-4)\n\n\nReadings:\n\nGirvan, M., & Newman, M. E. (2002). Community structure in social and biological networks. Proceedings of the National Academy of Sciences.\nBarberá, P., Wang, N., Bonneau, R., Jost, J. T., Nagler, J., Tucker, J., & González-Bailón, S. (2015). The critical periphery in the growth of social protests. PLoS ONE.\n\nClaude.ai Summary\n\n(Optional) Hanneman, R. A., & Riddle, M. (2005). Cliques and sub-groups. In Introduction to social network methods. University of California.\n\nVideo Lecture:\n [23:15]\n\nSlides\n\n\n\n\n\nThursday\nClass Schedule:\n\nHow the Internet Works Activity",
+    "text": "Tuesday\nAssignment Due (Monday):\n\nReading Review\nVisualization Challenge\nSign up for a Self Reflection Discussion on my calendar\n\nPlease prioritize office hours (Tuesdays from 2-4)\n\n\nReadings:\n\nOlteniceanu et al. (2022). The Network Science of Echo Chambers and Why It Matters. The Network Pages. (~2,000 words — explains communities and echo chambers accessibly)\nBarberá, P., Wang, N., Bonneau, R., Jost, J. T., Nagler, J., Tucker, J., & González-Bailón, S. (2015). The critical periphery in the growth of social protests. PLoS ONE.\n\nClaude.ai Summary\n\n(Optional) Girvan, M., & Newman, M. E. (2002). Community structure in social and biological networks. Proceedings of the National Academy of Sciences.\n(Optional) Hanneman, R. A., & Riddle, M. (2005). Cliques and sub-groups. In Introduction to social network methods. University of California.\n\nVideo Lecture:\n [23:15]\n\nSlides\n\n\n\n\n\nThursday\nClass Schedule:\n\nHow the Internet Works Activity",
     "crumbs": [
       "Schedule",
       "Course content",
