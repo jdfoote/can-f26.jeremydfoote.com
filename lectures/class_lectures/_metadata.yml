@@ -1,0 +1,10 @@
+format:
+  revealjs:
+    css: /resources/custom_css.css
+    theme: white
+    progress: true
+    transition: convex
+    reveal_plugins: ['notes']
+    incremental: true
+    width: 1200
+    height: 800

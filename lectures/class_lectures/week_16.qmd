@@ -1,12 +1,5 @@
 ---
 title: Network Visualization and Wrap Up
-format: 
-  revealjs:
-    css: /resources/custom_css.css
-    theme: white
-    progress: true
-    transition: convex
-    reveal_plugins: ['notes']
 ---
 
 ```{r setup, include=FALSE}
@@ -36,10 +29,10 @@ It was a brief case.
 
 ## Housekeeping
 
-> - Peer review
-> - Final project due Dec. 13
-> - Self Assessment Reflection due Dec. 13
-> - Advanced visualizations
+- Peer review
+- Final project due Dec. 13
+- Self Assessment Reflection due Dec. 13
+- Advanced visualizations
 >   - Faceting
 >   - Grouping
 >   - Visualizing homophily
@@ -50,24 +43,24 @@ It was a brief case.
 
 ## What are network visualizations good for?
 
-> - Uncover something about the structure of the network
+- Uncover something about the structure of the network
 >   - And usually how it relates to the attributes of its members
 
 ## Aspects of visualizations
 
-> - Nodes
-> - Edges
-> - Location
+- Nodes
+- Edges
+- Location
 
 ## Nodes
 
-> - Information can be conveyed by:
+- Information can be conveyed by:
 >   - Shape, size, color
-> - Shape
+- Shape
 >   - Typically categorical (e.g., gender, age range)
-> - Size
+- Size
 >   - Often a network measure, but can be something about node
-> - Color
+- Color
 >    - Community detection or node attribute or network measure
 
 ## Examples
@@ -119,9 +112,9 @@ scale_color_viridis_d()
 
 ## Edges
 
-> - Size
+- Size
 >   - Typically represent weight of relationship
-> - Color
+- Color
 >   - Typically represents different types of relationships
 
 ## Examples
@@ -154,10 +147,10 @@ geom_node_point(size=5)
 
 ## Position
 
-> - Can represent literal distance
+- Can represent literal distance
 >   - Cities
 >   - Seating chart
-> - Or social distance
+- Or social distance
 >   - Formal hierarchy
 >   - Degree centrality
 
@@ -206,26 +199,26 @@ Kozo Sugiyama's rules:
 
 Find and Assess a network visualization
 
-> - Use Google Images (or similar) to find an image of a network graphs.
-> - What do you think the image does well and poorly? Does it follow Sugiyama's rules?
-> - Put the image (and your assessment) on the padlet at https://padlet.com/jdfoote1/networks
+- Use Google Images (or similar) to find an image of a network graphs.
+- What do you think the image does well and poorly? Does it follow Sugiyama's rules?
+- Put the image (and your assessment) on the padlet at https://padlet.com/jdfoote1/networks
 
 ## Discussion
 
-> - Did you agree with Sugiyama's rules?
-> - What types of color/shape/size approaches were effective?
-> - Did this make you want to change any visualizations for your final project?
+- Did you agree with Sugiyama's rules?
+- What types of color/shape/size approaches were effective?
+- Did this make you want to change any visualizations for your final project?
 
 ## Reflection
 
-> - What concepts have you found most compelling?
-> - How has the class changed your perspective?
+- What concepts have you found most compelling?
+- How has the class changed your perspective?
 
 ## Parting thoughts
 
-> - "We shape our [networks]; thereafter they shape us" - Churchill, paraphrased
-> - We are embedded in mostly invisible networks of influence
+- "We shape our [networks]; thereafter they shape us" - Churchill, paraphrased
+- We are embedded in mostly invisible networks of influence
 >   - Our beliefs, opportunities, and outcomes are not independently chosen or earned
 >   - The choices we make may extend far beyond our vision
-> - Cultivate our social capital for good
-> - I am grateful for the edges created during our class. :)
+- Cultivate our social capital for good
+- I am grateful for the edges created during our class. :)

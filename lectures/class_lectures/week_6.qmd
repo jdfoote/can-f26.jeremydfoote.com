@@ -1,14 +1,6 @@
 ---
 title: Week 6 - Centrality and Centralization
 sort: 6
-format: 
-  revealjs:
-    css: /resources/custom_css.css
-    theme: white
-    progress: true
-    transition: convex
-    reveal_plugins: ['notes']
-    incremental: true
 ---
 
 ```{r setup, include=FALSE}

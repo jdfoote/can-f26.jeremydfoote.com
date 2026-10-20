@@ -1,14 +1,6 @@
 ---
 title: Week 4 - Small Group Networks
 sort: 4
-format: 
-  revealjs:
-    css: /resources/custom_css.css
-    theme: white
-    progress: true
-    transition: convex
-    reveal_plugins: ['notes']
-    incremental: true
 ---
 
 

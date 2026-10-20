@@ -1,16 +1,6 @@
 ---
 pagetitle: Welcome to COM 411!
 date: Week 1
-format: 
-  revealjs:
-    css: /resources/custom_css.css
-    theme: white
-    progress: true
-    transition: convex
-    reveal_plugins: ['notes']
-    incremental: true
-    width: 1200
-    height: 800
 ---
 
 ```{r setup, include=FALSE}

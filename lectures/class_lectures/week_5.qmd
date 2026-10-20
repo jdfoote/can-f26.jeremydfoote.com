@@ -1,13 +1,6 @@
 ---
 title: Week 5 - Ego Networks
 sort: 5
-format: 
-  revealjs:
-    css: /resources/custom_css.css
-    theme: white
-    progress: true
-    transition: convex
-    reveal_plugins: ['notes']
 ---
 
 ```{r setup, include=FALSE}
@@ -32,8 +25,8 @@ Brochure.
 
 ## Housekeeping
 
-> - Self reflections next week
-> - Thursday
+- Self reflections next week
+- Thursday
 >   - Ego network activity
 >   - More co-working time
 
@@ -46,10 +39,10 @@ Brochure.
 
 Strategies when R code doesn't work:
 
-> - Simplify
-> - print()
-> - AI
-> - Friends
+- Simplify
+- print()
+- AI
+- Friends
 
 ## Homework Review
 
@@ -59,9 +52,9 @@ Strategies when R code doesn't work:
 
 ## Review
 
-> - What is an "ego network"?
-> - What are the benefits of having a dense ego network?
-> - What are the benefits of having a sparse ego network?
+- What is an "ego network"?
+- What are the benefits of having a dense ego network?
+- What are the benefits of having a sparse ego network?
 
 ## Dense Network Example
 
@@ -101,9 +94,9 @@ play_gnp(10, 0.15) |>
 
 ## Review
 
-> - What are some reasons that you think friendship can be asymmetrical?
-> - Is there such thing as a "true" social network? How could we find it out?
-> - What are some ways that our perceptions of a network could influence our behaviors?
+- What are some reasons that you think friendship can be asymmetrical?
+- Is there such thing as a "true" social network? How could we find it out?
+- What are some ways that our perceptions of a network could influence our behaviors?
 
 <aside class='notes'>
 - Different perception of "friendship"
@@ -163,8 +156,8 @@ tbl_graph(nodes = as_tibble(activate(G, nodes)), edges = plot_edges, directed = 
 
 ## Review
 
-> - What is the difference between a potential network, an activated network, and a mobilized network?
-> - Why might SES be related to which networks are activated under job loss threat?
+- What is the difference between a potential network, an activated network, and a mobilized network?
+- Why might SES be related to which networks are activated under job loss threat?
 
 <aside class='notes'>
 - Even wider network may not have resources
@@ -196,7 +189,7 @@ tbl_graph(nodes = as_tibble(activate(G, nodes)), edges = plot_edges, directed = 
 
 ## What do our ego networks look like?
 
-> - From time to time, most people discuss important matters with other people. Looking back over the last 6 months, who are the people with whom you discussed matters important to you?
+- From time to time, most people discuss important matters with other people. Looking back over the last 6 months, who are the people with whom you discussed matters important to you?
 
 ## Making Connections
 
@@ -227,27 +220,27 @@ tbl_graph(nodes = as_tibble(activate(G, nodes)), edges = plot_edges, directed = 
 
 
 ## Importing and visualizing in R
-> - Remember `graph_from_data_frame()`
+- Remember `graph_from_data_frame()`
 
 <!--
 # Old Slides
 
 
-> - Thank you so much for being open and honest!
-> - Some summary thoughts
+- Thank you so much for being open and honest!
+- Some summary thoughts
 >	- Things are going pretty well
 >	- R is hard but people are persisting
-> - Cold calling is scary
+- Cold calling is scary
 
 ## My plans for change
 
-> - Try to make more time for small group discussion
+- Try to make more time for small group discussion
 >	- A few minutes at the beginning of class
 
 
 ## Suggestions for success
 
-> - Keep working on assignments that you missed / got wrong
-> - Ask questions on Discord
-> - Come to office hours
+- Keep working on assignments that you missed / got wrong
+- Ask questions on Discord
+- Come to office hours
 -->

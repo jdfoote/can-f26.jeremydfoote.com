@@ -1,12 +1,5 @@
 ---
 title: "Week 9: Scale-Free Networks and the Friendship Paradox"
-format: 
-  revealjs:
-    css: /resources/custom_css.css
-    theme: white
-    progress: true
-    transition: convex
-    reveal_plugins: ['notes']
 ---
 
 ```{r setup, include=FALSE}
@@ -30,9 +23,9 @@ But not the ones she's been giving me lately!
 
 ## Housekeeping
 
-> - Thursday - Troubled Lands Activity
-> - Final Project Ideas due (yesterday)
-> - Self Assessment, Lab 6, and Social Search all due after Spring Break
+- Thursday - Troubled Lands Activity
+- Final Project Ideas due (yesterday)
+- Self Assessment, Lab 6, and Social Search all due after Spring Break
 
 <!--
 ## Troubled Lands Reflection
@@ -41,27 +34,27 @@ But not the ones she's been giving me lately!
 
 ## Troubled Lands Reflection
 
-> - What did you think about while playing?
-> - How did you feel as you played? Did those feeling change across different versions of the game?
-> - When do you help others in real life?
+- What did you think about while playing?
+- How did you feel as you played? Did those feeling change across different versions of the game?
+- When do you help others in real life?
 
 ## Troubled Lands Reflection
 
-> - Were resources and abilities distributed fairly?
-> - How should resources be distributed in the real world?
-> - What role did communication play? How did your group make decisions?
-> - Did you work to make things equal? Why or why not?
-> - What kinds of inequality appeared in the game?
+- Were resources and abilities distributed fairly?
+- How should resources be distributed in the real world?
+- What role did communication play? How did your group make decisions?
+- Did you work to make things equal? Why or why not?
+- What kinds of inequality appeared in the game?
 
 ## Troubled Lands Reflection
 
-> - Did anyone sanction someone else? Why?
+- Did anyone sanction someone else? Why?
 -->
 
 ## Review Questions
 
-> - What is a degree distribution?
-> - What is a scale-free distribution?
+- What is a degree distribution?
+- What is a scale-free distribution?
 
 <div style="position:relative; width:640px; height:480px; margin:0 auto;">
 <div class='fragment' style="position:absolute;top:0;left:0;">
@@ -117,14 +110,14 @@ df |>
 
 ## Review Questions
 
-> -	When/where do we find scale-free distributions?
-> - What is an example of a network that would *not* have a scale-free distribution?
-> - What are the benefits and drawbacks of scale-free networks?
+-	When/where do we find scale-free distributions?
+- What is an example of a network that would *not* have a scale-free distribution?
+- What are the benefits and drawbacks of scale-free networks?
 
 ## Review Questions
 
-> - What is the "friendship paradox"?
-> - How is the friendship paradox useful?
+- What is the "friendship paradox"?
+- How is the friendship paradox useful?
 
 ## Friendship Paradox Example
 
@@ -164,28 +157,28 @@ p +
 
 ## Discussion Questions
 
-> - Where else do rich-get-richer dynamics appear in society?
+- Where else do rich-get-richer dynamics appear in society?
 
 ## Discussion Questions
 
-> - If networks naturally tend to follow the idea of preferential attachment, how can newer nodes, like a startup company or a new student, overcome this disadvantage and become a hub? 
-> - One of the implications for scale-free networks is that outcomes are unfair and random, but in real life, people may have attributes that allow them to get ahead. I'm confused how both of these are true.
-> - Does the friendship paradox only apply to popularity (degree), or could it apply to other attributes (e.g., wealth, happiness, etc.)?
+- If networks naturally tend to follow the idea of preferential attachment, how can newer nodes, like a startup company or a new student, overcome this disadvantage and become a hub? 
+- One of the implications for scale-free networks is that outcomes are unfair and random, but in real life, people may have attributes that allow them to get ahead. I'm confused how both of these are true.
+- Does the friendship paradox only apply to popularity (degree), or could it apply to other attributes (e.g., wealth, happiness, etc.)?
 
 ## Discussion Questions
 
-> - How reliable is using friends of randomly selected individuals as a way to identify the most central or influential people in a network? 
-> - In the group-size effect, why are people more likely to experience larger groups instead of average-sized ones?
+- How reliable is using friends of randomly selected individuals as a way to identify the most central or influential people in a network? 
+- In the group-size effect, why are people more likely to experience larger groups instead of average-sized ones?
 
 ## Discussion Questions
 
-> - If we can mathematically prove that through comparison with our connections most of us will be left feeling relatively inadequate, then why compare?
-> - Why do skewed networks react differently to random failures?
-> - Could other things outweigh rich-get-richer in real-world networks? What are some examples?
+- If we can mathematically prove that through comparison with our connections most of us will be left feeling relatively inadequate, then why compare?
+- Why do skewed networks react differently to random failures?
+- Could other things outweigh rich-get-richer in real-world networks? What are some examples?
 
 ## Discussion Questions
 
-> - Do the benefits of using social networks data to detect disease outbreaks earlier outweigh the potential privacy concerns of monitoring people's connections and online activity? 
+- Do the benefits of using social networks data to detect disease outbreaks earlier outweigh the potential privacy concerns of monitoring people's connections and online activity? 
 
 
 ## Visualization Challenge

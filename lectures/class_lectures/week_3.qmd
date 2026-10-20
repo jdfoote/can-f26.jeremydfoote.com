@@ -1,13 +1,6 @@
 ---
 title: Week 3 - Edge Formation
 sort: 3
-format: 
-  revealjs:
-    css: /resources/custom_css.css
-    theme: white
-    progress: true
-    transition: convex
-    reveal_plugins: ['notes']
 ---
 
 
@@ -30,9 +23,9 @@ One astronaut says to another, "I can’t find any milk for my coffee"
 
 ## Housekeeping
 
-> - Turning in R homework
-> - 3-2-1 Assignments and Discussion Questions
-> - Readings
+- Turning in R homework
+- 3-2-1 Assignments and Discussion Questions
+- Readings
 >   - On Brightspace
 >   - How did reading these articles go?
 >   - Using AI to help
@@ -40,16 +33,16 @@ One astronaut says to another, "I can’t find any milk for my coffee"
 
 ## Homework review
 
-> - Installing packages vs. loading libraries
-> - .qmd files
-> - Opening folders and trusting projects
-> - R terminal vs. system terminal
+- Installing packages vs. loading libraries
+- .qmd files
+- Opening folders and trusting projects
+- R terminal vs. system terminal
 
 ## Flash presentations
 
-> - 8 minutes of prep
-> - 2-3 minutes of presentation
-> - Tell us about one edge formation process
+- 8 minutes of prep
+- 2-3 minutes of presentation
+- Tell us about one edge formation process
 >   - Social exchange theory
 >   - Foci of activity
 >   - Homophily
@@ -60,47 +53,47 @@ One astronaut says to another, "I can’t find any milk for my coffee"
 <!--
 ## Edge formation review
 
-> - What is an edge?
-> - What is one reason an edge might form?
-> - What is homophily?
-> - What is reciprocity?
-> - What is transitivity?
-> - What is balance theory?
+- What is an edge?
+- What is one reason an edge might form?
+- What is homophily?
+- What is reciprocity?
+- What is transitivity?
+- What is balance theory?
 -->
 
 ## Exercise
 
-> - Draw your social network - people you consider friends
+- Draw your social network - people you consider friends
 >   - What edge formation process(es) best explain each relationship they have with you?
 >   - Are there any relationships that are not explained by these processes? 
 >   - Does your social network exhibit homophily?
 
 ## Exercise
 
-> - Now draw the relationships between your friends
-> - What would our theories suggest about which new relationships are likely to form?
-> - What about which relationships are unlikely to form?
+- Now draw the relationships between your friends
+- What would our theories suggest about which new relationships are likely to form?
+- What about which relationships are unlikely to form?
 
 
 ## Edge formation review
 
 >	- What are some causes of homophily?
-> - What are foci of activity?
-> - How do ties dissolve?
+- What are foci of activity?
+- How do ties dissolve?
 >	- What ties have you seen dissolve in your network? What type is most likely to dissolve?
-> - What is "tie maintenance" and what forms does it take?
+- What is "tie maintenance" and what forms does it take?
 
 ## Discussion Questions
 
-> - How can we distinguish structural prominence from meaningful social influence, and what kinds of contextual information would we need beyond the number and pattern of ties?
-> - How can we tell whether people become similar because they influence each other, or whether they became friends because they were already similar in the first place? 
-> - Why do some traits produce stronger homophily than others?
+- How can we distinguish structural prominence from meaningful social influence, and what kinds of contextual information would we need beyond the number and pattern of ties?
+- How can we tell whether people become similar because they influence each other, or whether they became friends because they were already similar in the first place? 
+- Why do some traits produce stronger homophily than others?
 
 ## Discussion Questions
 
-> - How can we create connections between those in different clusters and expose ourselves and/or our clusters to very different types of people and ideas? 
+- How can we create connections between those in different clusters and expose ourselves and/or our clusters to very different types of people and ideas? 
 
 
 ## Thursday
 
-> - Keep working on R Labs
+- Keep working on R Labs

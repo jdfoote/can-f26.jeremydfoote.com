@@ -1,12 +1,5 @@
 ---
 title: Weak Ties and Small Worlds
-format: 
-  revealjs:
-    css: /resources/custom_css.css
-    theme: white
-    progress: true
-    transition: convex
-    reveal_plugins: ['notes']
 ---
 
 ```{r setup, include=FALSE}
@@ -29,18 +22,18 @@ Now I can't read it at all!
 
 ## Housekeeping
 
-> - SARs
+- SARs
 >   - I'm working on them!
-> - Final project idea due next week
-> - Social Search assignment due October 26
+- Final project idea due next week
+- Social Search assignment due October 26
 >	  - Try to find someone with driver's license from HI
 >	  - Diagram search network
 >	  - Instructions on website
-> - Lab 5 - turn in; less in-class lab work now
+- Lab 5 - turn in; less in-class lab work now
 
 ## Also upcoming
 
-> - Visualization Challenge
+- Visualization Challenge
 >	  - Start from existing dataset (Dutch school student behavior or Harry Potter)
 >	  - Come up with a question
 >	  - Create a network visualization that helps to answer that question
@@ -73,18 +66,18 @@ Now I can't read it at all!
 
 ## Review Questions
 
-> - What is a "path"? What is the "path length" of a path?
-> - What is the "geodesic distance" or "diameter" of a network?
-> - What is triadic closure?
-> - Why would we expect networks with high triadic closure to have high geodesic distance?
+- What is a "path"? What is the "path length" of a path?
+- What is the "geodesic distance" or "diameter" of a network?
+- What is triadic closure?
+- Why would we expect networks with high triadic closure to have high geodesic distance?
 
 ## Review Questions
 
-> - What was the Travers and Milgram experiment?
-> - How can we have such high triadic closure but still have short path lengths? What was the key insight from Watts and Strogatz?
-> - What does this have to do with Granovetter (weak ties)?
-> - What is similar to "random rewiring" in real life?
-> - How does network connectivity differ from network searchability?
+- What was the Travers and Milgram experiment?
+- How can we have such high triadic closure but still have short path lengths? What was the key insight from Watts and Strogatz?
+- What does this have to do with Granovetter (weak ties)?
+- What is similar to "random rewiring" in real life?
+- How does network connectivity differ from network searchability?
 
 ## Break!
 
@@ -96,15 +89,15 @@ Now I can't read it at all!
 - Does the six degrees of separation still, work on people that are from different culture, countries, or social status?
 
 
-> - What are some of your best “small world” moments and what were the connections?
-> - Is the small world smaller now?
-> - To what extent do psychological factors (motivation, uncertainty, etc.), shape social chains?
-> - How does homophily affect the small world phenomenon?
+- What are some of your best “small world” moments and what were the connections?
+- Is the small world smaller now?
+- To what extent do psychological factors (motivation, uncertainty, etc.), shape social chains?
+- How does homophily affect the small world phenomenon?
 
 ## Discussion Questions
 
-> - If the network shapes who you meet, who you marry, what jobs you get, what ideas you're exposed to, how much of who you are was actually chosen vs. just a product of your position in a network?
-> - Travers and Milgram found evidence of "funneling" through certain individuals, while Dodds suggests hubs are less important. Is this difference due to scale (U.S. based vs global), technology, (mail vs. email), or changes in network structures over time? 
+- If the network shapes who you meet, who you marry, what jobs you get, what ideas you're exposed to, how much of who you are was actually chosen vs. just a product of your position in a network?
+- Travers and Milgram found evidence of "funneling" through certain individuals, while Dodds suggests hubs are less important. Is this difference due to scale (U.S. based vs global), technology, (mail vs. email), or changes in network structures over time? 
 
 ## R Co-working time
 -->
