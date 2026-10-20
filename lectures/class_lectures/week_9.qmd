@@ -23,9 +23,15 @@ But not the ones she's been giving me lately!
 
 ## Housekeeping
 
+- SARs are all done
 - Thursday - Troubled Lands Activity
 - Final Project Ideas due (yesterday)
-- Self Assessment, Lab 6, and Social Search all due after Spring Break
+
+## Six Degrees of Wikipedia Review
+
+- How did you navigate the network?
+- How close were you to the shortest path?
+- Did you use "funneling" to get closer to your target?
 
 <!--
 ## Troubled Lands Reflection
@@ -161,24 +167,14 @@ p +
 
 ## Discussion Questions
 
-- If networks naturally tend to follow the idea of preferential attachment, how can newer nodes, like a startup company or a new student, overcome this disadvantage and become a hub? 
-- One of the implications for scale-free networks is that outcomes are unfair and random, but in real life, people may have attributes that allow them to get ahead. I'm confused how both of these are true.
-- Does the friendship paradox only apply to popularity (degree), or could it apply to other attributes (e.g., wealth, happiness, etc.)?
-
-## Discussion Questions
-
-- How reliable is using friends of randomly selected individuals as a way to identify the most central or influential people in a network? 
-- In the group-size effect, why are people more likely to experience larger groups instead of average-sized ones?
-
-## Discussion Questions
-
-- If we can mathematically prove that through comparison with our connections most of us will be left feeling relatively inadequate, then why compare?
-- Why do skewed networks react differently to random failures?
-- Could other things outweigh rich-get-richer in real-world networks? What are some examples?
-
-## Discussion Questions
-
 - Do the benefits of using social networks data to detect disease outbreaks earlier outweigh the potential privacy concerns of monitoring people's connections and online activity? 
+- Should we teach people about the friendship paradox? Would that make them feel less left out?
+- If the friendship paradox is a mathematical consequence of how social networks are structured, to what extent can we actually trust our personal experiences to accurately judge the social networks we belong to
+
+## Discussion Questions
+
+- Why doesn't knowing about the friendship paradox make people take action and make more friends?
+- If we had an actual friend-o-meter or an objective way of determining friendships, would the results of the mean friends study change and if so how?
 
 
 ## Visualization Challenge
