@@ -340,46 +340,6 @@
 By its bark
 </p>
 </section>
-<section id="network-of-the-day" class="slide level2">
-<h2>Network of the Day</h2>
-<div class="cell">
-<div class="cell-output-display">
-<div>
-<figure>
-<p><img data-src="week_15_files/figure-html/unnamed-chunk-1-1.png" width="672"></p>
-</figure>
-</div>
-</div>
-</div>
-
-<aside><div>
-<p>34 people. Two leaders. What happened to this group?</p>
-</div></aside></section>
-<section id="network-of-the-day-revealed" class="slide level2 smaller">
-<h2>Network of the Day: Revealed</h2>
-<div class="columns">
-<div class="column" style="width:55%;">
-<div class="cell">
-<div class="cell-output-display">
-<div>
-<figure>
-<p><img data-src="week_15_files/figure-html/unnamed-chunk-2-1.png" width="672"></p>
-</figure>
-</div>
-</div>
-</div>
-</div><div class="column" style="width:45%;">
-<p><strong>Zachary’s Karate Club (1977)</strong></p>
-<ul>
-<li>34 members of a university karate club</li>
-<li>A dispute between the <strong>instructor</strong> (node 1) and the <strong>club president</strong> (node 34) split the club in two</li>
-<li>Network analysis predicted the split almost perfectly from the pre-split tie structure</li>
-<li>One of the most-studied networks in history — a benchmark for community detection algorithms</li>
-</ul>
-<p>The fault line ran right through the network’s <strong>structural holes</strong>.</p>
-</div>
-</div>
-</section>
 <section id="housekeeping" class="slide level2">
 <h2>Housekeeping</h2>
 <ul>
@@ -394,27 +354,27 @@ By its bark
 <section id="presentation-assignments" class="slide level2 tiny">
 <h2>Presentation Assignments</h2>
 <ul>
-<li>Tuesday
+<li class="fragment">Tuesday
 <ul>
-<li>Julia / Bonnie</li>
-<li>Noah / Canaan / Ella / Madison</li>
-<li>Ayush</li>
-<li>Gunveer</li>
-<li>Sahil</li>
-<li>Xiaoyang</li>
-<li>Trinity</li>
-<li>Noelle C.</li>
+<li class="fragment">Julia / Bonnie</li>
+<li class="fragment">Noah / Canaan / Ella / Madison</li>
+<li class="fragment">Ayush</li>
+<li class="fragment">Gunveer</li>
+<li class="fragment">Sahil</li>
+<li class="fragment">Xiaoyang</li>
+<li class="fragment">Trinity</li>
+<li class="fragment">Noelle C.</li>
 </ul></li>
-<li>Thursday
+<li class="fragment">Thursday
 <ul>
-<li>Maria M.</li>
-<li>Logan C.</li>
-<li>Paige B.</li>
-<li>Dean C.</li>
-<li>Kiara C.</li>
-<li>Colin B.</li>
-<li>Rafael D.</li>
-<li>Noelle W.</li>
+<li class="fragment">Maria M.</li>
+<li class="fragment">Logan C.</li>
+<li class="fragment">Paige B.</li>
+<li class="fragment">Dean C.</li>
+<li class="fragment">Kiara C.</li>
+<li class="fragment">Colin B.</li>
+<li class="fragment">Rafael D.</li>
+<li class="fragment">Noelle W.</li>
 </ul></li>
 </ul>
 </section>
@@ -444,9 +404,7 @@ By its bark
 </section>
 <section id="discussion-questions-2" class="slide level2">
 <h2>Discussion Questions</h2>
-<blockquote>
 <p>-I’m still a little confused about how we actually separate the effects of social capital from other factors like income or education. It seems like they are all really connected, so I don’t fully understand how researchers can tell that networks themselves are the cause of differences in outcomes and not just a reflection of those other things.</p>
-</blockquote>
 
 <div class="quarto-auto-generated-content">
 <div class="footer footer-default">
@@ -664,6 +622,44 @@ By its bark
         ]
       });
     </script>
+    
+    <script>
+      // htmlwidgets need to know to resize themselves when slides are shown/hidden.
+      // Fire the "slideenter" event (handled by htmlwidgets.js) when the current
+      // slide changes (different for each slide format).
+      (function () {
+        // dispatch for htmlwidgets
+        function fireSlideEnter() {
+          const event = window.document.createEvent("Event");
+          event.initEvent("slideenter", true, true);
+          window.document.dispatchEvent(event);
+        }
+
+        function fireSlideChanged(previousSlide, currentSlide) {
+          fireSlideEnter();
+
+          // dispatch for shiny
+          if (window.jQuery) {
+            if (previousSlide) {
+              window.jQuery(previousSlide).trigger("hidden");
+            }
+            if (currentSlide) {
+              window.jQuery(currentSlide).trigger("shown");
+            }
+          }
+        }
+
+        // hookup for slidy
+        if (window.w3c_slidy) {
+          window.w3c_slidy.add_observer(function (slide_num) {
+            // slide_num starts at position 1
+            fireSlideChanged(null, w3c_slidy.slides[slide_num - 1]);
+          });
+        }
+
+      })();
+    </script>
+
     <script id="quarto-html-after-body" type="application/javascript">
     window.document.addEventListener("DOMContentLoaded", function (event) {
       const toggleBodyColorMode = (bsSheetEl) => {

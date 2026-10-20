@@ -338,32 +338,6 @@
 <p>The guy who stole my diary died yesterday.</p>
 <p><span class="fragment"> My thoughts are with his family. </span></p>
 </section>
-<section id="network-of-the-day" class="slide level2">
-<h2>Network of the Day</h2>
-<p><img data-src="https://geoffboeing.com/files/img/gs_new_york_paris_tunis_atlanta-970x1024.jpg" height="530"></p>
-
-<aside><div>
-<p>What are the nodes? What are the edges? What explains the differences?</p>
-</div></aside></section>
-<section id="network-of-the-day-revealed" class="slide level2 smaller">
-<h2>Network of the Day: Revealed</h2>
-<div class="columns">
-<div class="column" style="width:55%;">
-<p><img data-src="https://geoffboeing.com/files/img/gs_new_york_paris_tunis_atlanta-970x1024.jpg" height="430"></p>
-</div><div class="column" style="width:45%;">
-<p><strong>One square mile of urban street networks</strong></p>
-<ul>
-<li><strong>Nodes:</strong> Intersections; <strong>Edges:</strong> Street segments</li>
-<li><strong>New York:</strong> Planned grid — uniform, interchangeable blocks</li>
-<li><strong>Paris:</strong> Radial from center — one giant hub (Arc de Triomphe)</li>
-<li><strong>Tunis:</strong> Organic/medieval medina — densely clustered, no clear structure</li>
-<li><strong>Atlanta:</strong> Car-dependent sprawl — low density, highway dominance</li>
-</ul>
-<p>Network structure reflects history. How does each structure affect community formation?</p>
-<p><em>Source: <a href="https://geoffboeing.com/2017/01/square-mile-street-network-visualization/">Boeing, 2017</a></em></p>
-</div>
-</div>
-</section>
 <section id="housekeeping" class="slide level2">
 <h2>Housekeeping</h2>
 <ul>
@@ -388,25 +362,25 @@
 
 ## Questions from Brightspace Assignment
 
-> - How did you play differently in different versions?
-> - What in real life is similar to each version of the game?
-> - How did you decide whether or not to help others?
-> - What does this have to do with social networks and social capital?!
+- How did you play differently in different versions?
+- What in real life is similar to each version of the game?
+- How did you decide whether or not to help others?
+- What does this have to do with social networks and social capital?!
 
 
 ## Debrief
 
-> - What did you think about while playing?
-> - How did you feel as you played? Did those feeling change across different versions of the game?
-> - When do you help others in real life?
+- What did you think about while playing?
+- How did you feel as you played? Did those feeling change across different versions of the game?
+- When do you help others in real life?
 
 ## Debrief
 
-> - Were resources and abilities distributed fairly?
-> - How should resources be distributed in the real world?
-> - What role did communication play? How did your group make decisions?
-> - Did you work to make things equal? Why or why not?
-> - What kinds of inequality appeared in the game?
+- Were resources and abilities distributed fairly?
+- How should resources be distributed in the real world?
+- What role did communication play? How did your group make decisions?
+- Did you work to make things equal? Why or why not?
+- What kinds of inequality appeared in the game?
 --->
 </section>
 <section id="community-detection-review" class="slide level2">
@@ -435,7 +409,7 @@
 <div class="cell-output-display">
 <div>
 <figure>
-<p><img data-src="week_11_files/figure-html/unnamed-chunk-1-1.png" width="672"></p>
+<p><img data-src="week_11_files/figure-revealjs/unnamed-chunk-1-1.png" width="960"></p>
 </figure>
 </div>
 </div>
@@ -465,14 +439,7 @@
 <h2>Visualization Challenge Review</h2>
 <ul>
 <li class="fragment">Glanced at a handful and they are quite good!</li>
-<li class="fragment">Discussion about LLMs and coding
-<ul>
-<li class="fragment">I have been intentionally vague</li>
-<li class="fragment">I want you to learn computational thinking, learn syntax of R</li>
-<li class="fragment">I also want you to learn how to use AI to do cool stuff!</li>
-<li class="fragment">I’m torn about what to expect / encourage</li>
-<li class="fragment">Fundamental knowledge makes AI stuff easier</li>
-</ul></li>
+<li class="fragment">Discussion about LLMs and coding &gt; - I have been intentionally vague &gt; - I want you to learn computational thinking, learn syntax of R &gt; - I also want you to learn how to use AI to do cool stuff! &gt; - I’m torn about what to expect / encourage &gt; - Fundamental knowledge makes AI stuff easier</li>
 </ul>
 
 <div class="quarto-auto-generated-content">
@@ -657,9 +624,9 @@
         // The "normal" size of the presentation, aspect ratio will be preserved
         // when the presentation is scaled to fit different resolutions. Can be
         // specified using percentage units.
-        width: 1050,
+        width: 1200,
 
-        height: 700,
+        height: 800,
 
         // Factor of the display size that should remain empty around the content
         margin: 0.1,
@@ -691,6 +658,44 @@
         ]
       });
     </script>
+    
+    <script>
+      // htmlwidgets need to know to resize themselves when slides are shown/hidden.
+      // Fire the "slideenter" event (handled by htmlwidgets.js) when the current
+      // slide changes (different for each slide format).
+      (function () {
+        // dispatch for htmlwidgets
+        function fireSlideEnter() {
+          const event = window.document.createEvent("Event");
+          event.initEvent("slideenter", true, true);
+          window.document.dispatchEvent(event);
+        }
+
+        function fireSlideChanged(previousSlide, currentSlide) {
+          fireSlideEnter();
+
+          // dispatch for shiny
+          if (window.jQuery) {
+            if (previousSlide) {
+              window.jQuery(previousSlide).trigger("hidden");
+            }
+            if (currentSlide) {
+              window.jQuery(currentSlide).trigger("shown");
+            }
+          }
+        }
+
+        // hookup for slidy
+        if (window.w3c_slidy) {
+          window.w3c_slidy.add_observer(function (slide_num) {
+            // slide_num starts at position 1
+            fireSlideChanged(null, w3c_slidy.slides[slide_num - 1]);
+          });
+        }
+
+      })();
+    </script>
+
     <script id="quarto-html-after-body" type="application/javascript">
     window.document.addEventListener("DOMContentLoaded", function (event) {
       const toggleBodyColorMode = (bsSheetEl) => {

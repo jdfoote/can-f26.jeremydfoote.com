@@ -340,45 +340,11 @@
 He took too many days off!
 </p>
 </section>
-<section id="network-of-the-day" class="slide level2">
-<h2>Network of the Day</h2>
-<div class="callout callout-note callout-titled callout-style-default">
-<div class="callout-body">
-<div class="callout-title">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<p><strong>Note</strong></p>
-</div>
-<div class="callout-content">
-<p>Add image here: the penguin social network from Sumida Aquarium, Tokyo. Search “Sumida Aquarium penguin network” — figures are widely reproduced in news coverage of the study.</p>
-</div>
-</div>
-</div>
-
-<aside><div>
-<p>Nodes are penguins and zookeepers. Edges are observed social interactions. What do you notice about the structure?</p>
-</div></aside></section>
-<section id="network-of-the-day-revealed" class="slide level2 smaller">
-<h2>Network of the Day: Revealed</h2>
-<p><strong>Penguin social network — Sumida Aquarium, Tokyo</strong></p>
-<ul>
-<li><strong>Nodes:</strong> Humboldt penguins + their zookeepers</li>
-<li><strong>Edges:</strong> Observed affiliative interactions (grooming, proximity, play)</li>
-<li>Built using <strong>GPS tracking</strong> and behavioral observation — technology made this network visible</li>
-<li>Zookeepers occupy <strong>central bridge positions</strong> between otherwise separate penguin social clusters</li>
-</ul>
-<p>Connection to this week: <strong>technology reshapes what networks we can see</strong> — and who has power within them.</p>
-</section>
 <section id="housekeeping" class="slide level2">
 <h2>Housekeeping</h2>
 <ul>
 <li class="fragment">EXAM ON THURSDAY!!</li>
-<li class="fragment">Final projects are due in 2 weeks!
-<ul>
-<li class="fragment">Rough draft to 2 peers on April 23</li>
-<li class="fragment">Feedback due by Saturday (April 25)</li>
-</ul></li>
+<li class="fragment">Final projects are due in 2 weeks! &gt; - Rough draft to 2 peers on April 23 &gt; - Feedback due by Saturday (April 25)</li>
 <li class="fragment">Presentations Tuesday and Thursday (April 28 and 30)</li>
 </ul>
 </section>
@@ -423,34 +389,34 @@ He took too many days off!
 
 ## Questions
 
-> - What is the "majority illusion"?
-> - How does the majority illusion relate to the friendship paradox?
-> - Majority illusion from Nicky Case activity?
+- What is the "majority illusion"?
+- How does the majority illusion relate to the friendship paradox?
+- Majority illusion from Nicky Case activity?
 
 ## Discussion Questions
 
 ## Housekeeping
 
-> - Exam is due on Thursday before class
-> - Under quizzes on Brightspace
-> - Remember, it will give you new random questions if you come back
-> - For the R question, turn in what you get even if you don't get the whole thing right
-> - Wisdom or Madness of Crowds on Thursday
-> - Apologies about schedule confusion!!!
-> - No class on Tuesday - discussion on Discord
+- Exam is due on Thursday before class
+- Under quizzes on Brightspace
+- Remember, it will give you new random questions if you come back
+- For the R question, turn in what you get even if you don't get the whole thing right
+- Wisdom or Madness of Crowds on Thursday
+- Apologies about schedule confusion!!!
+- No class on Tuesday - discussion on Discord
 >   - Try to be online during class time
 
 
 ## Upcoming Assignments
 
-> - R Lab 8 - April 20
-> - Final project rough draft (April 20)
-> - Peer feedback (Due April 22)
+- R Lab 8 - April 20
+- Final project rough draft (April 20)
+- Peer feedback (Due April 22)
 
 ## Review Questions
 
-> - What is "collective behavior"?
-> - What does collective behavior have to do with networks?
+- What is "collective behavior"?
+- What does collective behavior have to do with networks?
 
 -->
 
@@ -636,9 +602,9 @@ He took too many days off!
         // The "normal" size of the presentation, aspect ratio will be preserved
         // when the presentation is scaled to fit different resolutions. Can be
         // specified using percentage units.
-        width: 1050,
+        width: 1200,
 
-        height: 700,
+        height: 800,
 
         // Factor of the display size that should remain empty around the content
         margin: 0.1,
@@ -670,6 +636,44 @@ He took too many days off!
         ]
       });
     </script>
+    
+    <script>
+      // htmlwidgets need to know to resize themselves when slides are shown/hidden.
+      // Fire the "slideenter" event (handled by htmlwidgets.js) when the current
+      // slide changes (different for each slide format).
+      (function () {
+        // dispatch for htmlwidgets
+        function fireSlideEnter() {
+          const event = window.document.createEvent("Event");
+          event.initEvent("slideenter", true, true);
+          window.document.dispatchEvent(event);
+        }
+
+        function fireSlideChanged(previousSlide, currentSlide) {
+          fireSlideEnter();
+
+          // dispatch for shiny
+          if (window.jQuery) {
+            if (previousSlide) {
+              window.jQuery(previousSlide).trigger("hidden");
+            }
+            if (currentSlide) {
+              window.jQuery(currentSlide).trigger("shown");
+            }
+          }
+        }
+
+        // hookup for slidy
+        if (window.w3c_slidy) {
+          window.w3c_slidy.add_observer(function (slide_num) {
+            // slide_num starts at position 1
+            fireSlideChanged(null, w3c_slidy.slides[slide_num - 1]);
+          });
+        }
+
+      })();
+    </script>
+
     <script id="quarto-html-after-body" type="application/javascript">
     window.document.addEventListener("DOMContentLoaded", function (event) {
       const toggleBodyColorMode = (bsSheetEl) => {

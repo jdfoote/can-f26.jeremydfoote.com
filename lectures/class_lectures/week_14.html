@@ -338,48 +338,11 @@
 <p>Within minutes, the detective knew exactly what the murder weapon was.</p>
 <p><span class="fragment"> It was a brief case. </span></p>
 </section>
-<section id="network-of-the-day" class="slide level2">
-<h2>Network of the Day</h2>
-<div class="callout callout-note callout-titled callout-style-default">
-<div class="callout-body">
-<div class="callout-title">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<p><strong>Note</strong></p>
-</div>
-<div class="callout-content">
-<p>Add image here: Fig. A4 from Soda et al.&nbsp;(2025), “In the Network of the Conclave,” <em>Social Networks</em> 83. Nodes = cardinals, sized by eigenvector centrality, colored by region of origin.</p>
-</div>
-</div>
-</div>
-
-<aside><div>
-<p>What do nodes and edges represent? What do node size and color tell you?</p>
-</div></aside></section>
-<section id="network-of-the-day-revealed" class="slide level2 smaller">
-<h2>Network of the Day: Revealed</h2>
-<p><strong>The 2025 Papal Conclave network</strong></p>
-<ul>
-<li><strong>Nodes:</strong> Catholic cardinals (sized by <strong>eigenvector centrality</strong>; colored by region)</li>
-<li><strong>Edges:</strong> Co-membership in collegial bodies + co-consecration ties</li>
-<li>This network <strong>correctly predicted Robert Prevost</strong> as a likely papal candidate — before the conclave — despite him being considered a longshot</li>
-<li>Eigenvector centrality: not just how many connections you have, but how well-connected <em>your connections</em> are</li>
-</ul>
-<p>Connection to this week: <strong>who you know shapes outcomes</strong> — and networks can reveal inequality of access and influence.</p>
-<p><em>Soda et al.&nbsp;(2025). In the Network of the Conclave. <a href="https://www.sciencedirect.com/science/article/pii/S0378873325000280">Social Networks, 83.</a></em></p>
-</section>
 <section id="housekeeping" class="slide level2">
 <h2>Housekeeping</h2>
 <ul>
 <li class="fragment">Anything on exam that was unexpected? That wasn’t there that you thought would be?</li>
-<li class="fragment">Final project schedule
-<ul>
-<li class="fragment">Rough draft on Thursday</li>
-<li class="fragment">Peer feedback by Saturday</li>
-<li class="fragment">Presentations next Tuesday and Thursday</li>
-<li class="fragment">Final report due on April 24</li>
-</ul></li>
+<li class="fragment">Final project schedule &gt; - Rough draft on Thursday &gt; - Peer feedback by Saturday &gt; - Presentations next Tuesday and Thursday &gt; - Final report due on April 24</li>
 <li class="fragment">May want to look at the Advanced R Rmd file (Week 15 on the schedule)</li>
 <li class="fragment">No class on Thursday - work on final project</li>
 </ul>
@@ -417,10 +380,10 @@
 <!--
 ## Review Questions
 
-> - What is a public/collective good?
-> - Why do collective goods often fail?
-> - How can networks help people to collaborate and solve collective goods problems?
-> - What is "transactive memory"?
+- What is a public/collective good?
+- Why do collective goods often fail?
+- How can networks help people to collaborate and solve collective goods problems?
+- What is "transactive memory"?
 
 <aside class='notes'>
 Rumors and defection
@@ -432,7 +395,7 @@ Shared mental models
 
 ## Review Questions
 
-> - What are some reasons that online collaboration works?
+- What are some reasons that online collaboration works?
 
 
 ## Discussion Questions
@@ -624,9 +587,9 @@ Shared mental models
         // The "normal" size of the presentation, aspect ratio will be preserved
         // when the presentation is scaled to fit different resolutions. Can be
         // specified using percentage units.
-        width: 1050,
+        width: 1200,
 
-        height: 700,
+        height: 800,
 
         // Factor of the display size that should remain empty around the content
         margin: 0.1,
@@ -658,6 +621,44 @@ Shared mental models
         ]
       });
     </script>
+    
+    <script>
+      // htmlwidgets need to know to resize themselves when slides are shown/hidden.
+      // Fire the "slideenter" event (handled by htmlwidgets.js) when the current
+      // slide changes (different for each slide format).
+      (function () {
+        // dispatch for htmlwidgets
+        function fireSlideEnter() {
+          const event = window.document.createEvent("Event");
+          event.initEvent("slideenter", true, true);
+          window.document.dispatchEvent(event);
+        }
+
+        function fireSlideChanged(previousSlide, currentSlide) {
+          fireSlideEnter();
+
+          // dispatch for shiny
+          if (window.jQuery) {
+            if (previousSlide) {
+              window.jQuery(previousSlide).trigger("hidden");
+            }
+            if (currentSlide) {
+              window.jQuery(currentSlide).trigger("shown");
+            }
+          }
+        }
+
+        // hookup for slidy
+        if (window.w3c_slidy) {
+          window.w3c_slidy.add_observer(function (slide_num) {
+            // slide_num starts at position 1
+            fireSlideChanged(null, w3c_slidy.slides[slide_num - 1]);
+          });
+        }
+
+      })();
+    </script>
+
     <script id="quarto-html-after-body" type="application/javascript">
     window.document.addEventListener("DOMContentLoaded", function (event) {
       const toggleBodyColorMode = (bsSheetEl) => {
