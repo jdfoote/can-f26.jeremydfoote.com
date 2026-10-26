@@ -107,7 +107,8 @@
   }
 
   .round-dot.active { background: var(--accent); }
-  .round-dot.done { background: var(--green); }
+  .round-dot.correct { background: var(--green); }
+  .round-dot.wrong { background: var(--red); }
 
   .round-label {
     font-family: 'DM Mono', monospace;
@@ -115,6 +116,36 @@
     color: var(--muted);
     margin-left: 8px;
   }
+
+  #start-panel {
+    text-align: center;
+    padding: 32px 0 0;
+  }
+
+  .search-row {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 24px;
+  }
+
+  .search-input {
+    background: var(--surface2);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    color: var(--text);
+    font-family: 'DM Sans', sans-serif;
+    font-size: 15px;
+    padding: 10px 16px;
+    width: 260px;
+    outline: none;
+    transition: border-color 0.15s;
+  }
+
+  .search-input:focus { border-color: var(--accent); }
+  .search-input::placeholder { color: var(--muted); }
 
   #loading {
     text-align: center;
@@ -364,9 +395,17 @@
 
   .stat-row {
     display: flex;
-    align-items: center;
-    justify-content: space-between;
+    align-items: stretch;
+    justify-content: space-around;
     gap: 8px;
+  }
+
+  .stat-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+    flex: 1;
   }
 
   .stat-label {
@@ -379,7 +418,7 @@
 
   .stat-number {
     font-family: 'Instrument Serif', serif;
-    font-size: 28px;
+    font-size: 24px;
     color: var(--text);
     line-height: 1;
   }
@@ -559,9 +598,17 @@
 
   <div class="round-bar" id="round-bar"></div>
 
-  <div id="loading">
+  <div id="start-panel">
+    <div class="search-row">
+      <input type="text" id="search-term" class="search-input" placeholder="e.g. Taylor Swift, Purdue, AI" maxlength="80" />
+      <button class="btn btn-primary" onclick="startGame()">Start Game</button>
+    </div>
+    <p style="color:var(--muted);font-size:13px;margin-top:12px;">Enter a topic — or leave blank for network science terms</p>
+  </div>
+
+  <div id="loading" style="display:none">
     <div class="spinner"></div>
-    <div class="loading-text">Fetching real posts from Bluesky...</div>
+    <div class="loading-text" id="loading-text">Fetching real posts from Bluesky...</div>
   </div>
 
   <div id="error-state">
@@ -569,7 +616,7 @@
       <div class="error-label">Connection Error</div>
       <p id="error-msg">Could not load Bluesky posts. Please check your internet connection and try again.</p>
       <div class="btn-row">
-        <button class="btn btn-primary" onclick="init()">Try Again</button>
+        <button class="btn btn-primary" onclick="startGame()">Try Again</button>
       </div>
     </div>
   </div>
@@ -596,7 +643,7 @@
       <strong>Duncan Watts (2007)</strong> found that viral hits are nearly impossible to predict in advance — even controlling for content quality and author influence. Small random early advantages cascade into huge gaps. Follower count helps, but it's a weak signal. Much of virality is just luck — which post happened to get an early boost from the right person at the right time. That's why this game is so hard! 
     </div>
     <div class="btn-row" style="margin-top:28px;">
-      <button class="btn btn-primary" onclick="init()">Play Again</button>
+      <button class="btn btn-primary" onclick="showStartPanel()">Play Again</button>
     </div>
   </div>
 </div>
@@ -622,7 +669,9 @@ const BSKY_PROXY = getBskyProxy();
 
 const SEARCH_TERMS = ['networks', 'social networks', 'network science', 'communication', 'communication networks', 'cascade', 'diffusion'];
 
+let activeTerms = [...SEARCH_TERMS];
 let rounds = [];
+let roundResults = [];
 let currentRound = 0;
 let score = 0;
 let guessed = false;
@@ -676,15 +725,17 @@ async function fetchAuthorProfile(did) {
 }
 
 async function buildRounds() {
-  const termSet = pick(SEARCH_TERMS, Math.min(ROUNDS + 2, SEARCH_TERMS.length));
+  const termSet = pick(activeTerms, Math.min(ROUNDS + 2, activeTerms.length));
   const allRounds = [];
+  const usedUris = new Set();
 
   for (let t = 0; t < termSet.length && allRounds.length < ROUNDS; t++) {
     try {
       const posts = await fetchBskySearch(termSet[t]);
       const valid = posts.filter((post) =>
         post.likeCount !== undefined &&
-        post.record?.text?.length > 10
+        post.record?.text?.length > 10 &&
+        !usedUris.has(post.uri)
       );
       if (valid.length < POSTS_PER_ROUND) continue;
 
@@ -701,6 +752,7 @@ async function buildRounds() {
       // Deduplicate in case tier fallbacks overlap
       const unique = [...new Map(chosen.map(p => [p.uri, p])).values()];
       if (unique.length < POSTS_PER_ROUND) continue;
+      unique.forEach(p => usedUris.add(p.uri));
 
       const enriched = await Promise.all(unique.map(async (post) => {
         const profile = await fetchAuthorProfile(post.author.did);
@@ -741,7 +793,10 @@ function updateRoundBar() {
   bar.innerHTML = '';
   for (let i = 0; i < ROUNDS; i++) {
     const dot = document.createElement('div');
-    dot.className = 'round-dot' + (i < currentRound ? ' done' : i === currentRound ? ' active' : '');
+    let cls = 'round-dot';
+    if (i < currentRound) cls += roundResults[i] ? ' correct' : ' wrong';
+    else if (i === currentRound) cls += ' active';
+    dot.className = cls;
     bar.appendChild(dot);
   }
   const label = document.createElement('div');
@@ -776,7 +831,7 @@ function renderRound() {
       ? `<img src="${post.author.avatar}" alt="" onerror="this.parentElement.innerHTML='<div class=avatar-placeholder>👤</div>'">`
       : '<div class="avatar-placeholder">👤</div>';
 
-    const text = post.text.length > 200 ? post.text.slice(0, 197) + '…' : post.text;
+    const text = post.text;
 
     card.innerHTML = `
       <div class="author-row">
@@ -797,23 +852,18 @@ function renderRound() {
       <div class="post-meta">
         <div class="post-meta-item">
           <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path></svg>
-          ???
+          <span id="like-num-${i}">???</span>
         </div>
         <div class="post-meta-item">
           <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="17 1 21 5 17 9"></polyline><path d="M3 11V9a4 4 0 0 1 4-4h14"></path><polyline points="7 23 3 19 7 15"></polyline><path d="M21 13v2a4 4 0 0 1-4 4H3"></path></svg>
-          ???
+          <span id="repost-num-${i}">???</span>
         </div>
         <div class="post-meta-item">
           <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path></svg>
-          ???
+          <span id="reply-num-${i}">???</span>
         </div>
       </div>
-      <div class="revealed-stat" id="revealed-${i}">
-        <div class="stat-row">
-          <div class="stat-label">Likes</div>
-          <div class="stat-number" id="like-num-${i}">—</div>
-        </div>
-      </div>
+      <div id="revealed-${i}" style="display:none"></div>
     `;
 
     card.addEventListener('click', () => makeGuess(i));
@@ -830,6 +880,7 @@ function makeGuess(idx) {
   const isCorrect = idx === winnerIdx;
 
   if (isCorrect) score++;
+  roundResults[currentRound] = isCorrect;
 
   const cards = document.querySelectorAll('.post-card');
   cards.forEach((card, i) => {
@@ -842,14 +893,17 @@ function makeGuess(idx) {
       card.classList.add('loser');
     }
 
-    const revealEl = document.getElementById(`revealed-${i}`);
-    const numEl = document.getElementById(`like-num-${i}`);
-    revealEl.classList.add('show');
-    numEl.textContent = fmt(posts[i].likeCount);
-    if (i === winnerIdx) numEl.classList.add('highlight');
+    const likeEl = document.getElementById(`like-num-${i}`);
+    likeEl.textContent = fmt(posts[i].likeCount);
+    if (i === winnerIdx) likeEl.style.color = 'var(--green)';
+    document.getElementById(`repost-num-${i}`).textContent = fmt(posts[i].repostCount);
+    document.getElementById(`reply-num-${i}`).textContent = fmt(posts[i].replyCount);
 
     if (i === winnerIdx) {
-      revealEl.innerHTML += '<div class="winner-badge">🏆 Most liked</div>';
+      const badge = document.createElement('div');
+      badge.className = 'winner-badge';
+      badge.textContent = '🏆 Most liked';
+      card.appendChild(badge);
     }
   });
 
@@ -909,8 +963,26 @@ function escapeHtml(str) {
   return str.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
 }
 
+function showStartPanel() {
+  document.getElementById('final-panel').classList.remove('show');
+  document.getElementById('game-area').style.display = 'none';
+  document.getElementById('round-bar').innerHTML = '';
+  document.getElementById('score-display').style.display = 'none';
+  document.getElementById('start-panel').style.display = 'block';
+}
+
+function startGame() {
+  const term = document.getElementById('search-term').value.trim();
+  activeTerms = term ? Array(ROUNDS + 2).fill(term) : [...SEARCH_TERMS];
+  const label = term ? `Fetching "${term}" posts from Bluesky…` : 'Fetching real posts from Bluesky…';
+  document.getElementById('loading-text').textContent = label;
+  document.getElementById('start-panel').style.display = 'none';
+  init();
+}
+
 async function init() {
   rounds = [];
+  roundResults = [];
   currentRound = 0;
   score = 0;
   guessed = false;
@@ -931,13 +1003,16 @@ async function init() {
     renderRound();
   } catch (error) {
     document.getElementById('loading').style.display = 'none';
+    document.getElementById('start-panel').style.display = 'block';
     document.getElementById('error-state').style.display = 'block';
     document.getElementById('error-msg').textContent = error.message || 'Failed to load posts. Try again.';
     console.error(error);
   }
 }
 
-init();
+document.getElementById('search-term').addEventListener('keydown', e => {
+  if (e.key === 'Enter') startGame();
+});
 </script>
 </body>
 </html>

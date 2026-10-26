@@ -2714,21 +2714,21 @@
     "href": "lectures/class_lectures/week_10.html#housekeeping",
     "title": "Diffusion and Contagion",
     "section": "Housekeeping",
-    "text": "Housekeeping\n\nSelf-assessment reflections due &gt; - In-person feedback; sign up for spot on my calendar by end of next week\nWisdom or Madness of Crowds simulation - just do on your own"
+    "text": "Housekeeping\n\nSelf-assessment reflections due\nI will give feedback on your final project ideas by next week"
   },
   {
     "objectID": "lectures/class_lectures/week_10.html#upcoming-assignments",
     "href": "lectures/class_lectures/week_10.html#upcoming-assignments",
     "title": "Diffusion and Contagion",
     "section": "Upcoming Assignments",
-    "text": "Upcoming Assignments\n\nExam on April 16 in class &gt; - Submit two multiple choice or short answer questions by April 6\nVisualization Challenge due next week"
+    "text": "Upcoming Assignments\n\nExam on December 1 in class\nSubmit two multiple choice or short answer questions by Nov 9\nVisualization Challenge due next week"
   },
   {
     "objectID": "lectures/class_lectures/week_10.html#example-questions",
     "href": "lectures/class_lectures/week_10.html#example-questions",
     "title": "Diffusion and Contagion",
     "section": "Example questions",
-    "text": "Example questions\n\nWhat is a “multiplex” (or multidimensional) network? &gt; - A network where there are multiple types of nodes &gt; - A network with high centralization &gt; - A network with a high clustering coefficient &gt; - A network with multiple types of edges\nGive an example of how social capital can be exchanged for economic capital."
+    "text": "Example questions\n\nWhat is a “multiplex” (or multidimensional) network?\n\nA network where there are multiple types of nodes\nA network with high centralization\nA network with a high clustering coefficient\nA network with multiple types of edges\n\nGive an example of how social capital can be exchanged for economic capital."
   },
   {
     "objectID": "lectures/class_lectures/week_10.html#plan-for-today",
@@ -2749,7 +2749,7 @@
     "href": "lectures/class_lectures/week_10.html#debrief",
     "title": "Diffusion and Contagion",
     "section": "Debrief",
-    "text": "Debrief\n\nWere resources and abilities distributed fairly?\nHow should resources be distributed in the real world?\nWhat role did communication play? How did your group make decisions?\nDid you work to make things equal? Why or why not?\nWhat kinds of inequality appeared in the game?"
+    "text": "Debrief\n\nWere resources and abilities distributed fairly? How does this relate to the real world?\nWhat role did communication play? How did your group make decisions?\nDid you work to make things equal? Why or why not?\nWhat kinds of inequality appeared in the game?"
   },
   {
     "objectID": "lectures/class_lectures/week_10.html#debrief-1",
@@ -2784,7 +2784,28 @@
     "href": "lectures/class_lectures/week_10.html#review-questions-1",
     "title": "Diffusion and Contagion",
     "section": "Review Questions",
-    "text": "Review Questions\n\nWhat is an example of something that spreads via simple contagion?\nWhat is an example of something that spreads via complex contagion?\nWhat’s an example of when you’ve been influenced?\nHow does tie strength relate to contagion?\nWhat was the argument of the “Special People” chapter?\nSpecial People Activity"
+    "text": "Review Questions\n\nWhat is an example of something that spreads via simple contagion?\nWhat is an example of something that spreads via complex contagion?\nWhat’s an example of when you’ve been influenced?\nHow does tie strength relate to contagion?\nWhat was the argument of the “Special People” chapter?\nVirality game"
+  },
+  {
+    "objectID": "lectures/class_lectures/week_10.html#break",
+    "href": "lectures/class_lectures/week_10.html#break",
+    "title": "Diffusion and Contagion",
+    "section": "Break",
+    "text": "Break"
+  },
+  {
+    "objectID": "lectures/class_lectures/week_10.html#discussion-questions",
+    "href": "lectures/class_lectures/week_10.html#discussion-questions",
+    "title": "Diffusion and Contagion",
+    "section": "Discussion Questions",
+    "text": "Discussion Questions\n\nHow can we determine whether someone is actually influential or if they just happened to be in the right place at the right time when something became popular?\nThink about a time you started doing something new, like trying an app, a trend, or a habit. Did one person convince you, or did it take several friends doing it first? What does that say about whether it was a simple or complex contagion?"
+  },
+  {
+    "objectID": "lectures/class_lectures/week_10.html#discussion-questions-1",
+    "href": "lectures/class_lectures/week_10.html#discussion-questions-1",
+    "title": "Diffusion and Contagion",
+    "section": "Discussion Questions",
+    "text": "Discussion Questions\n\nIf the success of a trend depends more on the structure of social networks and the willingness of people to adopt it than on influential individuals, why do companies continue to invest so heavily in influencer marketing?\nIn complex contagion, how can we distinguish the effects of reinforcement from multiple social contacts from other factors, such as tie strength or similarity between individuals? For example, if someone adopts a behavior after observing several friends doing it, how can we determine whether the adoption resulted from social reinforcement or from shared characteristics and preferences?"
   },
   {
     "objectID": "lectures/class_lectures/week_10.html#r-review",
@@ -2799,34 +2820,6 @@
     "title": "Diffusion and Contagion",
     "section": "Wisdom / Madness of Crowds",
     "text": "Wisdom / Madness of Crowds\n\nHow does the majority illusion work?\nHow is this related to the spiral of silence?\nWhy is it tough for beliefs to spread across bridges?\nWhat is the role of people who aren’t easily influenced in contagions?"
-  },
-  {
-    "objectID": "lectures/class_lectures/week_10.html#break",
-    "href": "lectures/class_lectures/week_10.html#break",
-    "title": "Diffusion and Contagion",
-    "section": "Break",
-    "text": "Break"
-  },
-  {
-    "objectID": "lectures/class_lectures/week_10.html#discussion-questions",
-    "href": "lectures/class_lectures/week_10.html#discussion-questions",
-    "title": "Diffusion and Contagion",
-    "section": "Discussion Questions",
-    "text": "Discussion Questions\n\nOne thing I don’t fully understand is how you can tell in real life whether something is a simple or complex contagion. It seems clear in theory, but in practice I feel like it would be hard to know how many interactions someone actually needs before changing their behavior.\nIf social change depends more on network structure and repeated reinforcement than on a few “special people,” why do we still prefer to explain success by focusing on influencers, leaders, or exceptional individuals?"
-  },
-  {
-    "objectID": "lectures/class_lectures/week_10.html#discussion-questions-1",
-    "href": "lectures/class_lectures/week_10.html#discussion-questions-1",
-    "title": "Diffusion and Contagion",
-    "section": "Discussion Questions",
-    "text": "Discussion Questions\n\nIf success of a cultural item comes from luck and a network pushing that item, are things we hold in high regard just random? &gt; - Do you think in social sciences it will ever reach a point where things such as an economic crisis or the next hit movie will become predictable or is there too much randomness involved in society?"
-  },
-  {
-    "objectID": "lectures/class_lectures/week_10.html#discussion-questions-2",
-    "href": "lectures/class_lectures/week_10.html#discussion-questions-2",
-    "title": "Diffusion and Contagion",
-    "section": "Discussion Questions",
-    "text": "Discussion Questions\n\nIn the reading it says that history is not shaped by one “great man” is this universally true or are there exceptions like Alexander the Great, Julius Ceasar, or other individuals that have an importance of a certain magnitude?\nIf most trends spread through complex contagion, how can society ensure that reliable information spreads instead of misinformation?"
   },
   {
     "objectID": "lectures/class_lectures/week_12.html#todays-dad-joke",
