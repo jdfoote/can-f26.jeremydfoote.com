@@ -10,6 +10,7 @@ knitr::opts_knit$set(root.dir = './')
 library(tidygraph)
 library(ggraph)
 ```
+
 # Welcome to COM 411: Communication and Social Networks!
 
 ## About me
