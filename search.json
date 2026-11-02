@@ -1335,14 +1335,14 @@
     "href": "lectures/class_lectures/week_11.html#housekeeping",
     "title": "Week 11 - Communities in Networks",
     "section": "Housekeeping",
-    "text": "Housekeeping\n\nFinal project due dates were wrong on website. So sorry!!\nMake an appointment for Self Assessment Reflection review\nSubmit Exam Questions ASAP\nInternet technologies demo on Thursday or R labs? Vote?\nExam April 16\nGuest lecture (Scott Feld) + Exam review on April 9"
+    "text": "Housekeeping\n\nInternet technologies demo on Thursday or R labs? Vote?\nApologies about echo chamber reading today"
   },
   {
     "objectID": "lectures/class_lectures/week_11.html#plan-for-today",
     "href": "lectures/class_lectures/week_11.html#plan-for-today",
     "title": "Week 11 - Communities in Networks",
     "section": "Plan for today",
-    "text": "Plan for today\n\nFinish discussion from last week\nGroups in networks review\nDiscussion questions\nR"
+    "text": "Plan for today\n\nGroups in networks review\nDiscussion questions\nVisualization Challenge review"
   },
   {
     "objectID": "lectures/class_lectures/week_11.html#community-detection-review",
@@ -1366,25 +1366,32 @@
     "text": "Coreness Example"
   },
   {
+    "objectID": "lectures/class_lectures/week_11.html#visualization-challenge-review",
+    "href": "lectures/class_lectures/week_11.html#visualization-challenge-review",
+    "title": "Week 11 - Communities in Networks",
+    "section": "Visualization Challenge Review",
+    "text": "Visualization Challenge Review\n\nTell us about what you did!"
+  },
+  {
     "objectID": "lectures/class_lectures/week_11.html#discussion-questions",
     "href": "lectures/class_lectures/week_11.html#discussion-questions",
     "title": "Week 11 - Communities in Networks",
     "section": "Discussion Questions",
-    "text": "Discussion Questions\n\nHow does betweenness help with community detection?\nIs there a situation in which those with less knowledge or experience create the core, and the more knowledgeable and experienced create the periphery?\nAre communities something that naturally exist or are they partly created by methods we use to detect them?\nIs “slacktivism” actually necessary for large-scale social movements to succeed?\nHow scalable are community detection algorithms?"
+    "text": "Discussion Questions\n\nHow should we think about departure in social networks. E.g., could changes in community membership make a group appear more radical even if individual members’ opinions have not changed?\nWhen looking at a workplace, employees are in different departments, but many people still know each other and build relationships outside of their departments. How can a network have strong communities while still being connected as a whole?"
   },
   {
     "objectID": "lectures/class_lectures/week_11.html#discussion-questions-1",
     "href": "lectures/class_lectures/week_11.html#discussion-questions-1",
     "title": "Week 11 - Communities in Networks",
     "section": "Discussion Questions",
-    "text": "Discussion Questions\n\nIf networks determine access to information and opportunities, is inequality inevitable?\nCan the same network structure mean different things in different fields, such as social science and biology? If so, is there a common ground between these different kinds of networks?\nFrom the perspective of a marketing or advertising professional, would it be better to focus time and resources on the core group (influencers, celebrities, etc.) or the periphery (new people with the potential to share it and start a movement)? Which one is arguably more important?"
+    "text": "Discussion Questions\n\nDo you think social movements are more successful because of a small group of highly influential people or because of the large number of less active people spreading information?\nHow do researchers decide where one community ends and another begins when someone is connected to multiple different groups?"
   },
   {
-    "objectID": "lectures/class_lectures/week_11.html#visualization-challenge-review",
-    "href": "lectures/class_lectures/week_11.html#visualization-challenge-review",
+    "objectID": "lectures/class_lectures/week_11.html#discussion-questions-2",
+    "href": "lectures/class_lectures/week_11.html#discussion-questions-2",
     "title": "Week 11 - Communities in Networks",
-    "section": "Visualization Challenge Review",
-    "text": "Visualization Challenge Review\n\nGlanced at a handful and they are quite good!\nDiscussion about LLMs and coding &gt; - I have been intentionally vague &gt; - I want you to learn computational thinking, learn syntax of R &gt; - I also want you to learn how to use AI to do cool stuff! &gt; - I’m torn about what to expect / encourage &gt; - Fundamental knowledge makes AI stuff easier"
+    "section": "Discussion Questions",
+    "text": "Discussion Questions\n\nHow can organizers or these core participants encourage people on the periphery to become more involved without actually requiring them to have the same level of commitment as people in the core? With that being said, is there a line to be drawn where asking too much of the periphery will actually result in them doing less?\nHow is k-core decomposition different from Girvan and Newman’s betweenness method?\nWould the findings from the Barbera et al. paper still hold today now that algorithms decide what you see instead of who you follow?"
   },
   {
     "objectID": "lectures/class_lectures/week_1.html#about-me",
@@ -4020,7 +4027,7 @@
     "href": "schedule/week_11.html",
     "title": "Week 11: Communities and Core-periphery",
     "section": "",
-    "text": "Tuesday\nAssignment Due (Monday):\n\nReading Review\nVisualization Challenge\nSign up for a Self Reflection Discussion on my calendar\n\nPlease prioritize office hours (Tuesdays from 2-4)\n\n\nReadings:\n\nOlteniceanu et al. (2022). The Network Science of Echo Chambers and Why It Matters. The Network Pages. (~2,000 words — explains communities and echo chambers accessibly)\nBarberá, P., Wang, N., Bonneau, R., Jost, J. T., Nagler, J., Tucker, J., & González-Bailón, S. (2015). The critical periphery in the growth of social protests. PLoS ONE.\n\nClaude.ai Summary\n\n(Optional) Girvan, M., & Newman, M. E. (2002). Community structure in social and biological networks. Proceedings of the National Academy of Sciences.\n(Optional) Hanneman, R. A., & Riddle, M. (2005). Cliques and sub-groups. In Introduction to social network methods. University of California.\n\nVideo Lecture:\n [23:15]\n\nSlides\n\n\n\n\n\nThursday\nClass Schedule:\n\nHow the Internet Works Activity",
+    "text": "Tuesday\nAssignment Due (Monday):\n\nReading Review\nVisualization Challenge\n\nReadings:\n\nOlteniceanu et al. (2022). The Network Science of Echo Chambers and Why It Matters. The Network Pages. (~2,000 words — explains communities and echo chambers accessibly) \nBarberá, P., Wang, N., Bonneau, R., Jost, J. T., Nagler, J., Tucker, J., & González-Bailón, S. (2015). The critical periphery in the growth of social protests. PLoS ONE.\n\nClaude.ai Summary\n\n(Optional) Girvan, M., & Newman, M. E. (2002). Community structure in social and biological networks. Proceedings of the National Academy of Sciences.\n(Optional) Hanneman, R. A., & Riddle, M. (2005). Cliques and sub-groups. In Introduction to social network methods. University of California.\n\nVideo Lecture:\n [23:15]\n\nSlides\n\n\n\n\n\nThursday\nClass Schedule:\n\nHow the Internet Works Activity",
     "crumbs": [
       "Schedule",
       "Course content",
