@@ -189,7 +189,7 @@
     "href": "schedule/week_12.html",
     "title": "Week 12: Collective behavior",
     "section": "",
-    "text": "Tuesday\nAssignment Due (Monday):\n\nR Lab 7 - Finding and visualizing groups in networks\nSubmit two exam questions on Brightspace\nReading Review\n\nReadings:\n\nWoolley, A. et al. (2010). Evidence for a collective intelligence factor in the performance of human groups. Science, 330(6004), 686-688.\nBecker, J., Brackbill, D., & Centola, D. (2017). Network dynamics of social influence in the wisdom of crowds. Proceedings of the National Academy of Sciences, 201615978.\n(Optional) Optimizing Collective Intelligence with Anita Woolley\nBook Guessing Form (in-class activity)\n\nVideo Lecture:\n [12:23]\nConversation with Dr. Joshua Becker:\n [27:48]\n\n\nThursday\n\nGuest Lecture: Dr. Scott Feld\nExam Review\nIntro to R Lab 8 - Network Stats (due Mon, Nov 16)",
+    "text": "Tuesday\nAssignment Due (Monday):\n\nR Lab 7 - Finding and visualizing groups in networks\nSubmit two exam questions on Brightspace\nReading Review\n\nReadings:\n\nWoolley, A. et al. (2010). Evidence for a collective intelligence factor in the performance of human groups. Science, 330(6004), 686-688.\nBecker, J., Brackbill, D., & Centola, D. (2017). Network dynamics of social influence in the wisdom of crowds. Proceedings of the National Academy of Sciences, 201615978.\n(Optional) Optimizing Collective Intelligence with Anita Woolley\nBook Guessing Form (in-class activity)\n\nVideo Lecture:\n [12:23]\nConversation with Dr. Joshua Becker:\n [27:48]\n\n\nThursday\n\nShort version of How Internet Works activity\nIntro to R Lab 8 - Network Stats (due Mon, Nov 16)",
     "crumbs": [
       "Schedule",
       "Course content",
@@ -2840,7 +2840,7 @@
     "href": "lectures/class_lectures/week_12.html#housekeeping",
     "title": "Week 12 - Collective Behavior",
     "section": "Housekeeping",
-    "text": "Housekeeping\n\nExam next week\nOne page of notes, front and back (printed) &gt; - Short response + multiple choice\nMaking networks without grids &gt; - set_graph_style(family='sans') or theme_graph()"
+    "text": "Housekeeping\n\nNo class on Thursday (NCA conference)\nNo class on Tuesday Nov 24\nStudy for exam and work on final project\nExam\n\nOne page of notes, front and back (printed)\nShort response + multiple choice\nI’ll send study guide"
   },
   {
     "objectID": "lectures/class_lectures/week_12.html#final-project",
@@ -2938,14 +2938,14 @@
     "href": "lectures/class_lectures/week_12.html#discussion-questions",
     "title": "Week 12 - Collective Behavior",
     "section": "Discussion Questions",
-    "text": "Discussion Questions\n\nHow are shared understanding and groupthink different? Shared understanding is framed positively and groupthink is framed negatively. Is there a difference, or are they just framed differently?\nCan a group ever be more intelligent than its smartest member?\nIf decentralized networks improve accuracy, why do so many real-world systems (like social media, big companies, etc.) become highly centralized?\nThe experiments used examples with clear correct answers. How would the results change in situations where there is no “truth” (like political opinions, religious beliefs, etc.)?"
+    "text": "Discussion Questions\n\nAt what point does having too many opinions slow down a group? Both studies glorify the fact that decentralized groups offer more variety in ideas, but oftentimes in my own groupwork, the more ideas I’m presented with the harder it is for me to decide on a single one. How do the size of a group, overall IQ, and interaction structure play into this?\nHow should a team balance listening to a single expert vs protecting equal voice, and should groups be regulated as to ratio of experts:non experts for a better discussion, or does that take away the accuracy of discussions?"
   },
   {
     "objectID": "lectures/class_lectures/week_12.html#discussion-questions-1",
     "href": "lectures/class_lectures/week_12.html#discussion-questions-1",
     "title": "Week 12 - Collective Behavior",
     "section": "Discussion Questions",
-    "text": "Discussion Questions\n\nIn what situations, if any, is it better for a group to have a centrally influential leader rather than a more decentralized structure?\nDo online groups show the same patterns of collective intelligence as in-person groups?\nIf you have high self-weight what are some ways you can notice this and balance it out so that you are not just stubborn and can grow? When are good times to have high self-weight and when are good times to have low self-weight?\nDo you typically go to a select few people for advice and put lots of weight into what they say or take the wisdom of crowds approach go to many people and average out what feedback you get not really put much weight into the opinion of one other person?\n\n\n\nIf there’s time, talk about R"
+    "text": "Discussion Questions\n\nWhen working on a project at a real job, how can you ensure that the group has a clear leader while still allowing everyone to collaborate and communicate new ideas together? What’s the best strategy?\nAre there downsides to equal participation? Can it reduce the influence of experts and lead to worse decisions? How can we balance the two?\nCome up with a group process that you have participated in. Think about how it could be structured based on the ideas from the readings and lecture. How would you change the process to make it more effective?"
   },
   {
     "objectID": "lectures/class_lectures/week_12.html#exam-review-1",
@@ -3001,7 +3001,7 @@
     "href": "lectures/class_lectures/week_14.html#housekeeping",
     "title": "Week 14 - Networks and Inequality",
     "section": "Housekeeping",
-    "text": "Housekeeping\n\nAnything on exam that was unexpected? That wasn’t there that you thought would be?\nFinal project schedule &gt; - Rough draft on Thursday &gt; - Peer feedback by Saturday &gt; - Presentations next Tuesday and Thursday &gt; - Final report due on April 24\nMay want to look at the Advanced R Rmd file (Week 15 on the schedule)\nNo class on Thursday - work on final project"
+    "text": "Housekeeping\n\nAnything on exam that was unexpected? That wasn’t there that you thought would be?\nFinal project schedule &gt; - Rough draft on Thursday &gt; - Peer feedback by Saturday &gt; - Presentations next Tuesday and Thursday &gt; - Final report due on April 24\nMay want to look at the Advanced R Rmd file (Week 15 on the schedule)"
   },
   {
     "objectID": "lectures/class_lectures/week_14.html#review-questions",
@@ -4051,7 +4051,7 @@
     "href": "schedule/week_14.html",
     "title": "Week 14: Networks and Equality",
     "section": "",
-    "text": "Tuesday\nAssignment Due (Monday):\n\nReading Review\nFeedback on Final Project sent back to your “peers”\n\nClass Schedule:\n\nIn class exam!\n\nStudy Guide\n\n\nReadings:\n\nFernandez, R. M., & Fernandez-Mateo, I. (2006). Networks, Race, and Hiring. American Sociological Review, 71(1), 42–71. Read the introduction (pp. 42–47) and the Summary and Conclusion (pp. 65–67)\nChetty, R., Jackson, M.O., Kuchler, T. et al. Social capital I: measurement and associations with economic mobility. Nature 608, 108–121 (2022).\n(Optional) Sunstein, C. R. (1991). Why markets don’t stop discrimination. Social Philosophy and Policy, 8(02), 22–37. https://doi.org/10.1017/S0265052500001114\n\nLecture video:\n [12:50]\n\nSlides\n\n\n\n\n\nThursday\nClass Schedule:\n\nNo class - work on Final Project",
+    "text": "Tuesday\nAssignment Due (Monday):\n\nFeedback on Final Project sent back to your “peers”\n\nClass Schedule:\n\nIn class exam!\n\nStudy Guide\n\n\n\n\nThursday\nAssignment Due (Wednesday):\n\nReading Review\n\nClass Schedule:\n\nNetworks and inequality lecture / discussion\n\nReadings:\n\nFernandez, R. M., & Fernandez-Mateo, I. (2006). Networks, Race, and Hiring. American Sociological Review, 71(1), 42–71. Read the introduction (pp. 42–47) and the Summary and Conclusion (pp. 65–67)\nChetty, R., Jackson, M.O., Kuchler, T. et al. Social capital I: measurement and associations with economic mobility. Nature 608, 108–121 (2022).\n(Optional) Sunstein, C. R. (1991). Why markets don’t stop discrimination. Social Philosophy and Policy, 8(02), 22–37. https://doi.org/10.1017/S0265052500001114\n\nLecture video:\n [12:50]\n\nSlides",
     "crumbs": [
       "Schedule",
       "Course content",
