@@ -36,19 +36,14 @@ My thoughts are with his family.
 
 ## Housekeeping
 
-- Final project due dates were wrong on website. So sorry!!
-- Make an appointment for Self Assessment Reflection review
-- Submit Exam Questions ASAP
 - Internet technologies demo on Thursday or R labs? Vote?
-- Exam April 16
-- Guest lecture (Scott Feld) + Exam review on April 9
+- Apologies about echo chamber reading today
 
 ## Plan for today
 
-- Finish discussion from last week
 - Groups in networks review
 - Discussion questions
-- R
+- Visualization Challenge review
 
 <!---
 # Troubled Lands Review
@@ -106,27 +101,21 @@ ggraph(layout='stress') +
 
 </div>
 
-## Discussion Questions
-
-- How does betweenness help with community detection?
-- Is there a situation in which those with less knowledge or experience create the core, and the more knowledgeable and experienced create the periphery?
-- Are communities something that naturally exist or are they partly created by methods we use to detect them?
-- Is "slacktivism" actually necessary for large-scale social movements to succeed?
-- How scalable are community detection algorithms?
-
-## Discussion Questions
-
-- If networks determine access to information and opportunities, is inequality inevitable?
-- Can the same network structure mean different things in different fields, such as social science and biology? If so, is there a common ground between these different kinds of networks?
-- From the perspective of a marketing or advertising professional, would it be better to focus time and resources on the core group (influencers, celebrities, etc.) or the periphery (new people with the potential to share it and start a movement)? Which one is arguably more important? 
-- 
-
 ## Visualization Challenge Review
 
-- Glanced at a handful and they are quite good!
-- Discussion about LLMs and coding
->   - I have been intentionally vague
->   - I want you to learn computational thinking, learn syntax of R
->   - I also want you to learn how to use AI to do cool stuff!
->   - I'm torn about what to expect / encourage
->   - Fundamental knowledge makes AI stuff easier
+- Tell us about what you did!
+
+## Discussion Questions
+
+- How should we think about departure in social networks. E.g., could changes in community membership make a group appear more radical even if individual members' opinions have not changed?
+- When looking at a workplace, employees are in different departments, but many people still know each other and build relationships outside of their departments. How can a network have strong communities while still being connected as a whole? 
+
+## Discussion Questions
+
+- Do you think social movements are more successful because of a small group of highly influential people or because of the large number of less active people spreading information?
+- How do researchers decide where one community ends and another begins when someone is connected to multiple different groups?
+
+## Discussion Questions
+- How can organizers or these core participants encourage people on the periphery to become more involved without actually requiring them to have the same level of commitment as people in the core? With that being said, is there a line to be drawn where asking too much of the periphery will actually result in them doing less?
+- How is k-core decomposition different from Girvan and Newman's betweenness method?
+- Would the findings from the Barbera et al. paper still hold today now that algorithms decide what you see instead of who you follow?

@@ -1,5 +1,5 @@
 # Change the seed if you really want it to be diff each year
-set.seed(2026)
+set.seed(20261)
 cards <- c(1:10, 6, 8)
 
 r1 <- sample(cards, length(cards), replace=F)

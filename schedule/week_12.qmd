@@ -29,6 +29,5 @@ date: "2026-11-09"
 
 ### Thursday
 
-* Guest Lecture: Dr. Scott Feld
-* Exam Review
+* Short version of How Internet Works activity
 * Intro to [R Lab 8 - Network Stats](/assignments/r_lab_8_%E2%80%93_network_stats.qmd) (due Mon, Nov 16)
