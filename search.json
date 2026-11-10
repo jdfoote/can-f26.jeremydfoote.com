@@ -177,7 +177,7 @@
     "href": "schedule/week_13A.html",
     "title": "Thanksgiving Week - No class",
     "section": "",
-    "text": "Tuesday\nAssignment Due (Tuesday):\n\nRough draft of Final Project on Brightspace and sent to your “peers” (peer feedback due Mon, Nov 30 — work on it over break!)\n\nUse class time to work on and submit your rough draft.\n\n\nThursday\nNo class - Thanksgiving Day.",
+    "text": "Tuesday\nAssignment Due (Tuesday):\n\nRough draft of Final Project on Brightspace and sent to your “peers” (peer feedback due Mon, Nov 30 — work on it over break!)\n\nUse class time to work on and submit your rough draft.\nGroup assignments:\nGroup 1\n\nSophie E.\nGeorge A.\nJay A.\n\nGroup 2\n\nSydnee L.\nChristopher S.\nMatt B.\n\nGroup 3\n\nOwen G.\nLily F.\nMedha K.\n\nGroup 4\n\nNeo J.\nJocelyn E.\nRonin S.\nAndrea C.\n\n\n\nThursday\nNo class - Thanksgiving Day.",
     "crumbs": [
       "Schedule",
       "Course content",
@@ -2847,7 +2847,7 @@
     "href": "lectures/class_lectures/week_12.html#final-project",
     "title": "Week 12 - Collective Behavior",
     "section": "Final Project",
-    "text": "Final Project\n\nTiming for final project &gt; - Don’t wait - get started now! &gt; - Reach out if you get stuck\nLook at example projects from the past\nNot all visualizations have to be networks\nConcepts + Visualizations"
+    "text": "Final Project\n\nTiming for final project\n\nDon’t wait - get started now!\nReach out if you get stuck\n\nLook at example projects from the past\nNot all visualizations have to be networks\nConcepts + Visualizations"
   },
   {
     "objectID": "lectures/class_lectures/week_12.html#collective-intelligence",
@@ -2924,7 +2924,7 @@
     "href": "lectures/class_lectures/week_12.html#connections-to-other-network-concepts",
     "title": "Week 12 - Collective Behavior",
     "section": "Connections to other network concepts",
-    "text": "Connections to other network concepts\n\nHow does this relate to our week on small group networks? &gt; - Transactive memory &gt; - Hierarchy &gt; - Centralization &gt; - Diffusion and contagion"
+    "text": "Connections to other network concepts\n\nHow does this relate to our week on small group networks?\n\nTransactive memory\nHierarchy\nCentralization\nDiffusion and contagion"
   },
   {
     "objectID": "lectures/class_lectures/week_12.html#connections-to-other-network-concepts-1",
@@ -2952,7 +2952,7 @@
     "href": "lectures/class_lectures/week_12.html#exam-review-1",
     "title": "Week 12 - Collective Behavior",
     "section": "Exam Review",
-    "text": "Exam Review\n\nVisualization / ggraph\nLook at code and explain what it will look like\nFind the bug in code"
+    "text": "Exam Review\n\nVisualization / ggraph\n\nLook at code and explain what it will look like\nFind the bug in code"
   },
   {
     "objectID": "lectures/class_lectures/week_12.html#example",
